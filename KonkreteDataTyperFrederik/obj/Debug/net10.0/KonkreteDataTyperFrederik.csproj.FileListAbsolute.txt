@@ -1,0 +1,14 @@
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/bin/Debug/net10.0/KonkreteDataTyperFrederik
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/bin/Debug/net10.0/KonkreteDataTyperFrederik.deps.json
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/bin/Debug/net10.0/KonkreteDataTyperFrederik.runtimeconfig.json
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/bin/Debug/net10.0/KonkreteDataTyperFrederik.dll
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/bin/Debug/net10.0/KonkreteDataTyperFrederik.pdb
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.GeneratedMSBuildEditorConfig.editorconfig
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.AssemblyInfoInputs.cache
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.AssemblyInfo.cs
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.csproj.CoreCompileInputs.cache
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.dll
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/refint/KonkreteDataTyperFrederik.dll
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.pdb
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.genruntimeconfig.cache
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/ref/KonkreteDataTyperFrederik.dll
