@@ -13,7 +13,7 @@ public class Soege
         return input;
     }
 
-    public string TextToSearch(string wordToLookup)
+    public Resultat<string> TextToSearch(string wordToLookup)
     {
         Console.WriteLine("Hvilken tekst vil du gerne søge i?");
         string textToSearch = Console.ReadLine();
@@ -26,7 +26,7 @@ public class Soege
 
         if (hits == 0)
         {
-            hitOutput = "Søgeord : " + wordToLookup + " blev ikke fundet i teksten";
+            hitOutput = "Søgeord '" + wordToLookup + "' blev ikke fundet i teksten";
         }
         else if(hits == 1)
         {
@@ -44,17 +44,29 @@ public class Soege
         if (gemFil)
         {
             try{
-                gem.SkrivFil(textToSearch);
-                hitOutput = hitOutput + " Teksten blev gemt som txt fil i din user folder";
+                
+                return new Resultat<string>(true, textToSearch, "Teksten blev gemt som txt fil i den valgte folder");
             }
             catch
             {
-                hitOutput = hitOutput + " Teksten blev ikke gemt som txt fil på grund af en fejl";
+                return new Resultat<string>(false, textToSearch, "Teksten blev ikke gemt som txt fil på grund af en fejl");
             }
-            
-
         }
-        return hitOutput;
-    }
+        return new Resultat<string> (false, textToSearch, "Teksten blev ikke gemt som txt fil på grund af lavt antal hits");
 
+
+    }
+}
+public class Resultat<T>
+{
+    public bool IsSucces {get;}
+    public T Value {get;}
+    public string ResultatBesked {get;}
+
+    public Resultat(bool isSucces, T value, string resultatBesked)
+    {
+        IsSucces = isSucces;
+        Value = value;
+        ResultatBesked = resultatBesked;
+    }
 }
