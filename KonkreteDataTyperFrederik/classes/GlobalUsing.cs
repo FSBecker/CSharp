@@ -1,7 +1,12 @@
 global using SoegeN;
 global using GemmeN;
 global using System;
+global using MenuN;
+global using AlderOpgaveN;
+global using AlderOpgaveAnonN;
 global using DynamicN;
+global using MedarbejderOversigtN;
 global using System.ComponentModel;
 global using System.Text.RegularExpressions;
 global using System.IO.Enumeration;
+global using Newtonsoft.Json;

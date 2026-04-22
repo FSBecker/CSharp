@@ -1,0 +1,1802 @@
+[
+  {
+    "MANummer": "7607029699",
+    "Navn": {
+      "Fornavn": "Frederik",
+      "Efternavn": "Becker"
+    },
+    "Brugernavn": "frbe71",
+    "Koen": "M",
+    "Foedselsdato": "1996-12-08",
+    "Alder": {
+      "AlderM": 29
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:01:14.9635316+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "7186837909",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "paac62",
+    "Koen": "F",
+    "Foedselsdato": "1951-09-09",
+    "Alder": {
+      "AlderM": 74
+    },
+    "Stilling": "Webdesigner",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9312902+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8333041080",
+    "Navn": {
+      "Fornavn": "Frederikke",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "frac78",
+    "Koen": "F",
+    "Foedselsdato": "1969-06-06",
+    "Alder": {
+      "AlderM": 56
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9312937+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3786885147",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "paac83",
+    "Koen": "F",
+    "Foedselsdato": "1930-07-08",
+    "Alder": {
+      "AlderM": 95
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9312946+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3017547577",
+    "Navn": {
+      "Fornavn": "Nora",
+      "Efternavn": "McDonald"
+    },
+    "Brugernavn": "nomc41",
+    "Koen": "F",
+    "Foedselsdato": "1953-10-28",
+    "Alder": {
+      "AlderM": 72
+    },
+    "Stilling": "Testperson",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9312971+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8704710268",
+    "Navn": {
+      "Fornavn": "Erik",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "erch49",
+    "Koen": "M",
+    "Foedselsdato": "1928-04-03",
+    "Alder": {
+      "AlderM": 98
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9312997+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3725106735",
+    "Navn": {
+      "Fornavn": "Emil",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "emab69",
+    "Koen": "M",
+    "Foedselsdato": "1990-10-14",
+    "Alder": {
+      "AlderM": 35
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313003+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3134930278",
+    "Navn": {
+      "Fornavn": "Henrik",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "heac23",
+    "Koen": "M",
+    "Foedselsdato": "1981-03-25",
+    "Alder": {
+      "AlderM": 45
+    },
+    "Stilling": "Grafisk designer",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313009+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8375428065",
+    "Navn": {
+      "Fornavn": "Frederik",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "frwe90",
+    "Koen": "M",
+    "Foedselsdato": "1933-02-19",
+    "Alder": {
+      "AlderM": 93
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313016+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "6402297218",
+    "Navn": {
+      "Fornavn": "Erika",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "erac40",
+    "Koen": "F",
+    "Foedselsdato": "1931-12-07",
+    "Alder": {
+      "AlderM": 94
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313024+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "6453536459",
+    "Navn": {
+      "Fornavn": "Jon",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "joab97",
+    "Koen": "M",
+    "Foedselsdato": "1927-03-10",
+    "Alder": {
+      "AlderM": 99
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931303+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "6988532246",
+    "Navn": {
+      "Fornavn": "Amalie",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "ambl69",
+    "Koen": "F",
+    "Foedselsdato": "1951-09-21",
+    "Alder": {
+      "AlderM": 74
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313098+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2675556111",
+    "Navn": {
+      "Fornavn": "Erika",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "eryu37",
+    "Koen": "F",
+    "Foedselsdato": "1924-01-29",
+    "Alder": {
+      "AlderM": 102
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313106+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3806368286",
+    "Navn": {
+      "Fornavn": "Frederikke",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "frne48",
+    "Koen": "F",
+    "Foedselsdato": "2000-06-27",
+    "Alder": {
+      "AlderM": 25
+    },
+    "Stilling": "Kantinemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313112+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8656091024",
+    "Navn": {
+      "Fornavn": "Carl",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "cach88",
+    "Koen": "M",
+    "Foedselsdato": "1984-07-14",
+    "Alder": {
+      "AlderM": 41
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313119+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1778031342",
+    "Navn": {
+      "Fornavn": "Lilje",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "litu84",
+    "Koen": "F",
+    "Foedselsdato": "1977-11-02",
+    "Alder": {
+      "AlderM": 48
+    },
+    "Stilling": "Testperson",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313146+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0757740047",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "leac03",
+    "Koen": "M",
+    "Foedselsdato": "1945-06-14",
+    "Alder": {
+      "AlderM": 80
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313153+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9766586109",
+    "Navn": {
+      "Fornavn": "Yang",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "yahu26",
+    "Koen": "M",
+    "Foedselsdato": "1964-02-24",
+    "Alder": {
+      "AlderM": 62
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313162+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9764905801",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "paal05",
+    "Koen": "F",
+    "Foedselsdato": "1984-10-31",
+    "Alder": {
+      "AlderM": 41
+    },
+    "Stilling": "Kantinemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313168+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8578806706",
+    "Navn": {
+      "Fornavn": "Emil",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "emac64",
+    "Koen": "M",
+    "Foedselsdato": "1937-03-13",
+    "Alder": {
+      "AlderM": 89
+    },
+    "Stilling": "Mellemleder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313174+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "5719330341",
+    "Navn": {
+      "Fornavn": "Erik",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "erba31",
+    "Koen": "M",
+    "Foedselsdato": "1949-12-17",
+    "Alder": {
+      "AlderM": 76
+    },
+    "Stilling": "Kantinemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313181+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1056414314",
+    "Navn": {
+      "Fornavn": "Yang",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "yapa12",
+    "Koen": "M",
+    "Foedselsdato": "1944-12-09",
+    "Alder": {
+      "AlderM": 81
+    },
+    "Stilling": "Hundepasser",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313187+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0272668220",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "hafr17",
+    "Koen": "M",
+    "Foedselsdato": "1922-12-17",
+    "Alder": {
+      "AlderM": 103
+    },
+    "Stilling": "Kantinemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313193+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "7618847044",
+    "Navn": {
+      "Fornavn": "Lilje",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "line47",
+    "Koen": "F",
+    "Foedselsdato": "1935-10-19",
+    "Alder": {
+      "AlderM": 90
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313199+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "5022712506",
+    "Navn": {
+      "Fornavn": "Christian",
+      "Efternavn": "McDonald"
+    },
+    "Brugernavn": "chmc90",
+    "Koen": "M",
+    "Foedselsdato": "1938-03-21",
+    "Alder": {
+      "AlderM": 88
+    },
+    "Stilling": "Mellemleder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313205+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9475528646",
+    "Navn": {
+      "Fornavn": "Sanne",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "sach29",
+    "Koen": "F",
+    "Foedselsdato": "1956-08-21",
+    "Alder": {
+      "AlderM": 69
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313245+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9163549088",
+    "Navn": {
+      "Fornavn": "Yang",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "yaki34",
+    "Koen": "M",
+    "Foedselsdato": "1925-10-10",
+    "Alder": {
+      "AlderM": 100
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313252+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "7189007457",
+    "Navn": {
+      "Fornavn": "Emil",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "emyu13",
+    "Koen": "M",
+    "Foedselsdato": "1936-02-29",
+    "Alder": {
+      "AlderM": 90
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313259+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2373687751",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "leha38",
+    "Koen": "M",
+    "Foedselsdato": "1928-03-29",
+    "Alder": {
+      "AlderM": 98
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313265+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0902833634",
+    "Navn": {
+      "Fornavn": "Ronald",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "roki81",
+    "Koen": "M",
+    "Foedselsdato": "1983-10-30",
+    "Alder": {
+      "AlderM": 42
+    },
+    "Stilling": "Mellemleder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931327+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0600291804",
+    "Navn": {
+      "Fornavn": "Philip",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "phac23",
+    "Koen": "M",
+    "Foedselsdato": "1947-12-10",
+    "Alder": {
+      "AlderM": 78
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313276+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8743511304",
+    "Navn": {
+      "Fornavn": "Jane",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "jaal79",
+    "Koen": "F",
+    "Foedselsdato": "1994-05-21",
+    "Alder": {
+      "AlderM": 31
+    },
+    "Stilling": "Mellemleder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313282+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0756652013",
+    "Navn": {
+      "Fornavn": "Erika",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "erha35",
+    "Koen": "F",
+    "Foedselsdato": "1973-07-27",
+    "Alder": {
+      "AlderM": 52
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313288+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0423307770",
+    "Navn": {
+      "Fornavn": "Frederik",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "frha84",
+    "Koen": "M",
+    "Foedselsdato": "1939-02-01",
+    "Alder": {
+      "AlderM": 87
+    },
+    "Stilling": "Mellemleder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313295+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "5431817577",
+    "Navn": {
+      "Fornavn": "Nora",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "nope36",
+    "Koen": "F",
+    "Foedselsdato": "1977-12-18",
+    "Alder": {
+      "AlderM": 48
+    },
+    "Stilling": "Hundepasser",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313302+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3019623828",
+    "Navn": {
+      "Fornavn": "Carl",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "caje09",
+    "Koen": "M",
+    "Foedselsdato": "1947-09-09",
+    "Alder": {
+      "AlderM": 78
+    },
+    "Stilling": "Testperson",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313308+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1724244571",
+    "Navn": {
+      "Fornavn": "Elisabeth",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "elhu92",
+    "Koen": "F",
+    "Foedselsdato": "1950-07-05",
+    "Alder": {
+      "AlderM": 75
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313314+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "5650149554",
+    "Navn": {
+      "Fornavn": "Frederikke",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "frwe88",
+    "Koen": "F",
+    "Foedselsdato": "1937-06-26",
+    "Alder": {
+      "AlderM": 88
+    },
+    "Stilling": "Webdesigner",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931332+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0951933778",
+    "Navn": {
+      "Fornavn": "Erik",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "ertu94",
+    "Koen": "M",
+    "Foedselsdato": "1980-11-05",
+    "Alder": {
+      "AlderM": 45
+    },
+    "Stilling": "Grafisk designer",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313366+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2727831123",
+    "Navn": {
+      "Fornavn": "Henriette",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "hech20",
+    "Koen": "F",
+    "Foedselsdato": "1989-04-08",
+    "Alder": {
+      "AlderM": 37
+    },
+    "Stilling": "Hundepasser",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313372+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1083789654",
+    "Navn": {
+      "Fornavn": "Christian",
+      "Efternavn": "McDonald"
+    },
+    "Brugernavn": "chmc33",
+    "Koen": "M",
+    "Foedselsdato": "1931-09-10",
+    "Alder": {
+      "AlderM": 94
+    },
+    "Stilling": "Mellemleder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313378+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "4519154697",
+    "Navn": {
+      "Fornavn": "Julie",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "juki70",
+    "Koen": "F",
+    "Foedselsdato": "1974-02-09",
+    "Alder": {
+      "AlderM": 52
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313384+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "6312727598",
+    "Navn": {
+      "Fornavn": "Yang",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "yaab91",
+    "Koen": "M",
+    "Foedselsdato": "2005-09-08",
+    "Alder": {
+      "AlderM": 20
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313389+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2941697990",
+    "Navn": {
+      "Fornavn": "Toke",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "toki18",
+    "Koen": "M",
+    "Foedselsdato": "1942-07-15",
+    "Alder": {
+      "AlderM": 83
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313395+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2900607675",
+    "Navn": {
+      "Fornavn": "Søren",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "søbl54",
+    "Koen": "M",
+    "Foedselsdato": "1954-10-18",
+    "Alder": {
+      "AlderM": 71
+    },
+    "Stilling": "Webdesigner",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313528+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2683397442",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "maab90",
+    "Koen": "F",
+    "Foedselsdato": "1980-03-25",
+    "Alder": {
+      "AlderM": 46
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313534+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9960573843",
+    "Navn": {
+      "Fornavn": "Kalle",
+      "Efternavn": "Henriksne"
+    },
+    "Brugernavn": "kahe51",
+    "Koen": "M",
+    "Foedselsdato": "1926-12-16",
+    "Alder": {
+      "AlderM": 99
+    },
+    "Stilling": "Webdesigner",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931354+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3474125934",
+    "Navn": {
+      "Fornavn": "Bruce",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "brtu54",
+    "Koen": "M",
+    "Foedselsdato": "1991-07-19",
+    "Alder": {
+      "AlderM": 34
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313547+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3399210452",
+    "Navn": {
+      "Fornavn": "Fillipa",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "fiwe67",
+    "Koen": "F",
+    "Foedselsdato": "2006-08-05",
+    "Alder": {
+      "AlderM": 19
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313553+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0595431580",
+    "Navn": {
+      "Fornavn": "Henriette",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "hebl14",
+    "Koen": "F",
+    "Foedselsdato": "1930-11-05",
+    "Alder": {
+      "AlderM": 95
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313559+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1308988468",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "mane28",
+    "Koen": "F",
+    "Foedselsdato": "1962-08-28",
+    "Alder": {
+      "AlderM": 63
+    },
+    "Stilling": "Webdesigner",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313565+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "5813235970",
+    "Navn": {
+      "Fornavn": "Henriette",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "heyu27",
+    "Koen": "F",
+    "Foedselsdato": "1959-03-07",
+    "Alder": {
+      "AlderM": 67
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313601+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "4800615537",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "leac60",
+    "Koen": "M",
+    "Foedselsdato": "2006-05-31",
+    "Alder": {
+      "AlderM": 19
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313608+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "4015140720",
+    "Navn": {
+      "Fornavn": "Lilje",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "lipe43",
+    "Koen": "F",
+    "Foedselsdato": "1998-09-02",
+    "Alder": {
+      "AlderM": 27
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313614+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0220225519",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "lebl90",
+    "Koen": "M",
+    "Foedselsdato": "1983-03-26",
+    "Alder": {
+      "AlderM": 43
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931362+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0422078332",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "leab27",
+    "Koen": "M",
+    "Foedselsdato": "1929-03-23",
+    "Alder": {
+      "AlderM": 97
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313626+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1946659559",
+    "Navn": {
+      "Fornavn": "Jane",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "japa28",
+    "Koen": "F",
+    "Foedselsdato": "1981-05-21",
+    "Alder": {
+      "AlderM": 44
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313631+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2922935056",
+    "Navn": {
+      "Fornavn": "Erik",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "erje73",
+    "Koen": "M",
+    "Foedselsdato": "1940-11-01",
+    "Alder": {
+      "AlderM": 85
+    },
+    "Stilling": "Webdesigner",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313637+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2806587349",
+    "Navn": {
+      "Fornavn": "Johan",
+      "Efternavn": "Johnson"
+    },
+    "Brugernavn": "jojo93",
+    "Koen": "M",
+    "Foedselsdato": "1994-08-15",
+    "Alder": {
+      "AlderM": 31
+    },
+    "Stilling": "Hundepasser",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313643+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2517938372",
+    "Navn": {
+      "Fornavn": "Bruce",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "brtu29",
+    "Koen": "M",
+    "Foedselsdato": "1933-11-18",
+    "Alder": {
+      "AlderM": 92
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313649+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "4734572543",
+    "Navn": {
+      "Fornavn": "Henrik",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "heba93",
+    "Koen": "M",
+    "Foedselsdato": "2000-02-24",
+    "Alder": {
+      "AlderM": 26
+    },
+    "Stilling": "Kantinemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313655+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "5558939340",
+    "Navn": {
+      "Fornavn": "Søren",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "søyu50",
+    "Koen": "M",
+    "Foedselsdato": "1959-04-25",
+    "Alder": {
+      "AlderM": 66
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313664+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0642337929",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "lefr62",
+    "Koen": "M",
+    "Foedselsdato": "1935-07-12",
+    "Alder": {
+      "AlderM": 90
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931367+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9547492528",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Johnson"
+    },
+    "Brugernavn": "thjo68",
+    "Koen": "F",
+    "Foedselsdato": "1958-12-03",
+    "Alder": {
+      "AlderM": 67
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313676+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1541397212",
+    "Navn": {
+      "Fornavn": "Søren",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "søpa93",
+    "Koen": "M",
+    "Foedselsdato": "1948-03-26",
+    "Alder": {
+      "AlderM": 78
+    },
+    "Stilling": "Webdesigner",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313682+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "6534187677",
+    "Navn": {
+      "Fornavn": "Erik",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "erne26",
+    "Koen": "M",
+    "Foedselsdato": "1959-12-20",
+    "Alder": {
+      "AlderM": 66
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931372+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0786282358",
+    "Navn": {
+      "Fornavn": "Jane",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "jape63",
+    "Koen": "F",
+    "Foedselsdato": "1931-11-02",
+    "Alder": {
+      "AlderM": 94
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313727+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "4778213517",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "thab81",
+    "Koen": "F",
+    "Foedselsdato": "1963-01-15",
+    "Alder": {
+      "AlderM": 63
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313733+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3544969962",
+    "Navn": {
+      "Fornavn": "Bruce",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "brki73",
+    "Koen": "M",
+    "Foedselsdato": "1987-07-01",
+    "Alder": {
+      "AlderM": 38
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313738+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0018299120",
+    "Navn": {
+      "Fornavn": "Jon",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "jone06",
+    "Koen": "M",
+    "Foedselsdato": "1920-02-22",
+    "Alder": {
+      "AlderM": 106
+    },
+    "Stilling": "Grafisk designer",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313744+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9174131019",
+    "Navn": {
+      "Fornavn": "Julie",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "juac09",
+    "Koen": "F",
+    "Foedselsdato": "1937-01-31",
+    "Alder": {
+      "AlderM": 89
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313751+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9701772942",
+    "Navn": {
+      "Fornavn": "Lilje",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "liha18",
+    "Koen": "F",
+    "Foedselsdato": "1972-06-29",
+    "Alder": {
+      "AlderM": 53
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313756+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0367126398",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "maha80",
+    "Koen": "F",
+    "Foedselsdato": "1929-07-02",
+    "Alder": {
+      "AlderM": 96
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313762+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "7724565966",
+    "Navn": {
+      "Fornavn": "Philip",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "phwe06",
+    "Koen": "M",
+    "Foedselsdato": "1927-04-12",
+    "Alder": {
+      "AlderM": 99
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313768+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3061969206",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "mapa53",
+    "Koen": "F",
+    "Foedselsdato": "1956-12-06",
+    "Alder": {
+      "AlderM": 69
+    },
+    "Stilling": "Hundepasser",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313774+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "6596207691",
+    "Navn": {
+      "Fornavn": "Christian",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "chje14",
+    "Koen": "M",
+    "Foedselsdato": "1961-06-21",
+    "Alder": {
+      "AlderM": 64
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931378+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8691603161",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "thhu67",
+    "Koen": "F",
+    "Foedselsdato": "1981-01-16",
+    "Alder": {
+      "AlderM": 45
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313786+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0952434797",
+    "Navn": {
+      "Fornavn": "Julie",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "jutu83",
+    "Koen": "F",
+    "Foedselsdato": "1923-05-17",
+    "Alder": {
+      "AlderM": 102
+    },
+    "Stilling": "Mellemleder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313811+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "6295161282",
+    "Navn": {
+      "Fornavn": "Søren",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "søfr26",
+    "Koen": "M",
+    "Foedselsdato": "1927-02-28",
+    "Alder": {
+      "AlderM": 99
+    },
+    "Stilling": "Testperson",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313817+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "7805632118",
+    "Navn": {
+      "Fornavn": "Amalie",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "amal27",
+    "Koen": "F",
+    "Foedselsdato": "1935-02-01",
+    "Alder": {
+      "AlderM": 91
+    },
+    "Stilling": "Hundepasser",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313823+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8989251333",
+    "Navn": {
+      "Fornavn": "Julie",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "jubl87",
+    "Koen": "F",
+    "Foedselsdato": "1949-08-14",
+    "Alder": {
+      "AlderM": 76
+    },
+    "Stilling": "Grafisk designer",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313829+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9816297229",
+    "Navn": {
+      "Fornavn": "Frederik",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "frki51",
+    "Koen": "M",
+    "Foedselsdato": "1927-02-07",
+    "Alder": {
+      "AlderM": 99
+    },
+    "Stilling": "Grafisk designer",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313835+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "5526202820",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "thab08",
+    "Koen": "F",
+    "Foedselsdato": "1974-04-18",
+    "Alder": {
+      "AlderM": 52
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313841+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9027190554",
+    "Navn": {
+      "Fornavn": "Julie",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "juyu41",
+    "Koen": "F",
+    "Foedselsdato": "2002-07-14",
+    "Alder": {
+      "AlderM": 23
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313847+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2279702496",
+    "Navn": {
+      "Fornavn": "Alberte",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "alch57",
+    "Koen": "F",
+    "Foedselsdato": "1953-01-27",
+    "Alder": {
+      "AlderM": 73
+    },
+    "Stilling": "Ingengør",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313853+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9501981720",
+    "Navn": {
+      "Fornavn": "Henriette",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "heac08",
+    "Koen": "F",
+    "Foedselsdato": "1996-11-12",
+    "Alder": {
+      "AlderM": 29
+    },
+    "Stilling": "Grafisk designer",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313859+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9752655436",
+    "Navn": {
+      "Fornavn": "Bruce",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "brab13",
+    "Koen": "M",
+    "Foedselsdato": "1965-10-25",
+    "Alder": {
+      "AlderM": 60
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313865+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3696990090",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Henriksne"
+    },
+    "Brugernavn": "pahe09",
+    "Koen": "F",
+    "Foedselsdato": "1982-04-15",
+    "Alder": {
+      "AlderM": 44
+    },
+    "Stilling": "Servicemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313871+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "7569887702",
+    "Navn": {
+      "Fornavn": "Julie",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "juyu34",
+    "Koen": "F",
+    "Foedselsdato": "1983-03-19",
+    "Alder": {
+      "AlderM": 43
+    },
+    "Stilling": "Kantinemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313877+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9901952418",
+    "Navn": {
+      "Fornavn": "Søren",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "søal54",
+    "Koen": "M",
+    "Foedselsdato": "1935-03-08",
+    "Alder": {
+      "AlderM": 91
+    },
+    "Stilling": "Kantinemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313883+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "9919869713",
+    "Navn": {
+      "Fornavn": "Julie",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "june24",
+    "Koen": "F",
+    "Foedselsdato": "2000-04-15",
+    "Alder": {
+      "AlderM": 26
+    },
+    "Stilling": "Kantinemedarbejder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9313889+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0004378937",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Henriksne"
+    },
+    "Brugernavn": "thhe28",
+    "Koen": "F",
+    "Foedselsdato": "1989-03-31",
+    "Alder": {
+      "AlderM": 37
+    },
+    "Stilling": "Hundepasser",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9314002+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "0266526312",
+    "Navn": {
+      "Fornavn": "Carl",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "cawe73",
+    "Koen": "M",
+    "Foedselsdato": "1972-12-12",
+    "Alder": {
+      "AlderM": 53
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9314008+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "3807964313",
+    "Navn": {
+      "Fornavn": "Emil",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "embl41",
+    "Koen": "M",
+    "Foedselsdato": "1966-04-04",
+    "Alder": {
+      "AlderM": 60
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9314014+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "7273685352",
+    "Navn": {
+      "Fornavn": "Lone",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "loab34",
+    "Koen": "F",
+    "Foedselsdato": "1948-08-01",
+    "Alder": {
+      "AlderM": 77
+    },
+    "Stilling": "Mellemleder",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931402+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "5728157242",
+    "Navn": {
+      "Fornavn": "Philip",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "phwe75",
+    "Koen": "M",
+    "Foedselsdato": "1923-11-05",
+    "Alder": {
+      "AlderM": 102
+    },
+    "Stilling": "Stenhugger",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9314026+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1436998227",
+    "Navn": {
+      "Fornavn": "Andersine",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "antu11",
+    "Koen": "F",
+    "Foedselsdato": "1983-08-05",
+    "Alder": {
+      "AlderM": 42
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9314032+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "8692655244",
+    "Navn": {
+      "Fornavn": "Alberte",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "alje65",
+    "Koen": "F",
+    "Foedselsdato": "1972-12-20",
+    "Alder": {
+      "AlderM": 53
+    },
+    "Stilling": "Hundepasser",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9314038+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "2984192152",
+    "Navn": {
+      "Fornavn": "Frederikke",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "frhu93",
+    "Koen": "F",
+    "Foedselsdato": "1980-10-07",
+    "Alder": {
+      "AlderM": 45
+    },
+    "Stilling": "Pedagog",
+    "Oprettelsesdato": "2026-04-22T09:04:38.9314044+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  },
+  {
+    "MANummer": "1274963452",
+    "Navn": {
+      "Fornavn": "Philip",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "phpe01",
+    "Koen": "M",
+    "Foedselsdato": "1930-06-14",
+    "Alder": {
+      "AlderM": 95
+    },
+    "Stilling": "Udvikler",
+    "Oprettelsesdato": "2026-04-22T09:04:38.931405+02:00",
+    "PensionsDato": {
+      "Dato": null
+    }
+  }
+]

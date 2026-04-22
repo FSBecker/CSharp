@@ -13,3 +13,6 @@
 /home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.genruntimeconfig.cache
 /home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/ref/KonkreteDataTyperFrederik.dll
 /home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.sourcelink.json
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/bin/Debug/net10.0/Newtonsoft.Json.dll
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/KonkreteDataTyperFrederik.csproj.AssemblyReference.cache
+/home/frederik/Coding/CSharp/KonkreteDataTyperFrederik/obj/Debug/net10.0/Konkrete.13E68C4E.Up2Date

@@ -1,3 +1,4 @@
+/*
 Soege soege = new Soege();
 Gemme gem = new Gemme();
 Dynamic dynamicR = new Dynamic();
@@ -10,6 +11,12 @@ if (resultat.IsSucces)
 Console.WriteLine(resultat.ResultatBesked);
 Console.WriteLine("Indtast bogstav(er) eller tal:\n");
 dynamic dyno = Console.ReadLine();
-dynamicR.DynamicRun(dyno);
+dynamicR.DynoCheck(dyno);
 Console.WriteLine(dyno);
 Console.WriteLine("Type: " + dyno.GetType());
+*/
+
+Menu menu = new Menu();
+menu.Program();
+
+
