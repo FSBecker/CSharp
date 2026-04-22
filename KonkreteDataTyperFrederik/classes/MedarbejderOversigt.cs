@@ -102,7 +102,7 @@ public class MedarbejderProgram
                         case 2: //Opret medarbejder
 
                             int[] placeholderDatoIntArray = { 1, 1, 1920 };
-                            DateOnly placeholderDatoDateOnly = DateOnly.Parse(placeholderDatoIntArray[1]+ "/"+placeholderDatoIntArray[0]+"/"+placeholderDatoIntArray[2]);
+                            DateOnly placeholderDatoDateOnly = DateOnly.Parse(placeholderDatoIntArray[1] + "/" + placeholderDatoIntArray[0] + "/" + placeholderDatoIntArray[2]);
                             string maNummer = GenererMANummer();
                             MedarbejderOplysninger.Medarbejder medarbejder = RedigeringMedarbejder(keyInfo, "", "", "", "", 'M', maNummer, placeholderDatoIntArray, true);
                             if (medarbejder != null)
@@ -133,6 +133,66 @@ public class MedarbejderProgram
 
         }
 
+    }
+    public DateOnly PensionsDatoUdregner(DateOnly foedselsdato)
+    {
+        DateOnly nu = DateOnly.FromDateTime(DateTime.Now);
+        DateOnly pensionsdato = foedselsdato;
+        if (foedselsdato <= DateOnly.FromDateTime(new DateTime(1954, 12, 31)))
+        {
+            pensionsdato.AddYears(66);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1955, 1, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1955, 6, 30)))
+        {
+            pensionsdato.AddYears(66).AddMonths(6);
+
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1955, 7, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1962, 12, 31)))
+        {
+            pensionsdato.AddYears(67);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1963, 1, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1966, 12, 31)))
+        {
+            pensionsdato.AddYears(68);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1967, 1, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1970, 12, 31)))
+        {
+            pensionsdato.AddYears(69);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1971, 1, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1974, 12, 31)))
+        {
+            pensionsdato.AddYears(70);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1975, 1, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1978, 12, 31)))
+        {
+            pensionsdato.AddYears(71);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1979, 1, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1982, 12, 31)))
+        {
+            pensionsdato.AddYears(72);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1983, 1, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1987, 6, 30)))
+        {
+            pensionsdato.AddYears(72).AddMonths(6);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1987, 7, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1991, 12, 31)))
+        {
+            pensionsdato.AddYears(73);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1992, 1, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(1996, 6, 30)))
+        {
+            pensionsdato.AddYears(73).AddMonths(6);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(1996, 7, 1)) && foedselsdato <= DateOnly.FromDateTime(new DateTime(2002, 12, 31)))
+        {
+            pensionsdato.AddYears(74);
+        }
+        else if (foedselsdato >= DateOnly.FromDateTime(new DateTime(2003, 1, 1)))
+        {
+            pensionsdato.AddYears(74).AddMonths(6);
+        }
+
+        return pensionsdato;
     }
     public void listevisning(string sorteringsvalg, string soegeord, ConsoleKeyInfo keyInfo)
     {
@@ -177,7 +237,6 @@ public class MedarbejderProgram
                         m.Stilling.Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
                         m.Foedselsdato.Year.ToString().Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
                         (DateOnly.FromDateTime(DateTime.Now).Year - m.Foedselsdato.Year).ToString().Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
-                        m.Alder.AlderM.ToString().Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
                         m.Koen.ToString().Contains(soegeord, StringComparison.OrdinalIgnoreCase)
                     )
                     .ToList();
@@ -187,9 +246,8 @@ public class MedarbejderProgram
         for (int i = 0; i < medarbejdere.Count; i++)
         {
             var m = medarbejdere[i];
-            DateOnly nu = DateOnly.FromDateTime(DateTime.Now);
-        
-            linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + m.Koen + ", " + m.Alder.AlderM.ToString() + ", " + m.Stilling;
+            MedarbejderOplysninger.Alder alder = BeregnAlder(m.Foedselsdato);
+            linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + m.Koen + ", " + alder.AlderM.ToString() + " år, " + m.Stilling;
         }
         bool gennemgaarListe = true;
         string titel = "Medarbejderoversigt";
@@ -282,7 +340,7 @@ public class MedarbejderProgram
         string maNummer = "";
         char[] koen = { 'M', 'F' };
         DateOnly foedselsdato = DateOnly.FromDateTime(DateTime.Now);
-        
+
         string[] stillinger =
         {
             "Stenhugger",
@@ -363,7 +421,6 @@ public class MedarbejderProgram
                 Stilling = stillinger[random.Next(0, stillinger.Length)],
                 Koen = valgtKoen,
                 Foedselsdato = foedselsdato,
-                Alder = alder,
                 Oprettelsesdato = DateTime.Now
             };
             medarbejdere.Add(medarbejder);
@@ -418,8 +475,8 @@ public class MedarbejderProgram
         while (redigerer)
         {
             Console.Clear();
-            
-            MedarbejderOplysninger.Alder alder = BeregnAlder(DateOnly.Parse(foedselsdato[1]+"/"+foedselsdato[0]+"/"+foedselsdato[2]));
+
+            MedarbejderOplysninger.Alder alder = BeregnAlder(DateOnly.Parse(foedselsdato[1] + "/" + foedselsdato[0] + "/" + foedselsdato[2]));
             string[] linesToWrite =
             {
               "Tryk enter for at bekræfte oplysning. Tryk escape for at gå tilbage", //0
@@ -633,7 +690,6 @@ public class MedarbejderProgram
                             Stilling = stilling,
                             Koen = koen,
                             Foedselsdato = new DateOnly(foedselsdato[2], foedselsdato[1], foedselsdato[0]),
-                            Alder = alder,
                             Oprettelsesdato = DateTime.Now
                         };
                         return medarbejder;
@@ -695,7 +751,7 @@ public class MedarbejderProgram
         }
         return nummerString;
     }
-    
+
 
 }
 
@@ -708,7 +764,6 @@ public class MedarbejderOplysninger
         public string Brugernavn { get; init; } = "";//Brugernavn
         public char Koen { get; set; } //Køn
         public DateOnly Foedselsdato { get; set; } //Fødselsdato
-        public Alder Alder {get; set;} //Alder
         public string Stilling { get; set; } = "";//Stilling
         public DateTime Oprettelsesdato { get; init; } //Oprettelsedato af medarbejder profilen
 
@@ -720,9 +775,9 @@ public class MedarbejderOplysninger
         public string Efternavn { get; set; } = efternavn;
 
     }
-    public struct PensionsDato(string dato)
+    public struct PensionsDato(DateOnly dato)
     {
-        public string Dato { get; set; } = dato;
+        public DateOnly Dato { get; set; } = dato;
     }
     public struct Alder(int alder)
     {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KonkreteDataTyperFrederik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b4c88b8dfce65ee2367147e0726c26b8d53b830")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42c7c17c82f01c3fd44da74ad4948f36e7a96ea8")]
 [assembly: System.Reflection.AssemblyProductAttribute("KonkreteDataTyperFrederik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KonkreteDataTyperFrederik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
