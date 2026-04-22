@@ -50,9 +50,10 @@ class Menu
         int height = 5;
         for (int i = 0; i < linesToWrite.Length; i++)
         {
-            int width = Console.WindowWidth / 2 - (linesToWrite[i].Length / 2);
+            string line = TilpasLinjeTilVindue(linesToWrite[i] ?? "");
+            int width = Math.Max(0, Console.WindowWidth / 2 - (line.Length / 2));
             Console.SetCursorPosition(width, height + i);
-            Console.Write(linesToWrite[i]);
+            Console.Write(line);
         }
 
     }
@@ -71,8 +72,8 @@ class Menu
 
     for (int i = startIndex; i < endIndex; i++)
     {
-        string line = linesToWrite[i] ?? "";
-        int width = Console.WindowWidth / 2 - (line.Length / 2);
+        string line = TilpasLinjeTilVindue(linesToWrite[i] ?? "");
+        int width = Math.Max(0, Console.WindowWidth / 2 - (line.Length / 2));
         Console.SetCursorPosition(width, height + (i - startIndex));
         Console.Write(line);
     }
@@ -83,6 +84,22 @@ class Menu
     Console.SetCursorPosition(Console.WindowWidth / 2 - (pageText.Length / 2), height + linjerPerSide + 1);
     Console.Write(pageText);
 }
+
+    private string TilpasLinjeTilVindue(string line)
+    {
+        int maxWidth = Math.Max(1, Console.WindowWidth - 6);
+        if (line.Length <= maxWidth)
+        {
+            return line;
+        }
+
+        if (maxWidth <= 3)
+        {
+            return line.Substring(0, maxWidth);
+        }
+
+        return line.Substring(0, maxWidth - 3) + "...";
+    }
 
     public void DrawBorders(string title)
     {
