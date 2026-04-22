@@ -10,3 +10,5 @@ global using System.ComponentModel;
 global using System.Text.RegularExpressions;
 global using System.IO.Enumeration;
 global using Newtonsoft.Json;
+global using System.Runtime.CompilerServices;
+global using System.Xml.Schema;
