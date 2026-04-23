@@ -6,7 +6,7 @@ namespace MedarbejderOversigtN;
 public class MedarbejderProgram
 {
     Menu menu1 = new Menu(); //Kalder på menuclassen så menuer kan blive lavet 
-    
+
     public void MedarbejderMenu(ConsoleKeyInfo keyInfo)
     {
         int stage = 0;
@@ -292,7 +292,7 @@ public class MedarbejderProgram
                 visLoen = true;
                 medarbejdere = medarbejdere.OrderBy(m => LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling)).ToList();
                 medarbejdere.Reverse();
-            break;
+                break;
             case "Søgeord":
                 medarbejdere = medarbejdere
                     .Where(m =>
@@ -325,12 +325,12 @@ public class MedarbejderProgram
                 int gennemsnitsloen = HentGennemsnitsloenForAfdelingOgKoen(gennemsnitsloenPerGruppe, m.Afdeling, m.Koen);
                 int bonus = PensionsBonusUdregner(gennemsnitsloen, m.Koen);
                 pensionsInfo = "Pensionsdato: " + PensionsDatoUdregner(m.Foedselsdato).ToString("dd/MM/yyyy") + ", Pensionsbonus: " + bonus.ToString();
-                
+
                 linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + pensionsInfo + ", " + m.Stilling.Titel + ", " + afdeling;
             }
             else if (visLoen)
             {
-                 linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + m.Stilling.Titel + ", " + afdeling + ", Månedsløn: " + LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling);
+                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + m.Stilling.Titel + ", " + afdeling + ", Månedsløn: " + LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling);
             }
             else
             {
@@ -633,7 +633,7 @@ public class MedarbejderProgram
         return gennemsnitsloen;
     }
 
-    public int PensionsBonusUdregner (int gennemsnitsloen, MedarbejderOplysninger.Koen koen)
+    public int PensionsBonusUdregner(int gennemsnitsloen, MedarbejderOplysninger.Koen koen)
     {
         double bonus = gennemsnitsloen;
         switch (koen)
@@ -706,20 +706,8 @@ public class MedarbejderProgram
             float aarTilPension = AarTilPension(foedselsdatoDateOnly);
             string pensionsDato = PensionsDatoUdregner(foedselsdatoDateOnly).ToString("dd/MM/yyyy");
             MedarbejderOplysninger.Alder alder = BeregnAlder(foedselsdatoDateOnly);
-            string valgtAfdeling = "";
+            string valgtAfdeling = EnumAttributeHjaelper(afdeling);
             string valgtKoen = EnumAttributeHjaelper(koen);
-            switch (afdeling)
-            {
-                case MedarbejderOplysninger.Afdeling.SoftwareUdvikling:
-                    valgtAfdeling = "Software Udvikling";
-                    break;
-                case MedarbejderOplysninger.Afdeling.Administration:
-                    valgtAfdeling = "Administration";
-                    break;
-                case MedarbejderOplysninger.Afdeling.ServiceOgSupport:
-                    valgtAfdeling = "Service og support";
-                    break;
-            }
             string[] linesToWrite =
             {
               "Tryk enter for at bekræfte oplysning. Tryk escape for at gå tilbage", //0
@@ -1079,7 +1067,7 @@ public class MedarbejderProgram
         DisplayAttribute? attribute = field.GetCustomAttribute<DisplayAttribute>();
 
         return attribute?.Name ?? value.ToString();
-}
+    }
 }
 public class MedarbejderOplysninger
 {
@@ -1102,18 +1090,18 @@ public class MedarbejderOplysninger
     }
     public enum Koen
     {
-        [Display (Name =  "Mand")]
+        [Display(Name = "Mand")]
         M,
-        [Display (Name =  "Kvinde")]
+        [Display(Name = "Kvinde")]
         F
     }
     public enum Afdeling
     {
-        [Display (Name =  "Software udvikling")]
+        [Display(Name = "Software udvikling")]
         SoftwareUdvikling,
-        [Display (Name =  "Administration")]
+        [Display(Name = "Administration")]
         Administration,
-        [Display (Name =  "Service og support")]
+        [Display(Name = "Service og support")]
         ServiceOgSupport
     };
     public struct PensionsDato(DateOnly dato)
