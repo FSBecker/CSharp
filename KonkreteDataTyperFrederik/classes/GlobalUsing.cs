@@ -13,3 +13,5 @@ global using Newtonsoft.Json;
 global using Newtonsoft.Json.Linq;
 global using System.Runtime.CompilerServices;
 global using System.Xml.Schema;
+global using System.ComponentModel.DataAnnotations;
+global using System.Reflection;

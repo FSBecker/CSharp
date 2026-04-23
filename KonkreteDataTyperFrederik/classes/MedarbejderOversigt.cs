@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using System.Dynamic;
 
 namespace MedarbejderOversigtN;
@@ -10,7 +11,6 @@ public class MedarbejderProgram
     {
         int stage = 0;
         bool running = true;
-        string json = "";
         string titel = "Medarbejderoversigt";
         List<string> oplysninger = new List<string>();
         while (running)
@@ -60,7 +60,8 @@ public class MedarbejderProgram
                                 "Fornavn",
                                 "Efternavn",
                                 "Stilling",
-                                "Afdeling"
+                                "Afdeling",
+                                "Løn"
                             };
                             bool vaelgerSortering = true;
                             while (vaelgerSortering)
@@ -138,8 +139,6 @@ public class MedarbejderProgram
                     }
                     break;
             }
-
-
 
         }
 
@@ -225,6 +224,7 @@ public class MedarbejderProgram
         List<MedarbejderOplysninger.Medarbejder> medarbejdere = IndlaesGemteMedarbejdere();
         Dictionary<(MedarbejderOplysninger.Afdeling, MedarbejderOplysninger.Koen), int> gennemsnitsloenPerGruppe = BeregnGennemsnitsloenPerAfdelingOgKoen(medarbejdere);
         bool visPensionsdato = false;
+        bool visLoen = false;
         switch (sorteringsvalg)
         {
             case "Oprettelsesdato":
@@ -235,7 +235,7 @@ public class MedarbejderProgram
 
             case "Alder":
                 medarbejdere = medarbejdere
-                    .OrderBy(m => BeregnAlder(m.Foedselsdato))
+                    .OrderBy(m => BeregnAlder(m.Foedselsdato).AlderM)
                     .ToList();
                 break;
             case "Pensionsaldato":
@@ -283,11 +283,16 @@ public class MedarbejderProgram
                     .ToList();
                 break;
             case "Stilling":
-                medarbejdere = medarbejdere.OrderBy(m => m.Stilling).ToList();
+                medarbejdere = medarbejdere.OrderBy(m => m.Stilling.Titel).ToList();
                 break;
             case "Afdeling":
                 medarbejdere = medarbejdere.OrderBy(m => m.Afdeling).ToList();
                 break;
+            case "Løn":
+                visLoen = true;
+                medarbejdere = medarbejdere.OrderBy(m => LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling)).ToList();
+                medarbejdere.Reverse();
+            break;
             case "Søgeord":
                 medarbejdere = medarbejdere
                     .Where(m =>
@@ -306,19 +311,8 @@ public class MedarbejderProgram
         {
             var m = medarbejdere[i];
             MedarbejderOplysninger.Alder alder = BeregnAlder(m.Foedselsdato);
-            string afdeling = "";
-            switch (m.Afdeling)
-            {
-                case MedarbejderOplysninger.Afdeling.SoftwareUdvikling:
-                    afdeling = "Software Udvikling";
-                    break;
-                case MedarbejderOplysninger.Afdeling.Administration:
-                    afdeling = "Administration";
-                    break;
-                case MedarbejderOplysninger.Afdeling.ServiceOgSupport:
-                    afdeling = "Service og support";
-                    break;
-            }
+            string afdeling = EnumAttributeHjaelper(m.Afdeling);
+            string koen = EnumAttributeHjaelper(m.Koen);
             string pensionsInfo = "";
             float aarTilPension = AarTilPension(m.Foedselsdato);
             string aarTilPensionString = aarTilPension.ToString("0.0") + " år til pension";
@@ -332,11 +326,15 @@ public class MedarbejderProgram
                 int bonus = PensionsBonusUdregner(gennemsnitsloen, m.Koen);
                 pensionsInfo = "Pensionsdato: " + PensionsDatoUdregner(m.Foedselsdato).ToString("dd/MM/yyyy") + ", Pensionsbonus: " + bonus.ToString();
                 
-                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + m.Koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + pensionsInfo + ", " + m.Stilling.Titel + ", " + afdeling;
+                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + pensionsInfo + ", " + m.Stilling.Titel + ", " + afdeling;
+            }
+            else if (visLoen)
+            {
+                 linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + m.Stilling.Titel + ", " + afdeling + ", Månedsløn: " + LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling);
             }
             else
             {
-                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + m.Koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + m.Stilling.Titel + ", " + afdeling;
+                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + m.Stilling.Titel + ", " + afdeling;
             }
         }
 
@@ -351,7 +349,7 @@ public class MedarbejderProgram
             string[] linesToWriteWithHighligt = (string[])linesToWrite.Clone();
             linesToWriteWithHighligt[stage] = "| " + linesToWriteWithHighligt[stage] + " |";
             menu1.DrawBorders(titel);
-            menu1.drawCenteredListe(linesToWriteWithHighligt, titel, sidenummer, linjerPerSide);
+            menu1.drawCenteredListe(linesToWriteWithHighligt, titel, sidenummer, linjerPerSide, medarbejdere.Count);
 
             keyInfo = Console.ReadKey();
             switch (keyInfo.Key)
@@ -427,7 +425,7 @@ public class MedarbejderProgram
             int gennemsnitMaend = HentGennemsnitsloenForAfdelingOgKoen(gennemsnitsloenPerGruppe, afdeling, MedarbejderOplysninger.Koen.M);
             int gennemsnitKvinder = HentGennemsnitsloenForAfdelingOgKoen(gennemsnitsloenPerGruppe, afdeling, MedarbejderOplysninger.Koen.F);
 
-            tabel[i + 1, 0] = FormatAfdelingNavn(afdeling);
+            tabel[i + 1, 0] = EnumAttributeHjaelper(afdeling);
             tabel[i + 1, 1] = gennemsnitMaend.ToString();
             tabel[i + 1, 2] = gennemsnitKvinder.ToString();
             tabel[i + 1, 3] = PensionsBonusUdregner(gennemsnitMaend, MedarbejderOplysninger.Koen.M).ToString();
@@ -477,7 +475,7 @@ public class MedarbejderProgram
         DateOnly foedselsdato = DateOnly.FromDateTime(DateTime.Now);
         DateTime oprettelsesdato = DateTime.Now;
         List<MedarbejderOplysninger.Medarbejder> medarbejdere = IndlaesGemteMedarbejdere();
-        for (int i = 1; i < antal; i++)
+        for (int i = 1; i < antal + 1; i++)
         {
             maNummer = GenererMANummer();
             MedarbejderOplysninger.Koen valgtKoen = koen[random.Next(0, 2)];
@@ -669,31 +667,17 @@ public class MedarbejderProgram
         return 0;
     }
 
-    public string FormatAfdelingNavn(MedarbejderOplysninger.Afdeling afdeling)
-    {
-        switch (afdeling)
-        {
-            case MedarbejderOplysninger.Afdeling.SoftwareUdvikling:
-                return "Software";
-            case MedarbejderOplysninger.Afdeling.Administration:
-                return "Administration";
-            case MedarbejderOplysninger.Afdeling.ServiceOgSupport:
-                return "Service";
-            default:
-                return afdeling.ToString();
-        }
-    }
 
     public MedarbejderOplysninger.Medarbejder? RedigeringMedarbejder(ConsoleKeyInfo keyInfo, string fornavn, string efternavn, string brugernavn, MedarbejderOplysninger.Stilling stilling, MedarbejderOplysninger.Koen koen, string maNummer, int[] foedselsdato, bool opretter, MedarbejderOplysninger.Afdeling afdeling)
     {
 
-        const int fornavnStep = 10;
-        const int efternavnStep = 11;
-        const int koenStep = 12;
-        const int foedselsdatoStep = 13;
-        const int stillingStep = 14;
-        const int afdelingStep = 15;
-        const int gemOgAfslutStep = 17;
+        const int fornavnStep = 12;
+        const int efternavnStep = 13;
+        const int koenStep = 14;
+        const int foedselsdatoStep = 15;
+        const int stillingStep = 16;
+        const int afdelingStep = 17;
+        const int gemOgAfslutStep = 19;
         int step = fornavnStep;
         bool redigerer = true;
         string brugernavnTal = random.Next(0, 10).ToString() + random.Next(0, 10).ToString();
@@ -723,6 +707,7 @@ public class MedarbejderProgram
             string pensionsDato = PensionsDatoUdregner(foedselsdatoDateOnly).ToString("dd/MM/yyyy");
             MedarbejderOplysninger.Alder alder = BeregnAlder(foedselsdatoDateOnly);
             string valgtAfdeling = "";
+            string valgtKoen = EnumAttributeHjaelper(koen);
             switch (afdeling)
             {
                 case MedarbejderOplysninger.Afdeling.SoftwareUdvikling:
@@ -745,20 +730,19 @@ public class MedarbejderProgram
               "Brugernavn: " + brugernavn, //5
               "Fulde navn: " + fornavn + " " + efternavn, //6
               "Alder: " + alder.AlderM.ToString() + " år", // 7 
-              "Pensionsdato: " + pensionsDato + " (" + aarTilPension + ") ",
-              "",  //8
-              "-Indtast manglende oplysniger-", // 9
-              "Fornavn: " + fornavn, //10
-              "Efternavn: " + efternavn,  //11
-              "Køn: " + koen.ToString(), //12
-              "Fødsesldato: " + foedselsdato[0] + "/" + foedselsdato[1] + "/" + foedselsdato[2], //13
-              "Stilling: " + stilling, //14
-              "Afdeling: " + valgtAfdeling, //15
-              "", //16
-              "Gem og afslut", //17
-              "",
-              step.ToString(),
-              keyInfo.Key.ToString()
+              "Basisløn: " + basisloenne[valgtStillingIndex] + ", Reél månedsløn: " + LoenUdregner(basisloenne[valgtStillingIndex],koen, afdeling), //8
+              "Pensionsdato: " + pensionsDato + " (" + aarTilPension + " år til pension) ", //9
+              "",  //10
+              "-Indtast manglende oplysniger-", // 11
+              "Fornavn: " + fornavn, //12
+              "Efternavn: " + efternavn,  //13
+              "Køn: " + valgtKoen, //14
+              "Fødsesldato: " + foedselsdato[0] + "/" + foedselsdato[1] + "/" + foedselsdato[2], //15
+              "Stilling: " + stilling.Titel, //16
+              "Afdeling: " + valgtAfdeling, //17
+              "", //18
+              "Gem og afslut", //19
+              "" //20
             };
             switch (step)
             {
@@ -769,11 +753,11 @@ public class MedarbejderProgram
                 case koenStep://Køn
                     if (koen == MedarbejderOplysninger.Koen.M)
                     {
-                        linesToWrite[koenStep] = "Køn:   " + koen.ToString() + " > ";
+                        linesToWrite[koenStep] = "Køn:   " + valgtKoen + " > ";
                     }
                     else
                     {
-                        linesToWrite[koenStep] = "Køn: < " + koen.ToString() + "   ";
+                        linesToWrite[koenStep] = "Køn: < " + valgtKoen + "   ";
                     }
                     break;
                 case afdelingStep:
@@ -810,13 +794,13 @@ public class MedarbejderProgram
                     switch (valgtTidsType)
                     {
                         case 0:
-                            linesToWrite[13] = "Fødsesldato: [" + foedselsdato[0] + "]/" + foedselsdato[1] + "/" + foedselsdato[2];
+                            linesToWrite[foedselsdatoStep] = "Fødsesldato: [" + foedselsdato[0] + "]/" + foedselsdato[1] + "/" + foedselsdato[2];
                             break;
                         case 1:
-                            linesToWrite[13] = "Fødsesldato: " + foedselsdato[0] + "/[" + foedselsdato[1] + "]/" + foedselsdato[2];
+                            linesToWrite[foedselsdatoStep] = "Fødsesldato: " + foedselsdato[0] + "/[" + foedselsdato[1] + "]/" + foedselsdato[2];
                             break;
                         case 2:
-                            linesToWrite[13] = "Fødsesldato: " + foedselsdato[0] + "/" + foedselsdato[1] + "/[" + foedselsdato[2] + "]";
+                            linesToWrite[foedselsdatoStep] = "Fødsesldato: " + foedselsdato[0] + "/" + foedselsdato[1] + "/[" + foedselsdato[2] + "]";
                             break;
                     }
                     break;
@@ -1085,7 +1069,17 @@ public class MedarbejderProgram
         return nummerString;
     }
 
+    public string EnumAttributeHjaelper(Enum value)
+    {
+        FieldInfo? field = value.GetType().GetField(value.ToString());
 
+        if (field == null)
+            return value.ToString();
+
+        DisplayAttribute? attribute = field.GetCustomAttribute<DisplayAttribute>();
+
+        return attribute?.Name ?? value.ToString();
+}
 }
 public class MedarbejderOplysninger
 {
@@ -1108,13 +1102,18 @@ public class MedarbejderOplysninger
     }
     public enum Koen
     {
+        [Display (Name =  "Mand")]
         M,
+        [Display (Name =  "Kvinde")]
         F
     }
     public enum Afdeling
     {
+        [Display (Name =  "Software udvikling")]
         SoftwareUdvikling,
+        [Display (Name =  "Administration")]
         Administration,
+        [Display (Name =  "Service og support")]
         ServiceOgSupport
     };
     public struct PensionsDato(DateOnly dato)

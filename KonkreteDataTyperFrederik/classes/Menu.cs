@@ -58,33 +58,52 @@ class Menu
 
     }
     public void draw2Dtabel(string[,] tabel, string title)
-{
-    Console.Clear();
-    DrawBorders(title);
-
-    int startX = 4;
-    int startY = 5;
-    int celleBredde = 18;
-
-    int raekker = tabel.GetLength(0);
-    int kolonner = tabel.GetLength(1);
-
-    for (int raekke = 0; raekke < raekker; raekke++)
     {
+        Console.Clear();
+        DrawBorders(title);
+
+        int startY = 5;
+        int raekker = tabel.GetLength(0);
+        int kolonner = tabel.GetLength(1);
+        int[] kolonneBredder = new int[kolonner];
+
         for (int kolonne = 0; kolonne < kolonner; kolonne++)
         {
-            int x = startX + (kolonne * celleBredde);
+            int stoersteIndhold = 0;
+            for (int raekke = 0; raekke < raekker; raekke++)
+            {
+                string celleIndhold = tabel[raekke, kolonne] ?? "";
+                if (celleIndhold.Length > stoersteIndhold)
+                {
+                    stoersteIndhold = celleIndhold.Length;
+                }
+            }
+
+            int ekstraPadding = kolonne == 0 ? 6 : 4;
+            kolonneBredder[kolonne] = stoersteIndhold + ekstraPadding;
+        }
+
+        int samletTabelBredde = kolonneBredder.Sum();
+        int startX = Math.Max(3, (Console.WindowWidth - samletTabelBredde) / 2);
+
+        for (int raekke = 0; raekke < raekker; raekke++)
+        {
+            int x = startX;
             int y = startY + raekke * 2;
 
-            Console.SetCursorPosition(x, y);
-            Console.Write(tabel[raekke, kolonne].PadRight(celleBredde - 1));
+            for (int kolonne = 0; kolonne < kolonner; kolonne++)
+            {
+                string celleIndhold = tabel[raekke, kolonne] ?? "";
+                Console.SetCursorPosition(x, y);
+                Console.Write(celleIndhold.PadRight(kolonneBredder[kolonne]));
+                x += kolonneBredder[kolonne];
+            }
         }
+
+        Console.SetCursorPosition(0, Console.WindowHeight - 1);
     }
 
-    Console.SetCursorPosition(0, Console.WindowHeight - 1);
-}
-
-    public void drawCenteredListe(string[] linesToWrite, string title, int page, int linjerPerSide)
+    public void drawCenteredListe(string[] linesToWrite, string title, int page, int linjerPerSide, int resultater)
     {
         Console.Clear();
         DrawBorders(title);
@@ -106,7 +125,8 @@ class Menu
         }
 
         int totalPages = (int)Math.Ceiling(linesToWrite.Length / (double)linjerPerSide);
-        string pageText = $"Side {page + 1}/{Math.Max(totalPages, 1)}";
+         
+        string pageText = "Resulater: " + resultater + $" | Side {page + 1}/{Math.Max(totalPages, 1)}";
 
         Console.SetCursorPosition(Console.WindowWidth / 2 - (pageText.Length / 2), height + linjerPerSide + 1);
         Console.Write(pageText);
