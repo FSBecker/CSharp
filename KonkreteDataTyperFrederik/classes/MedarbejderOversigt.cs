@@ -4,7 +4,8 @@ namespace MedarbejderOversigtN;
 
 public class MedarbejderProgram
 {
-    Menu menu1 = new Menu();
+    Menu menu1 = new Menu(); //Kalder på menuclassen så menuer kan blive lavet 
+    
     public void MedarbejderMenu(ConsoleKeyInfo keyInfo)
     {
         int stage = 0;
@@ -18,7 +19,7 @@ public class MedarbejderProgram
             string[] linesToWrite = {
             "Listevisning",
             "Søgefunktion",
-            "Tabel over løn- og pensionsinfo",
+            "Tabel over gemmensnits løn- og pensionsinfo",
             "Opret ny medarbejder",
             "Masse opret random medarbejdere",
             "Afslut"
@@ -104,8 +105,10 @@ public class MedarbejderProgram
                             listevisning("Søgeord", soegeord, keyInfo);
                             break;
                         case 2: //Tabel over pensioninfo
-
-                        break;
+                            string[,] tabel = BygLoenOgPensionsTabel();
+                            menu1.draw2Dtabel(tabel, linesToWrite[stage]);
+                            Console.ReadKey();
+                            break;
                         case 3: //Opret medarbejder
 
                             int[] placeholderDatoIntArray = { 1, 1, 1920 };
@@ -220,6 +223,7 @@ public class MedarbejderProgram
     public void listevisning(string sorteringsvalg, string soegeord, ConsoleKeyInfo keyInfo)
     {
         List<MedarbejderOplysninger.Medarbejder> medarbejdere = IndlaesGemteMedarbejdere();
+        Dictionary<(MedarbejderOplysninger.Afdeling, MedarbejderOplysninger.Koen), int> gennemsnitsloenPerGruppe = BeregnGennemsnitsloenPerAfdelingOgKoen(medarbejdere);
         bool visPensionsdato = false;
         switch (sorteringsvalg)
         {
@@ -324,9 +328,9 @@ public class MedarbejderProgram
             }
             if (visPensionsdato)
             {
-                int loen = LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling);
-                int bonus = PensionsBonusUdregner(loen, m.Koen);
-                pensionsInfo = ", Pensionsdato: " + PensionsDatoUdregner(m.Foedselsdato).ToString("dd/MM/yyyy") + ", Pensionsbonus: " + bonus.ToString();
+                int gennemsnitsloen = HentGennemsnitsloenForAfdelingOgKoen(gennemsnitsloenPerGruppe, m.Afdeling, m.Koen);
+                int bonus = PensionsBonusUdregner(gennemsnitsloen, m.Koen);
+                pensionsInfo = "Pensionsdato: " + PensionsDatoUdregner(m.Foedselsdato).ToString("dd/MM/yyyy") + ", Pensionsbonus: " + bonus.ToString();
                 
                 linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + m.Koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + pensionsInfo + ", " + m.Stilling.Titel + ", " + afdeling;
             }
@@ -398,6 +402,39 @@ public class MedarbejderProgram
                 sidenummer = sidsteSide;
             }
         }
+    }
+    public string[,] BygLoenOgPensionsTabel()
+    {
+        List<MedarbejderOplysninger.Medarbejder> medarbejdere = IndlaesGemteMedarbejdere();
+        Dictionary<(MedarbejderOplysninger.Afdeling, MedarbejderOplysninger.Koen), int> gennemsnitsloenPerGruppe = BeregnGennemsnitsloenPerAfdelingOgKoen(medarbejdere);
+        MedarbejderOplysninger.Afdeling[] afdelinger =
+        {
+            MedarbejderOplysninger.Afdeling.SoftwareUdvikling,
+            MedarbejderOplysninger.Afdeling.Administration,
+            MedarbejderOplysninger.Afdeling.ServiceOgSupport
+        };
+
+        string[,] tabel = new string[afdelinger.Length + 1, 5];
+        tabel[0, 0] = "Afdeling";
+        tabel[0, 1] = "Gns. løn mænd";
+        tabel[0, 2] = "Gns. løn kvinder";
+        tabel[0, 3] = "Bonus mænd";
+        tabel[0, 4] = "Bonus kvinder";
+
+        for (int i = 0; i < afdelinger.Length; i++)
+        {
+            MedarbejderOplysninger.Afdeling afdeling = afdelinger[i];
+            int gennemsnitMaend = HentGennemsnitsloenForAfdelingOgKoen(gennemsnitsloenPerGruppe, afdeling, MedarbejderOplysninger.Koen.M);
+            int gennemsnitKvinder = HentGennemsnitsloenForAfdelingOgKoen(gennemsnitsloenPerGruppe, afdeling, MedarbejderOplysninger.Koen.F);
+
+            tabel[i + 1, 0] = FormatAfdelingNavn(afdeling);
+            tabel[i + 1, 1] = gennemsnitMaend.ToString();
+            tabel[i + 1, 2] = gennemsnitKvinder.ToString();
+            tabel[i + 1, 3] = PensionsBonusUdregner(gennemsnitMaend, MedarbejderOplysninger.Koen.M).ToString();
+            tabel[i + 1, 4] = PensionsBonusUdregner(gennemsnitKvinder, MedarbejderOplysninger.Koen.F).ToString();
+        }
+
+        return tabel;
     }
     public void randomizeMedarbejdere(int antal)
     {
@@ -611,6 +648,40 @@ public class MedarbejderProgram
                 break;
         }
         return (int)bonus;
+    }
+    public Dictionary<(MedarbejderOplysninger.Afdeling, MedarbejderOplysninger.Koen), int> BeregnGennemsnitsloenPerAfdelingOgKoen(List<MedarbejderOplysninger.Medarbejder> medarbejdere)
+    {
+        return medarbejdere
+            .GroupBy(m => (m.Afdeling, m.Koen))
+            .ToDictionary(
+                gruppe => gruppe.Key,
+                gruppe => (int)Math.Floor(gruppe.Average(m => LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling)))
+            );
+    }
+
+    public int HentGennemsnitsloenForAfdelingOgKoen(Dictionary<(MedarbejderOplysninger.Afdeling, MedarbejderOplysninger.Koen), int> gennemsnitsloenPerGruppe, MedarbejderOplysninger.Afdeling afdeling, MedarbejderOplysninger.Koen koen)
+    {
+        if (gennemsnitsloenPerGruppe.TryGetValue((afdeling, koen), out int gennemsnitsloen))
+        {
+            return gennemsnitsloen;
+        }
+
+        return 0;
+    }
+
+    public string FormatAfdelingNavn(MedarbejderOplysninger.Afdeling afdeling)
+    {
+        switch (afdeling)
+        {
+            case MedarbejderOplysninger.Afdeling.SoftwareUdvikling:
+                return "Software";
+            case MedarbejderOplysninger.Afdeling.Administration:
+                return "Administration";
+            case MedarbejderOplysninger.Afdeling.ServiceOgSupport:
+                return "Service";
+            default:
+                return afdeling.ToString();
+        }
     }
 
     public MedarbejderOplysninger.Medarbejder? RedigeringMedarbejder(ConsoleKeyInfo keyInfo, string fornavn, string efternavn, string brugernavn, MedarbejderOplysninger.Stilling stilling, MedarbejderOplysninger.Koen koen, string maNummer, int[] foedselsdato, bool opretter, MedarbejderOplysninger.Afdeling afdeling)
@@ -988,11 +1059,8 @@ public class MedarbejderProgram
             return new List<MedarbejderOplysninger.Medarbejder>();
         }
 
-        bool harOpdateretFormat = false;
-
-
         var medarbejdere = jsonArray.ToObject<List<MedarbejderOplysninger.Medarbejder>>();
-        if (harOpdateretFormat && medarbejdere != null)
+        if (medarbejdere != null)
         {
             GemMedarbejdere(medarbejdere);
         }
