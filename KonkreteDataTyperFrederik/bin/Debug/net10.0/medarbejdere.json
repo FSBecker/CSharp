@@ -1,4850 +1,1602 @@
 [
   {
-    "MANummer": "2179307301",
+    "MANummer": "2120127177",
     "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "siyu44",
-    "Koen": 1,
-    "Foedselsdato": "1985-11-22",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851319+02:00"
-  },
-  {
-    "MANummer": "4051307250",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "fine86",
-    "Koen": 1,
-    "Foedselsdato": "1967-12-29",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851628+02:00"
-  },
-  {
-    "MANummer": "6880887851",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "june34",
-    "Koen": 1,
-    "Foedselsdato": "1981-04-23",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851645+02:00"
-  },
-  {
-    "MANummer": "2327582493",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "saab44",
-    "Koen": 1,
-    "Foedselsdato": "1949-12-08",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851654+02:00"
-  },
-  {
-    "MANummer": "1814253118",
-    "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "leki38",
-    "Koen": 0,
-    "Foedselsdato": "1953-06-15",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851663+02:00"
-  },
-  {
-    "MANummer": "0359991788",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "sane42",
-    "Koen": 1,
-    "Foedselsdato": "1982-06-21",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851688+02:00"
-  },
-  {
-    "MANummer": "3582949928",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "mupe31",
-    "Koen": 0,
-    "Foedselsdato": "1974-12-20",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851696+02:00"
-  },
-  {
-    "MANummer": "2103370095",
-    "Navn": {
-      "Fornavn": "Jon",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "jope08",
-    "Koen": 0,
-    "Foedselsdato": "1969-09-17",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851765+02:00"
-  },
-  {
-    "MANummer": "9107086417",
-    "Navn": {
-      "Fornavn": "Toke",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "topa15",
-    "Koen": 0,
-    "Foedselsdato": "1983-11-17",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851772+02:00"
-  },
-  {
-    "MANummer": "2744861267",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "paal86",
-    "Koen": 1,
-    "Foedselsdato": "1967-07-07",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851782+02:00"
-  },
-  {
-    "MANummer": "1213212768",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "kaki29",
-    "Koen": 0,
-    "Foedselsdato": "1999-02-28",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851788+02:00"
-  },
-  {
-    "MANummer": "1870528896",
-    "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "lefr78",
-    "Koen": 0,
-    "Foedselsdato": "1993-12-30",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851794+02:00"
-  },
-  {
-    "MANummer": "6776966719",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "lich56",
-    "Koen": 1,
-    "Foedselsdato": "1960-09-19",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851802+02:00"
-  },
-  {
-    "MANummer": "3043573256",
-    "Navn": {
-      "Fornavn": "Jane",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "japa74",
-    "Koen": 1,
-    "Foedselsdato": "1995-05-08",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851808+02:00"
-  },
-  {
-    "MANummer": "6677964886",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "heab20",
-    "Koen": 1,
-    "Foedselsdato": "2006-09-18",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851842+02:00"
-  },
-  {
-    "MANummer": "6550555305",
-    "Navn": {
-      "Fornavn": "Toke",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "toha88",
-    "Koen": 0,
-    "Foedselsdato": "1996-10-31",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851849+02:00"
-  },
-  {
-    "MANummer": "8157221397",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "anwe10",
-    "Koen": 1,
-    "Foedselsdato": "1992-11-13",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851856+02:00"
-  },
-  {
-    "MANummer": "5942694012",
-    "Navn": {
-      "Fornavn": "Toke",
+      "Fornavn": "Erika",
       "Efternavn": "Johnson"
     },
-    "Brugernavn": "tojo88",
-    "Koen": 0,
-    "Foedselsdato": "1945-04-20",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851864+02:00"
-  },
-  {
-    "MANummer": "2239653306",
-    "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "capa38",
-    "Koen": 0,
-    "Foedselsdato": "1977-10-25",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.585187+02:00"
-  },
-  {
-    "MANummer": "7334819060",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "chje59",
-    "Koen": 0,
-    "Foedselsdato": "2004-05-09",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851877+02:00"
-  },
-  {
-    "MANummer": "0688121756",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "frfr20",
+    "Brugernavn": "erjo43",
     "Koen": 1,
-    "Foedselsdato": "1996-05-15",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
+    "Foedselsdato": "2003-07-05",
+    "Alder": {
+      "AlderM": 22
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851922+02:00"
+    "Stilling": 5,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5411619+02:00"
   },
   {
-    "MANummer": "8221135510",
+    "MANummer": "2941046089",
     "Navn": {
-      "Fornavn": "Elisabeth",
+      "Fornavn": "Muhammed",
       "Efternavn": "Black"
     },
-    "Brugernavn": "elbl35",
-    "Koen": 1,
-    "Foedselsdato": "1970-07-12",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Brugernavn": "mubl99",
+    "Koen": 0,
+    "Foedselsdato": "1973-06-19",
+    "Alder": {
+      "AlderM": 52
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.585193+02:00"
+    "Stilling": 8,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5411965+02:00"
   },
   {
-    "MANummer": "9772676555",
+    "MANummer": "7734448919",
     "Navn": {
-      "Fornavn": "Toke",
+      "Fornavn": "Lotte",
       "Efternavn": "Ali"
     },
-    "Brugernavn": "toal54",
-    "Koen": 0,
-    "Foedselsdato": "1953-08-27",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851936+02:00"
-  },
-  {
-    "MANummer": "1087389588",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "embl91",
-    "Koen": 0,
-    "Foedselsdato": "1964-08-15",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851942+02:00"
-  },
-  {
-    "MANummer": "4240135700",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "hane48",
-    "Koen": 0,
-    "Foedselsdato": "1969-05-04",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851948+02:00"
-  },
-  {
-    "MANummer": "4973941889",
-    "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "camc69",
-    "Koen": 0,
-    "Foedselsdato": "1951-11-29",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851954+02:00"
-  },
-  {
-    "MANummer": "8546343817",
-    "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "lepe55",
-    "Koen": 0,
-    "Foedselsdato": "1950-02-04",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851961+02:00"
-  },
-  {
-    "MANummer": "2112543794",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "alhu05",
+    "Brugernavn": "loal05",
     "Koen": 1,
-    "Foedselsdato": "1988-04-21",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
+    "Foedselsdato": "1966-01-28",
+    "Alder": {
+      "AlderM": 60
     },
+    "Stilling": 3,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851972+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412178+02:00"
   },
   {
-    "MANummer": "5277762394",
+    "MANummer": "1524535355",
     "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "anhe44",
-    "Koen": 1,
-    "Foedselsdato": "1986-01-27",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851981+02:00"
-  },
-  {
-    "MANummer": "1632938013",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "erpa33",
-    "Koen": 0,
-    "Foedselsdato": "1959-09-02",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851987+02:00"
-  },
-  {
-    "MANummer": "4279416860",
-    "Navn": {
-      "Fornavn": "Philip",
+      "Fornavn": "Tobias",
       "Efternavn": "Bager"
     },
-    "Brugernavn": "phba28",
+    "Brugernavn": "toba38",
     "Koen": 0,
-    "Foedselsdato": "1989-11-10",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
+    "Foedselsdato": "1960-10-06",
+    "Alder": {
+      "AlderM": 65
     },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851993+02:00"
+    "Stilling": 2,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412191+02:00"
   },
   {
-    "MANummer": "6838487321",
+    "MANummer": "7309159522",
     "Navn": {
       "Fornavn": "Yang",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "yaha94",
+    "Koen": 0,
+    "Foedselsdato": "2001-10-09",
+    "Alder": {
+      "AlderM": 24
+    },
+    "Stilling": 10,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412203+02:00"
+  },
+  {
+    "MANummer": "1154759815",
+    "Navn": {
+      "Fornavn": "Ronald",
       "Efternavn": "Ali"
     },
-    "Brugernavn": "yaal70",
+    "Brugernavn": "roal87",
     "Koen": 0,
-    "Foedselsdato": "1995-11-16",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Foedselsdato": "1973-11-12",
+    "Alder": {
+      "AlderM": 52
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5851999+02:00"
-  },
-  {
-    "MANummer": "7355890045",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "elfr37",
-    "Koen": 1,
-    "Foedselsdato": "1990-02-05",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852005+02:00"
-  },
-  {
-    "MANummer": "5451369572",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "sibl76",
-    "Koen": 1,
-    "Foedselsdato": "1971-02-10",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
+    "Stilling": 1,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.585205+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412222+02:00"
   },
   {
-    "MANummer": "9740979121",
+    "MANummer": "1251249767",
     "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "cach58",
-    "Koen": 0,
-    "Foedselsdato": "1950-11-11",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852058+02:00"
-  },
-  {
-    "MANummer": "2835442000",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "erha11",
-    "Koen": 0,
-    "Foedselsdato": "1946-02-17",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852064+02:00"
-  },
-  {
-    "MANummer": "2898141305",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "anba18",
-    "Koen": 1,
-    "Foedselsdato": "1993-04-12",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852071+02:00"
-  },
-  {
-    "MANummer": "2361193497",
-    "Navn": {
-      "Fornavn": "Nora",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "noha97",
-    "Koen": 1,
-    "Foedselsdato": "1995-05-14",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852076+02:00"
-  },
-  {
-    "MANummer": "1427307025",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "søyu12",
-    "Koen": 0,
-    "Foedselsdato": "1966-01-04",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852233+02:00"
-  },
-  {
-    "MANummer": "8160124552",
-    "Navn": {
-      "Fornavn": "Bruce",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "brtu38",
-    "Koen": 0,
-    "Foedselsdato": "1981-01-27",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852241+02:00"
-  },
-  {
-    "MANummer": "3645930210",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "frjo05",
-    "Koen": 1,
-    "Foedselsdato": "1994-01-11",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852247+02:00"
-  },
-  {
-    "MANummer": "3146119779",
-    "Navn": {
-      "Fornavn": "Frederik",
+      "Fornavn": "Kalle",
       "Efternavn": "Actung"
     },
-    "Brugernavn": "frac27",
+    "Brugernavn": "kaac28",
     "Koen": 0,
-    "Foedselsdato": "1969-07-14",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
+    "Foedselsdato": "2004-02-05",
+    "Alder": {
+      "AlderM": 22
     },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852253+02:00"
+    "Stilling": 5,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412233+02:00"
   },
   {
-    "MANummer": "5295186226",
+    "MANummer": "9665304601",
     "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "sahe47",
-    "Koen": 1,
-    "Foedselsdato": "2001-10-16",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852259+02:00"
-  },
-  {
-    "MANummer": "2261578801",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "elne35",
-    "Koen": 1,
-    "Foedselsdato": "1953-02-17",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852265+02:00"
-  },
-  {
-    "MANummer": "8010603830",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "pafr14",
-    "Koen": 1,
-    "Foedselsdato": "1974-08-30",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852271+02:00"
-  },
-  {
-    "MANummer": "1505787840",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "sije91",
-    "Koen": 1,
-    "Foedselsdato": "1989-11-28",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852277+02:00"
-  },
-  {
-    "MANummer": "0161151205",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "juba73",
-    "Koen": 1,
-    "Foedselsdato": "1990-02-13",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852283+02:00"
-  },
-  {
-    "MANummer": "1443103207",
-    "Navn": {
-      "Fornavn": "Frederik",
+      "Fornavn": "Erik",
       "Efternavn": "Paulsen"
     },
-    "Brugernavn": "frpa01",
+    "Brugernavn": "erpa07",
     "Koen": 0,
-    "Foedselsdato": "1992-08-05",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
+    "Foedselsdato": "1996-04-18",
+    "Alder": {
+      "AlderM": 30
     },
+    "Stilling": 2,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412244+02:00"
+  },
+  {
+    "MANummer": "8068302134",
+    "Navn": {
+      "Fornavn": "Lise",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "line37",
+    "Koen": 1,
+    "Foedselsdato": "1988-08-28",
+    "Alder": {
+      "AlderM": 37
+    },
+    "Stilling": 9,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852312+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412257+02:00"
   },
   {
-    "MANummer": "9121805630",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "muje21",
-    "Koen": 0,
-    "Foedselsdato": "1946-12-02",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852319+02:00"
-  },
-  {
-    "MANummer": "9547856411",
-    "Navn": {
-      "Fornavn": "Jon",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "joha33",
-    "Koen": 0,
-    "Foedselsdato": "1985-07-27",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852325+02:00"
-  },
-  {
-    "MANummer": "8213444102",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "chje41",
-    "Koen": 0,
-    "Foedselsdato": "2000-01-16",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852331+02:00"
-  },
-  {
-    "MANummer": "1025753878",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "muhu27",
-    "Koen": 0,
-    "Foedselsdato": "1994-04-18",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852337+02:00"
-  },
-  {
-    "MANummer": "5666233600",
+    "MANummer": "6140306996",
     "Navn": {
       "Fornavn": "Johan",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "joab15",
-    "Koen": 0,
-    "Foedselsdato": "1962-04-29",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852343+02:00"
-  },
-  {
-    "MANummer": "4152856724",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "muhu24",
-    "Koen": 0,
-    "Foedselsdato": "1973-08-23",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852349+02:00"
-  },
-  {
-    "MANummer": "5933084100",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "hetu68",
-    "Koen": 0,
-    "Foedselsdato": "1979-08-09",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852355+02:00"
-  },
-  {
-    "MANummer": "1215440490",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "elpe04",
-    "Koen": 1,
-    "Foedselsdato": "1997-12-12",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852361+02:00"
-  },
-  {
-    "MANummer": "4827258353",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "saje72",
-    "Koen": 1,
-    "Foedselsdato": "1988-08-06",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852367+02:00"
-  },
-  {
-    "MANummer": "1028090922",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "kahu22",
-    "Koen": 0,
-    "Foedselsdato": "1981-01-14",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852374+02:00"
-  },
-  {
-    "MANummer": "5579283375",
-    "Navn": {
-      "Fornavn": "Niels",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "nitu98",
-    "Koen": 0,
-    "Foedselsdato": "1964-05-08",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852379+02:00"
-  },
-  {
-    "MANummer": "4527348730",
-    "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "lehe20",
-    "Koen": 0,
-    "Foedselsdato": "1973-12-16",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852513+02:00"
-  },
-  {
-    "MANummer": "3982380047",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "alki31",
-    "Koen": 1,
-    "Foedselsdato": "1959-05-09",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.585252+02:00"
-  },
-  {
-    "MANummer": "3434374737",
-    "Navn": {
-      "Fornavn": "Maria",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "maha94",
-    "Koen": 1,
-    "Foedselsdato": "1949-02-06",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852526+02:00"
-  },
-  {
-    "MANummer": "8564674765",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "eljo66",
-    "Koen": 1,
-    "Foedselsdato": "1955-06-24",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852532+02:00"
-  },
-  {
-    "MANummer": "0791816446",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "tojo72",
-    "Koen": 0,
-    "Foedselsdato": "1961-07-14",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852538+02:00"
-  },
-  {
-    "MANummer": "1313890455",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "frje42",
-    "Koen": 1,
-    "Foedselsdato": "1947-09-19",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852545+02:00"
-  },
-  {
-    "MANummer": "9589797844",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "søjo17",
-    "Koen": 0,
-    "Foedselsdato": "1973-10-11",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852556+02:00"
-  },
-  {
-    "MANummer": "8029248904",
-    "Navn": {
-      "Fornavn": "Niels",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "nine04",
-    "Koen": 0,
-    "Foedselsdato": "1971-11-08",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852563+02:00"
-  },
-  {
-    "MANummer": "5660669162",
-    "Navn": {
-      "Fornavn": "Nora",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "noal16",
-    "Koen": 1,
-    "Foedselsdato": "2001-04-28",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852569+02:00"
-  },
-  {
-    "MANummer": "8605034796",
-    "Navn": {
-      "Fornavn": "Maria",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "maab84",
-    "Koen": 1,
-    "Foedselsdato": "1973-12-27",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852576+02:00"
-  },
-  {
-    "MANummer": "5868317454",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "anfr68",
-    "Koen": 1,
-    "Foedselsdato": "1973-02-13",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852582+02:00"
-  },
-  {
-    "MANummer": "8018276121",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "phch38",
-    "Koen": 0,
-    "Foedselsdato": "1981-11-19",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852588+02:00"
-  },
-  {
-    "MANummer": "2165494731",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "tohu87",
-    "Koen": 0,
-    "Foedselsdato": "1998-03-13",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852645+02:00"
-  },
-  {
-    "MANummer": "6312095554",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "erwe67",
-    "Koen": 1,
-    "Foedselsdato": "1951-10-02",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852652+02:00"
-  },
-  {
-    "MANummer": "2341080701",
-    "Navn": {
-      "Fornavn": "Henriette",
       "Efternavn": "Black"
     },
-    "Brugernavn": "hebl46",
-    "Koen": 1,
-    "Foedselsdato": "1981-04-07",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
+    "Brugernavn": "jobl12",
+    "Koen": 0,
+    "Foedselsdato": "1967-06-16",
+    "Alder": {
+      "AlderM": 58
     },
+    "Stilling": 2,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852658+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412271+02:00"
   },
   {
-    "MANummer": "7622060373",
-    "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "robl86",
-    "Koen": 0,
-    "Foedselsdato": "1956-09-03",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852664+02:00"
-  },
-  {
-    "MANummer": "7159254209",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "heac02",
-    "Koen": 1,
-    "Foedselsdato": "1964-11-07",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852671+02:00"
-  },
-  {
-    "MANummer": "4715369874",
-    "Navn": {
-      "Fornavn": "Lotte",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "lohe03",
-    "Koen": 1,
-    "Foedselsdato": "1952-07-26",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852677+02:00"
-  },
-  {
-    "MANummer": "1711441375",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "yajo28",
-    "Koen": 0,
-    "Foedselsdato": "2004-02-25",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852683+02:00"
-  },
-  {
-    "MANummer": "0432904370",
-    "Navn": {
-      "Fornavn": "Bruce",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "brne24",
-    "Koen": 0,
-    "Foedselsdato": "1991-03-12",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852689+02:00"
-  },
-  {
-    "MANummer": "5171105419",
-    "Navn": {
-      "Fornavn": "Frederik",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "frki04",
-    "Koen": 0,
-    "Foedselsdato": "1976-02-04",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852695+02:00"
-  },
-  {
-    "MANummer": "7466751065",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "limc20",
-    "Koen": 1,
-    "Foedselsdato": "1985-06-02",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852701+02:00"
-  },
-  {
-    "MANummer": "9727768648",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "sayu36",
-    "Koen": 1,
-    "Foedselsdato": "1964-10-25",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852707+02:00"
-  },
-  {
-    "MANummer": "7708921623",
-    "Navn": {
-      "Fornavn": "Lilje",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "lijo53",
-    "Koen": 1,
-    "Foedselsdato": "1993-10-31",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852713+02:00"
-  },
-  {
-    "MANummer": "3110532640",
-    "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "lene44",
-    "Koen": 0,
-    "Foedselsdato": "1954-09-05",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.585272+02:00"
-  },
-  {
-    "MANummer": "4085211100",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "yabl68",
-    "Koen": 0,
-    "Foedselsdato": "1997-04-14",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852725+02:00"
-  },
-  {
-    "MANummer": "8894903351",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "hefr91",
-    "Koen": 1,
-    "Foedselsdato": "1953-06-20",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852769+02:00"
-  },
-  {
-    "MANummer": "2544551586",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "kafr12",
-    "Koen": 0,
-    "Foedselsdato": "1961-11-03",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852776+02:00"
-  },
-  {
-    "MANummer": "1816845670",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "pafr57",
-    "Koen": 1,
-    "Foedselsdato": "1973-03-16",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852782+02:00"
-  },
-  {
-    "MANummer": "2744623588",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "phac46",
-    "Koen": 0,
-    "Foedselsdato": "1983-08-29",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852789+02:00"
-  },
-  {
-    "MANummer": "1019831576",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "emje11",
-    "Koen": 0,
-    "Foedselsdato": "1950-06-09",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852795+02:00"
-  },
-  {
-    "MANummer": "2129252268",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "erch87",
-    "Koen": 1,
-    "Foedselsdato": "1954-07-27",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852801+02:00"
-  },
-  {
-    "MANummer": "0774699361",
-    "Navn": {
-      "Fornavn": "Lone",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "lowe32",
-    "Koen": 1,
-    "Foedselsdato": "1975-09-28",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852806+02:00"
-  },
-  {
-    "MANummer": "8660834931",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "alac08",
-    "Koen": 1,
-    "Foedselsdato": "1960-12-18",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852812+02:00"
-  },
-  {
-    "MANummer": "0332983394",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "paha88",
-    "Koen": 1,
-    "Foedselsdato": "2004-11-11",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852818+02:00"
-  },
-  {
-    "MANummer": "7238620485",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "frba46",
-    "Koen": 1,
-    "Foedselsdato": "1945-07-25",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852824+02:00"
-  },
-  {
-    "MANummer": "6379411711",
-    "Navn": {
-      "Fornavn": "Lotte",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "loyu88",
-    "Koen": 1,
-    "Foedselsdato": "1979-07-12",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.585283+02:00"
-  },
-  {
-    "MANummer": "0433105983",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "hamc74",
-    "Koen": 0,
-    "Foedselsdato": "1960-03-10",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852837+02:00"
-  },
-  {
-    "MANummer": "3601337238",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "fije40",
-    "Koen": 1,
-    "Foedselsdato": "1948-08-20",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852843+02:00"
-  },
-  {
-    "MANummer": "9895728729",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "muhu00",
-    "Koen": 0,
-    "Foedselsdato": "1954-08-18",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-22T12:52:38.5852849+02:00"
-  },
-  {
-    "MANummer": "7134751055",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "mupa72",
-    "Koen": 0,
-    "Foedselsdato": "1987-06-06",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450472+02:00"
-  },
-  {
-    "MANummer": "0699740282",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "erhe04",
-    "Koen": 0,
-    "Foedselsdato": "2004-08-17",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645054+02:00"
-  },
-  {
-    "MANummer": "1722165923",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "empe66",
-    "Koen": 0,
-    "Foedselsdato": "1950-06-22",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450548+02:00"
-  },
-  {
-    "MANummer": "2666563565",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "elyu62",
-    "Koen": 1,
-    "Foedselsdato": "1982-06-24",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450556+02:00"
-  },
-  {
-    "MANummer": "6776828369",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "pahu80",
-    "Koen": 1,
-    "Foedselsdato": "1996-09-23",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450562+02:00"
-  },
-  {
-    "MANummer": "5553461973",
-    "Navn": {
-      "Fornavn": "Thyra",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "thba87",
-    "Koen": 1,
-    "Foedselsdato": "1955-03-06",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450569+02:00"
-  },
-  {
-    "MANummer": "8849502968",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "libl46",
-    "Koen": 1,
-    "Foedselsdato": "1971-08-31",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450576+02:00"
-  },
-  {
-    "MANummer": "8608217175",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "yaha17",
-    "Koen": 0,
-    "Foedselsdato": "1990-12-05",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450584+02:00"
-  },
-  {
-    "MANummer": "6972063569",
-    "Navn": {
-      "Fornavn": "Amalie",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "amhe03",
-    "Koen": 1,
-    "Foedselsdato": "2002-05-12",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645059+02:00"
-  },
-  {
-    "MANummer": "3203636483",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "aljo45",
-    "Koen": 1,
-    "Foedselsdato": "1960-07-18",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450743+02:00"
-  },
-  {
-    "MANummer": "2732669525",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "emab44",
-    "Koen": 0,
-    "Foedselsdato": "1964-04-17",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645075+02:00"
-  },
-  {
-    "MANummer": "6990571846",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "hepe21",
-    "Koen": 1,
-    "Foedselsdato": "1999-04-24",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450756+02:00"
-  },
-  {
-    "MANummer": "2457927787",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "sipe97",
-    "Koen": 1,
-    "Foedselsdato": "1959-10-29",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450762+02:00"
-  },
-  {
-    "MANummer": "6414688592",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "emhe84",
-    "Koen": 0,
-    "Foedselsdato": "1990-05-25",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450768+02:00"
-  },
-  {
-    "MANummer": "9972795350",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "towe78",
-    "Koen": 0,
-    "Foedselsdato": "1984-02-18",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450848+02:00"
-  },
-  {
-    "MANummer": "7086536488",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "frch72",
-    "Koen": 1,
-    "Foedselsdato": "1980-11-21",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450856+02:00"
-  },
-  {
-    "MANummer": "1626413688",
-    "Navn": {
-      "Fornavn": "Maria",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "maha79",
-    "Koen": 1,
-    "Foedselsdato": "1994-06-26",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450862+02:00"
-  },
-  {
-    "MANummer": "4031174961",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "phac04",
-    "Koen": 0,
-    "Foedselsdato": "1968-09-17",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645087+02:00"
-  },
-  {
-    "MANummer": "6838396112",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "tomc19",
-    "Koen": 0,
-    "Foedselsdato": "2003-06-04",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450876+02:00"
-  },
-  {
-    "MANummer": "7327216313",
-    "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "rofr44",
-    "Koen": 0,
-    "Foedselsdato": "1956-10-25",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450882+02:00"
-  },
-  {
-    "MANummer": "1652504348",
-    "Navn": {
-      "Fornavn": "Jon",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "joje75",
-    "Koen": 0,
-    "Foedselsdato": "1962-03-24",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450888+02:00"
-  },
-  {
-    "MANummer": "0241493222",
+    "MANummer": "1801508644",
     "Navn": {
       "Fornavn": "Christian",
-      "Efternavn": "Kirkegaard"
+      "Efternavn": "Hansen"
     },
-    "Brugernavn": "chki59",
+    "Brugernavn": "chha90",
     "Koen": 0,
-    "Foedselsdato": "1953-04-14",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Foedselsdato": "2006-01-13",
+    "Alder": {
+      "AlderM": 20
     },
+    "Stilling": 4,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450894+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412282+02:00"
   },
   {
-    "MANummer": "3003854438",
+    "MANummer": "2481415608",
     "Navn": {
-      "Fornavn": "Lone",
-      "Efternavn": "Humle"
+      "Fornavn": "Frederikke",
+      "Efternavn": "Tuk Tuk"
     },
-    "Brugernavn": "lohu60",
+    "Brugernavn": "frtu84",
     "Koen": 1,
-    "Foedselsdato": "1998-09-11",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Foedselsdato": "2002-01-31",
+    "Alder": {
+      "AlderM": 24
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450942+02:00"
-  },
-  {
-    "MANummer": "6718166616",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "hejo92",
-    "Koen": 1,
-    "Foedselsdato": "2005-07-06",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450949+02:00"
-  },
-  {
-    "MANummer": "0686256300",
-    "Navn": {
-      "Fornavn": "Toke",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "toac62",
-    "Koen": 0,
-    "Foedselsdato": "1962-12-29",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
+    "Stilling": 5,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450955+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412295+02:00"
   },
   {
-    "MANummer": "6959118367",
+    "MANummer": "7335749113",
     "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Chi"
+      "Fornavn": "Christian",
+      "Efternavn": "Neingescheis"
     },
-    "Brugernavn": "sach10",
-    "Koen": 1,
-    "Foedselsdato": "1961-02-17",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450961+02:00"
-  },
-  {
-    "MANummer": "9266502349",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "yamc12",
+    "Brugernavn": "chne16",
     "Koen": 0,
-    "Foedselsdato": "1971-12-17",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450968+02:00"
-  },
-  {
-    "MANummer": "2188505418",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "juch48",
-    "Koen": 1,
-    "Foedselsdato": "1994-01-17",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450974+02:00"
-  },
-  {
-    "MANummer": "6953369331",
-    "Navn": {
-      "Fornavn": "Nora",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "noch45",
-    "Koen": 1,
-    "Foedselsdato": "1973-03-12",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645098+02:00"
-  },
-  {
-    "MANummer": "3874754126",
-    "Navn": {
-      "Fornavn": "Nora",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "noch08",
-    "Koen": 1,
-    "Foedselsdato": "1955-12-14",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6450986+02:00"
-  },
-  {
-    "MANummer": "3502230342",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "søpe41",
-    "Koen": 0,
-    "Foedselsdato": "1958-03-13",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451265+02:00"
-  },
-  {
-    "MANummer": "8523460382",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "søpa61",
-    "Koen": 0,
-    "Foedselsdato": "1960-08-24",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451274+02:00"
-  },
-  {
-    "MANummer": "0278268625",
-    "Navn": {
-      "Fornavn": "Jane",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "jamc52",
-    "Koen": 1,
     "Foedselsdato": "1984-06-20",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
+    "Alder": {
+      "AlderM": 41
     },
+    "Stilling": 4,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451281+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412307+02:00"
   },
   {
-    "MANummer": "5261671087",
+    "MANummer": "0491650865",
     "Navn": {
-      "Fornavn": "Sanne",
+      "Fornavn": "Alberte",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "alwe25",
+    "Koen": 1,
+    "Foedselsdato": "2004-08-30",
+    "Alder": {
+      "AlderM": 21
+    },
+    "Stilling": 9,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412318+02:00"
+  },
+  {
+    "MANummer": "7078989731",
+    "Navn": {
+      "Fornavn": "Henriette",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "heac77",
+    "Koen": 1,
+    "Foedselsdato": "1978-02-16",
+    "Alder": {
+      "AlderM": 48
+    },
+    "Stilling": 7,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412359+02:00"
+  },
+  {
+    "MANummer": "0220270243",
+    "Navn": {
+      "Fornavn": "Toke",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "tohu89",
+    "Koen": 0,
+    "Foedselsdato": "1985-09-03",
+    "Alder": {
+      "AlderM": 40
+    },
+    "Stilling": 10,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412371+02:00"
+  },
+  {
+    "MANummer": "4634316558",
+    "Navn": {
+      "Fornavn": "Fillipa",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "fiwe98",
+    "Koen": 1,
+    "Foedselsdato": "1969-12-06",
+    "Alder": {
+      "AlderM": 56
+    },
+    "Stilling": 8,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412452+02:00"
+  },
+  {
+    "MANummer": "2984941124",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Henriksne"
+    },
+    "Brugernavn": "thhe61",
+    "Koen": 1,
+    "Foedselsdato": "2005-01-24",
+    "Alder": {
+      "AlderM": 21
+    },
+    "Stilling": 4,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412465+02:00"
+  },
+  {
+    "MANummer": "3130105591",
+    "Navn": {
+      "Fornavn": "Ronald",
       "Efternavn": "Frederiksen"
     },
-    "Brugernavn": "safr39",
-    "Koen": 1,
-    "Foedselsdato": "1966-12-26",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451328+02:00"
-  },
-  {
-    "MANummer": "0657311168",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "hech58",
-    "Koen": 1,
-    "Foedselsdato": "1945-07-25",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451334+02:00"
-  },
-  {
-    "MANummer": "4071503019",
-    "Navn": {
-      "Fornavn": "Amalie",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "amki92",
-    "Koen": 1,
-    "Foedselsdato": "1992-07-13",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645134+02:00"
-  },
-  {
-    "MANummer": "9752862694",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "yaab66",
+    "Brugernavn": "rofr86",
     "Koen": 0,
-    "Foedselsdato": "1948-03-04",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
+    "Foedselsdato": "1963-10-25",
+    "Alder": {
+      "AlderM": 62
     },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451346+02:00"
-  },
-  {
-    "MANummer": "0723831887",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "hepe07",
-    "Koen": 1,
-    "Foedselsdato": "2005-04-03",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
+    "Stilling": 9,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451353+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412476+02:00"
   },
   {
-    "MANummer": "3681588318",
+    "MANummer": "9546231189",
     "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Chi"
+      "Fornavn": "Julie",
+      "Efternavn": "Paulsen"
     },
-    "Brugernavn": "hech78",
+    "Brugernavn": "jupa68",
     "Koen": 1,
-    "Foedselsdato": "1983-06-05",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
+    "Foedselsdato": "1962-05-14",
+    "Alder": {
+      "AlderM": 63
     },
+    "Stilling": 4,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451359+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412487+02:00"
   },
   {
-    "MANummer": "7701328277",
+    "MANummer": "3730179963",
+    "Navn": {
+      "Fornavn": "Lotte",
+      "Efternavn": "Henriksne"
+    },
+    "Brugernavn": "lohe82",
+    "Koen": 1,
+    "Foedselsdato": "1972-08-16",
+    "Alder": {
+      "AlderM": 53
+    },
+    "Stilling": 5,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412499+02:00"
+  },
+  {
+    "MANummer": "8278435995",
     "Navn": {
       "Fornavn": "Frederik",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "frab74",
-    "Koen": 0,
-    "Foedselsdato": "1962-09-01",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451365+02:00"
-  },
-  {
-    "MANummer": "3162676317",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "søne87",
-    "Koen": 0,
-    "Foedselsdato": "1990-10-21",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451372+02:00"
-  },
-  {
-    "MANummer": "5035092118",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "lije83",
-    "Koen": 1,
-    "Foedselsdato": "1991-05-10",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451378+02:00"
-  },
-  {
-    "MANummer": "3039418031",
-    "Navn": {
-      "Fornavn": "Bruce",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "brwe37",
-    "Koen": 0,
-    "Foedselsdato": "1972-04-03",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451384+02:00"
-  },
-  {
-    "MANummer": "3319171558",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "elac95",
-    "Koen": 1,
-    "Foedselsdato": "1982-02-01",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645139+02:00"
-  },
-  {
-    "MANummer": "2080856619",
-    "Navn": {
-      "Fornavn": "Yang",
       "Efternavn": "Kirkegaard"
     },
-    "Brugernavn": "yaki11",
+    "Brugernavn": "frki53",
     "Koen": 0,
-    "Foedselsdato": "1960-01-29",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
+    "Foedselsdato": "1980-12-11",
+    "Alder": {
+      "AlderM": 45
     },
+    "Stilling": 10,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451396+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412511+02:00"
   },
   {
-    "MANummer": "0271456749",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "erne38",
-    "Koen": 0,
-    "Foedselsdato": "1953-12-31",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451402+02:00"
-  },
-  {
-    "MANummer": "4585164436",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "lijo48",
-    "Koen": 1,
-    "Foedselsdato": "1954-09-30",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451446+02:00"
-  },
-  {
-    "MANummer": "8966282456",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "paal74",
-    "Koen": 1,
-    "Foedselsdato": "1951-02-27",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451453+02:00"
-  },
-  {
-    "MANummer": "7512755770",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "erab38",
-    "Koen": 1,
-    "Foedselsdato": "1969-02-12",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451459+02:00"
-  },
-  {
-    "MANummer": "4778253100",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "alje41",
-    "Koen": 1,
-    "Foedselsdato": "1990-08-16",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451465+02:00"
-  },
-  {
-    "MANummer": "6372618087",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "chha15",
-    "Koen": 0,
-    "Foedselsdato": "1945-02-13",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451472+02:00"
-  },
-  {
-    "MANummer": "0651550570",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "pabl34",
-    "Koen": 1,
-    "Foedselsdato": "1985-12-16",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451478+02:00"
-  },
-  {
-    "MANummer": "5342813509",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "sihu40",
-    "Koen": 1,
-    "Foedselsdato": "1998-09-19",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451484+02:00"
-  },
-  {
-    "MANummer": "3026582778",
-    "Navn": {
-      "Fornavn": "Bruce",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "brhe96",
-    "Koen": 0,
-    "Foedselsdato": "1998-04-30",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645149+02:00"
-  },
-  {
-    "MANummer": "2454784925",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "emne53",
-    "Koen": 0,
-    "Foedselsdato": "1980-05-06",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451496+02:00"
-  },
-  {
-    "MANummer": "8332284609",
-    "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "caac66",
-    "Koen": 0,
-    "Foedselsdato": "1982-02-07",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451502+02:00"
-  },
-  {
-    "MANummer": "6970203114",
-    "Navn": {
-      "Fornavn": "Jon",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "jomc71",
-    "Koen": 0,
-    "Foedselsdato": "1983-09-07",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451508+02:00"
-  },
-  {
-    "MANummer": "7324713937",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "emwe56",
-    "Koen": 0,
-    "Foedselsdato": "1999-02-09",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451514+02:00"
-  },
-  {
-    "MANummer": "0315511784",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "alki20",
-    "Koen": 1,
-    "Foedselsdato": "1995-10-24",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645152+02:00"
-  },
-  {
-    "MANummer": "4655301248",
-    "Navn": {
-      "Fornavn": "Johan",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "joha62",
-    "Koen": 0,
-    "Foedselsdato": "1975-12-06",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451526+02:00"
-  },
-  {
-    "MANummer": "0244418981",
-    "Navn": {
-      "Fornavn": "Bruce",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "brhu77",
-    "Koen": 0,
-    "Foedselsdato": "2001-09-26",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451534+02:00"
-  },
-  {
-    "MANummer": "7253471674",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "pafr39",
-    "Koen": 1,
-    "Foedselsdato": "1960-11-22",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645154+02:00"
-  },
-  {
-    "MANummer": "4369052678",
-    "Navn": {
-      "Fornavn": "Bruce",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "brba49",
-    "Koen": 0,
-    "Foedselsdato": "1981-03-22",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451546+02:00"
-  },
-  {
-    "MANummer": "4898115299",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "phpa86",
-    "Koen": 0,
-    "Foedselsdato": "1946-06-01",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451709+02:00"
-  },
-  {
-    "MANummer": "7628672243",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "anki03",
-    "Koen": 1,
-    "Foedselsdato": "1964-05-27",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451716+02:00"
-  },
-  {
-    "MANummer": "2059443775",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "anki46",
-    "Koen": 1,
-    "Foedselsdato": "1995-10-17",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451722+02:00"
-  },
-  {
-    "MANummer": "9504784194",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "towe43",
-    "Koen": 0,
-    "Foedselsdato": "1956-02-22",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451728+02:00"
-  },
-  {
-    "MANummer": "0119126769",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "erhe63",
-    "Koen": 0,
-    "Foedselsdato": "1970-04-05",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451734+02:00"
-  },
-  {
-    "MANummer": "5537529300",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "emki25",
-    "Koen": 0,
-    "Foedselsdato": "1961-06-14",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645174+02:00"
-  },
-  {
-    "MANummer": "9644196117",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "phje17",
-    "Koen": 0,
-    "Foedselsdato": "1956-06-02",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451746+02:00"
-  },
-  {
-    "MANummer": "3585019685",
-    "Navn": {
-      "Fornavn": "Amalie",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "ampe72",
-    "Koen": 1,
-    "Foedselsdato": "1952-06-15",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451752+02:00"
-  },
-  {
-    "MANummer": "1834848118",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "frjo06",
-    "Koen": 1,
-    "Foedselsdato": "1996-06-10",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451758+02:00"
-  },
-  {
-    "MANummer": "6811752673",
-    "Navn": {
-      "Fornavn": "Jon",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "joba04",
-    "Koen": 0,
-    "Foedselsdato": "1973-08-20",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451764+02:00"
-  },
-  {
-    "MANummer": "4189952417",
-    "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "cawe44",
-    "Koen": 0,
-    "Foedselsdato": "1974-08-23",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.645177+02:00"
-  },
-  {
-    "MANummer": "4595511491",
-    "Navn": {
-      "Fornavn": "Johan",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "joyu83",
-    "Koen": 0,
-    "Foedselsdato": "1952-07-20",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451776+02:00"
-  },
-  {
-    "MANummer": "3605203453",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "frtu69",
-    "Koen": 1,
-    "Foedselsdato": "1947-06-12",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451782+02:00"
-  },
-  {
-    "MANummer": "1030972071",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "yawe48",
-    "Koen": 0,
-    "Foedselsdato": "1946-06-08",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451788+02:00"
-  },
-  {
-    "MANummer": "5102294128",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "søha44",
-    "Koen": 0,
-    "Foedselsdato": "1966-11-29",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451852+02:00"
-  },
-  {
-    "MANummer": "3425417911",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "yayu43",
-    "Koen": 0,
-    "Foedselsdato": "1993-06-29",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451858+02:00"
-  },
-  {
-    "MANummer": "2653077048",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "toha23",
-    "Koen": 0,
-    "Foedselsdato": "1979-12-28",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451864+02:00"
-  },
-  {
-    "MANummer": "7207806336",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "samc47",
-    "Koen": 1,
-    "Foedselsdato": "1988-07-25",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451871+02:00"
-  },
-  {
-    "MANummer": "8782451634",
-    "Navn": {
-      "Fornavn": "Jon",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "jomc63",
-    "Koen": 0,
-    "Foedselsdato": "1997-07-19",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451877+02:00"
-  },
-  {
-    "MANummer": "5499956730",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "lijo74",
-    "Koen": 1,
-    "Foedselsdato": "1959-06-09",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451883+02:00"
-  },
-  {
-    "MANummer": "1993748180",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "sawe00",
-    "Koen": 1,
-    "Foedselsdato": "1992-03-23",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451889+02:00"
-  },
-  {
-    "MANummer": "7265241860",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "line92",
-    "Koen": 1,
-    "Foedselsdato": "1973-07-09",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451895+02:00"
-  },
-  {
-    "MANummer": "7600184003",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "limc04",
-    "Koen": 1,
-    "Foedselsdato": "1956-12-22",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451901+02:00"
-  },
-  {
-    "MANummer": "5230368246",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "satu34",
-    "Koen": 1,
-    "Foedselsdato": "1986-04-09",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451907+02:00"
-  },
-  {
-    "MANummer": "9489443362",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "chfr75",
-    "Koen": 0,
-    "Foedselsdato": "1981-04-03",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451913+02:00"
-  },
-  {
-    "MANummer": "7476536433",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "emje57",
-    "Koen": 0,
-    "Foedselsdato": "1989-03-01",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451919+02:00"
-  },
-  {
-    "MANummer": "6488282372",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "erbl13",
-    "Koen": 0,
-    "Foedselsdato": "1953-03-13",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451925+02:00"
-  },
-  {
-    "MANummer": "9277034780",
-    "Navn": {
-      "Fornavn": "Maria",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "mapa25",
-    "Koen": 1,
-    "Foedselsdato": "1967-03-14",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451931+02:00"
-  },
-  {
-    "MANummer": "0048109040",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "elab21",
-    "Koen": 1,
-    "Foedselsdato": "2000-12-27",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451976+02:00"
-  },
-  {
-    "MANummer": "0913358357",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "erha14",
-    "Koen": 0,
-    "Foedselsdato": "2006-04-18",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451983+02:00"
-  },
-  {
-    "MANummer": "6179231748",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "sane02",
-    "Koen": 1,
-    "Foedselsdato": "1949-12-28",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451989+02:00"
-  },
-  {
-    "MANummer": "5988828014",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "hepe54",
-    "Koen": 0,
-    "Foedselsdato": "1954-09-22",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6451995+02:00"
-  },
-  {
-    "MANummer": "8025125497",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "emfr32",
-    "Koen": 0,
-    "Foedselsdato": "1945-03-14",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6452001+02:00"
-  },
-  {
-    "MANummer": "7037197957",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "saki23",
-    "Koen": 1,
-    "Foedselsdato": "1953-08-17",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6452007+02:00"
-  },
-  {
-    "MANummer": "7538404063",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "elyu25",
-    "Koen": 1,
-    "Foedselsdato": "1993-03-08",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6452013+02:00"
-  },
-  {
-    "MANummer": "1425718494",
-    "Navn": {
-      "Fornavn": "Maria",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "maha61",
-    "Koen": 1,
-    "Foedselsdato": "1961-03-06",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:26:38.6452019+02:00"
-  },
-  {
-    "MANummer": "0244747507",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "pape84",
-    "Koen": 1,
-    "Foedselsdato": "1949-02-27",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576375+02:00"
-  },
-  {
-    "MANummer": "6158599176",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "yajo24",
-    "Koen": 0,
-    "Foedselsdato": "1960-03-30",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576428+02:00"
-  },
-  {
-    "MANummer": "0782314028",
+    "MANummer": "5646750765",
     "Navn": {
       "Fornavn": "Ronald",
-      "Efternavn": "Kirkegaard"
+      "Efternavn": "Frederiksen"
     },
-    "Brugernavn": "roki78",
+    "Brugernavn": "rofr40",
     "Koen": 0,
-    "Foedselsdato": "1958-12-08",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
+    "Foedselsdato": "1991-03-03",
+    "Alder": {
+      "AlderM": 35
     },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576436+02:00"
+    "Stilling": 8,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412523+02:00"
   },
   {
-    "MANummer": "9408530574",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "elhe12",
-    "Koen": 1,
-    "Foedselsdato": "1949-01-13",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576443+02:00"
-  },
-  {
-    "MANummer": "1061892258",
+    "MANummer": "6605551207",
     "Navn": {
       "Fornavn": "Fillipa",
-      "Efternavn": "Henriksne"
+      "Efternavn": "Westphal"
     },
-    "Brugernavn": "fihe55",
+    "Brugernavn": "fiwe04",
     "Koen": 1,
-    "Foedselsdato": "2000-04-14",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
+    "Foedselsdato": "1966-01-28",
+    "Alder": {
+      "AlderM": 60
     },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576448+02:00"
-  },
-  {
-    "MANummer": "7202697607",
-    "Navn": {
-      "Fornavn": "Thyra",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "thmc76",
-    "Koen": 1,
-    "Foedselsdato": "1976-01-13",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576453+02:00"
-  },
-  {
-    "MANummer": "2352056765",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "kaal28",
-    "Koen": 0,
-    "Foedselsdato": "1957-01-01",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
+    "Stilling": 1,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576459+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412534+02:00"
   },
   {
-    "MANummer": "5056166571",
+    "MANummer": "0476060337",
     "Navn": {
-      "Fornavn": "Thyra",
-      "Efternavn": "Ali"
+      "Fornavn": "Bruce",
+      "Efternavn": "Westphal"
     },
-    "Brugernavn": "thal33",
-    "Koen": 1,
-    "Foedselsdato": "1950-12-22",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576463+02:00"
-  },
-  {
-    "MANummer": "0162746523",
-    "Navn": {
-      "Fornavn": "Niels",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "nine36",
+    "Brugernavn": "brwe80",
     "Koen": 0,
-    "Foedselsdato": "1962-09-10",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Foedselsdato": "1955-02-06",
+    "Alder": {
+      "AlderM": 71
     },
+    "Stilling": 8,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412547+02:00"
+  },
+  {
+    "MANummer": "0069950853",
+    "Navn": {
+      "Fornavn": "Frederik",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "frpa43",
+    "Koen": 0,
+    "Foedselsdato": "1981-06-14",
+    "Alder": {
+      "AlderM": 44
+    },
+    "Stilling": 9,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576538+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412559+02:00"
   },
   {
-    "MANummer": "0068139034",
+    "MANummer": "6911720836",
     "Navn": {
       "Fornavn": "Jane",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "japa37",
-    "Koen": 1,
-    "Foedselsdato": "1953-12-13",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576544+02:00"
-  },
-  {
-    "MANummer": "4563544792",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "elab79",
-    "Koen": 1,
-    "Foedselsdato": "1989-09-25",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576551+02:00"
-  },
-  {
-    "MANummer": "5110350044",
-    "Navn": {
-      "Fornavn": "Emil",
       "Efternavn": "Westphal"
     },
-    "Brugernavn": "emwe08",
-    "Koen": 0,
-    "Foedselsdato": "1990-08-03",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
+    "Brugernavn": "jawe82",
+    "Koen": 1,
+    "Foedselsdato": "2000-02-07",
+    "Alder": {
+      "AlderM": 26
     },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576557+02:00"
-  },
-  {
-    "MANummer": "1683662406",
-    "Navn": {
-      "Fornavn": "Niels",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "nimc99",
-    "Koen": 0,
-    "Foedselsdato": "1967-05-28",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
+    "Stilling": 6,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576562+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412571+02:00"
   },
   {
-    "MANummer": "7927445110",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "fiki97",
-    "Koen": 1,
-    "Foedselsdato": "1960-06-25",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576567+02:00"
-  },
-  {
-    "MANummer": "4722779957",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "erwe91",
-    "Koen": 1,
-    "Foedselsdato": "1967-05-21",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576595+02:00"
-  },
-  {
-    "MANummer": "1885432081",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "eral80",
-    "Koen": 1,
-    "Foedselsdato": "1970-12-27",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576601+02:00"
-  },
-  {
-    "MANummer": "7206149150",
-    "Navn": {
-      "Fornavn": "Niels",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "nibl78",
-    "Koen": 0,
-    "Foedselsdato": "1967-03-09",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576606+02:00"
-  },
-  {
-    "MANummer": "7373887653",
-    "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "roje36",
-    "Koen": 0,
-    "Foedselsdato": "1963-02-28",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576611+02:00"
-  },
-  {
-    "MANummer": "2036033230",
+    "MANummer": "0191397046",
     "Navn": {
       "Fornavn": "Sanne",
-      "Efternavn": "Black"
+      "Efternavn": "Kirkegaard"
     },
-    "Brugernavn": "sabl36",
+    "Brugernavn": "saki36",
     "Koen": 1,
-    "Foedselsdato": "1991-06-23",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Foedselsdato": "1982-01-28",
+    "Alder": {
+      "AlderM": 44
     },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576616+02:00"
+    "Stilling": 5,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412582+02:00"
   },
   {
-    "MANummer": "4284748299",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "anwe77",
-    "Koen": 1,
-    "Foedselsdato": "1971-04-14",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576621+02:00"
-  },
-  {
-    "MANummer": "6702247492",
-    "Navn": {
-      "Fornavn": "Toke",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "toac97",
-    "Koen": 0,
-    "Foedselsdato": "1970-05-03",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576626+02:00"
-  },
-  {
-    "MANummer": "6292714459",
+    "MANummer": "1182204100",
     "Navn": {
       "Fornavn": "Lee",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "lehu38",
-    "Koen": 0,
-    "Foedselsdato": "1973-11-27",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576663+02:00"
-  },
-  {
-    "MANummer": "9697994041",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "phha73",
-    "Koen": 0,
-    "Foedselsdato": "1988-12-22",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957667+02:00"
-  },
-  {
-    "MANummer": "9387010540",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "erwe29",
-    "Koen": 1,
-    "Foedselsdato": "1969-03-25",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576675+02:00"
-  },
-  {
-    "MANummer": "9073625163",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "chbl57",
-    "Koen": 0,
-    "Foedselsdato": "1993-01-04",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957668+02:00"
-  },
-  {
-    "MANummer": "8594461825",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "juab20",
-    "Koen": 1,
-    "Foedselsdato": "1981-05-24",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576686+02:00"
-  },
-  {
-    "MANummer": "7328790082",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "lihu90",
-    "Koen": 1,
-    "Foedselsdato": "2006-07-01",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576691+02:00"
-  },
-  {
-    "MANummer": "1807643367",
-    "Navn": {
-      "Fornavn": "Lone",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "loba64",
-    "Koen": 1,
-    "Foedselsdato": "1950-03-13",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576696+02:00"
-  },
-  {
-    "MANummer": "8567117793",
-    "Navn": {
-      "Fornavn": "Jane",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "jajo09",
-    "Koen": 1,
-    "Foedselsdato": "1946-04-05",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576701+02:00"
-  },
-  {
-    "MANummer": "2865968350",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "erba47",
-    "Koen": 0,
-    "Foedselsdato": "1947-01-07",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576706+02:00"
-  },
-  {
-    "MANummer": "2009542887",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "hach60",
-    "Koen": 0,
-    "Foedselsdato": "1960-07-14",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576711+02:00"
-  },
-  {
-    "MANummer": "3330736947",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "heba96",
-    "Koen": 0,
-    "Foedselsdato": "1950-03-06",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576716+02:00"
-  },
-  {
-    "MANummer": "2856206922",
-    "Navn": {
-      "Fornavn": "Nora",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "nope85",
-    "Koen": 1,
-    "Foedselsdato": "1975-02-03",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576721+02:00"
-  },
-  {
-    "MANummer": "1230237529",
-    "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "caab33",
-    "Koen": 0,
-    "Foedselsdato": "2001-04-16",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576727+02:00"
-  },
-  {
-    "MANummer": "7280052919",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "hepe03",
-    "Koen": 0,
-    "Foedselsdato": "1955-06-05",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576732+02:00"
-  },
-  {
-    "MANummer": "9016629999",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "kaba57",
-    "Koen": 0,
-    "Foedselsdato": "1978-05-24",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576767+02:00"
-  },
-  {
-    "MANummer": "4347900453",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "phpa42",
-    "Koen": 0,
-    "Foedselsdato": "1966-05-09",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576773+02:00"
-  },
-  {
-    "MANummer": "4047455788",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "chha07",
-    "Koen": 0,
-    "Foedselsdato": "1973-08-29",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576778+02:00"
-  },
-  {
-    "MANummer": "6817407897",
-    "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "roba08",
-    "Koen": 0,
-    "Foedselsdato": "1988-01-09",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576783+02:00"
-  },
-  {
-    "MANummer": "1942464594",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "anhe97",
-    "Koen": 1,
-    "Foedselsdato": "1961-04-06",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576788+02:00"
-  },
-  {
-    "MANummer": "5201152196",
-    "Navn": {
-      "Fornavn": "Julie",
       "Efternavn": "Jensen"
     },
-    "Brugernavn": "juje30",
-    "Koen": 1,
-    "Foedselsdato": "1955-01-26",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
+    "Brugernavn": "leje52",
+    "Koen": 0,
+    "Foedselsdato": "1982-11-01",
+    "Alder": {
+      "AlderM": 43
     },
+    "Stilling": 0,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576793+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412595+02:00"
   },
   {
-    "MANummer": "1287735896",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "kane84",
-    "Koen": 0,
-    "Foedselsdato": "1998-11-29",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576798+02:00"
-  },
-  {
-    "MANummer": "5096295430",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "tojo52",
-    "Koen": 0,
-    "Foedselsdato": "2000-01-04",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576803+02:00"
-  },
-  {
-    "MANummer": "1666445078",
-    "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "cafr92",
-    "Koen": 0,
-    "Foedselsdato": "1997-07-30",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576808+02:00"
-  },
-  {
-    "MANummer": "9286419538",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "erhe51",
-    "Koen": 0,
-    "Foedselsdato": "1975-05-11",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576813+02:00"
-  },
-  {
-    "MANummer": "1529914658",
+    "MANummer": "7888538262",
     "Navn": {
       "Fornavn": "Jane",
-      "Efternavn": "Ali"
+      "Efternavn": "Westphal"
     },
-    "Brugernavn": "jaal11",
+    "Brugernavn": "jawe90",
     "Koen": 1,
-    "Foedselsdato": "1950-11-22",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
+    "Foedselsdato": "1962-12-18",
+    "Alder": {
+      "AlderM": 63
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576819+02:00"
+    "Stilling": 2,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412655+02:00"
   },
   {
-    "MANummer": "3150445683",
+    "MANummer": "9882742579",
     "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Johnson"
+      "Fornavn": "Hans",
+      "Efternavn": "Actung"
     },
-    "Brugernavn": "erjo30",
-    "Koen": 1,
-    "Foedselsdato": "1994-05-09",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
+    "Brugernavn": "haac98",
+    "Koen": 0,
+    "Foedselsdato": "1967-07-04",
+    "Alder": {
+      "AlderM": 58
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576823+02:00"
+    "Stilling": 2,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412667+02:00"
   },
   {
-    "MANummer": "4264124142",
+    "MANummer": "0270640351",
     "Navn": {
-      "Fornavn": "Nora",
+      "Fornavn": "Søren",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "søwe55",
+    "Koen": 0,
+    "Foedselsdato": "1958-01-11",
+    "Alder": {
+      "AlderM": 68
+    },
+    "Stilling": 6,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412834+02:00"
+  },
+  {
+    "MANummer": "4338941202",
+    "Navn": {
+      "Fornavn": "Niels",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "nipe79",
+    "Koen": 0,
+    "Foedselsdato": "1963-12-14",
+    "Alder": {
+      "AlderM": 62
+    },
+    "Stilling": 8,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412846+02:00"
+  },
+  {
+    "MANummer": "2507777454",
+    "Navn": {
+      "Fornavn": "Henriette",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "hefr73",
+    "Koen": 1,
+    "Foedselsdato": "1986-05-14",
+    "Alder": {
+      "AlderM": 39
+    },
+    "Stilling": 1,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.541286+02:00"
+  },
+  {
+    "MANummer": "3226386555",
+    "Navn": {
+      "Fornavn": "Elisabeth",
       "Efternavn": "Kirkegaard"
     },
-    "Brugernavn": "noki39",
+    "Brugernavn": "elki61",
     "Koen": 1,
-    "Foedselsdato": "1960-05-07",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
+    "Foedselsdato": "1981-05-13",
+    "Alder": {
+      "AlderM": 44
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576828+02:00"
+    "Stilling": 3,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412872+02:00"
   },
   {
-    "MANummer": "8442510419",
+    "MANummer": "4420365949",
     "Navn": {
-      "Fornavn": "Julie",
+      "Fornavn": "Andersine",
       "Efternavn": "Chi"
     },
-    "Brugernavn": "juch81",
+    "Brugernavn": "anch42",
     "Koen": 1,
-    "Foedselsdato": "1966-12-04",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Foedselsdato": "1969-11-13",
+    "Alder": {
+      "AlderM": 56
     },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576833+02:00"
+    "Stilling": 4,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412884+02:00"
   },
   {
-    "MANummer": "0829401167",
+    "MANummer": "0858230551",
+    "Navn": {
+      "Fornavn": "Andersine",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "anki22",
+    "Koen": 1,
+    "Foedselsdato": "1984-06-24",
+    "Alder": {
+      "AlderM": 41
+    },
+    "Stilling": 6,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412896+02:00"
+  },
+  {
+    "MANummer": "9413361034",
+    "Navn": {
+      "Fornavn": "Lilje",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "liab47",
+    "Koen": 1,
+    "Foedselsdato": "1990-02-27",
+    "Alder": {
+      "AlderM": 36
+    },
+    "Stilling": 4,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412907+02:00"
+  },
+  {
+    "MANummer": "8830068739",
+    "Navn": {
+      "Fornavn": "Philip",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "phba22",
+    "Koen": 0,
+    "Foedselsdato": "1979-12-09",
+    "Alder": {
+      "AlderM": 46
+    },
+    "Stilling": 0,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412918+02:00"
+  },
+  {
+    "MANummer": "1587200888",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "lefr87",
+    "Koen": 0,
+    "Foedselsdato": "1969-01-24",
+    "Alder": {
+      "AlderM": 57
+    },
+    "Stilling": 0,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.541293+02:00"
+  },
+  {
+    "MANummer": "6851514058",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "lepe86",
+    "Koen": 0,
+    "Foedselsdato": "1980-02-21",
+    "Alder": {
+      "AlderM": 46
+    },
+    "Stilling": 10,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412941+02:00"
+  },
+  {
+    "MANummer": "4180094804",
+    "Navn": {
+      "Fornavn": "Lilje",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "lifr57",
+    "Koen": 1,
+    "Foedselsdato": "1976-09-22",
+    "Alder": {
+      "AlderM": 49
+    },
+    "Stilling": 6,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5412952+02:00"
+  },
+  {
+    "MANummer": "4164236749",
+    "Navn": {
+      "Fornavn": "Erika",
+      "Efternavn": "McDonald"
+    },
+    "Brugernavn": "ermc54",
+    "Koen": 1,
+    "Foedselsdato": "1955-12-11",
+    "Alder": {
+      "AlderM": 70
+    },
+    "Stilling": 4,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413011+02:00"
+  },
+  {
+    "MANummer": "4328102100",
+    "Navn": {
+      "Fornavn": "Simone",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "sibl81",
+    "Koen": 1,
+    "Foedselsdato": "1986-07-04",
+    "Alder": {
+      "AlderM": 39
+    },
+    "Stilling": 10,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413023+02:00"
+  },
+  {
+    "MANummer": "6176192657",
+    "Navn": {
+      "Fornavn": "Elisabeth",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "elba28",
+    "Koen": 1,
+    "Foedselsdato": "1963-04-30",
+    "Alder": {
+      "AlderM": 62
+    },
+    "Stilling": 7,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413034+02:00"
+  },
+  {
+    "MANummer": "3162648722",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "payu57",
+    "Koen": 1,
+    "Foedselsdato": "1986-09-02",
+    "Alder": {
+      "AlderM": 39
+    },
+    "Stilling": 5,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413046+02:00"
+  },
+  {
+    "MANummer": "7961362759",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "leki02",
+    "Koen": 0,
+    "Foedselsdato": "1996-10-04",
+    "Alder": {
+      "AlderM": 29
+    },
+    "Stilling": 8,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413057+02:00"
+  },
+  {
+    "MANummer": "6730375729",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "hatu43",
+    "Koen": 0,
+    "Foedselsdato": "1978-08-27",
+    "Alder": {
+      "AlderM": 47
+    },
+    "Stilling": 2,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413068+02:00"
+  },
+  {
+    "MANummer": "7143724549",
+    "Navn": {
+      "Fornavn": "Simone",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "sibl79",
+    "Koen": 1,
+    "Foedselsdato": "1964-01-26",
+    "Alder": {
+      "AlderM": 62
+    },
+    "Stilling": 3,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.541308+02:00"
+  },
+  {
+    "MANummer": "5052091771",
+    "Navn": {
+      "Fornavn": "Sanne",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "sahu06",
+    "Koen": 1,
+    "Foedselsdato": "2005-01-13",
+    "Alder": {
+      "AlderM": 21
+    },
+    "Stilling": 10,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413091+02:00"
+  },
+  {
+    "MANummer": "5855199811",
+    "Navn": {
+      "Fornavn": "Nora",
+      "Efternavn": "McDonald"
+    },
+    "Brugernavn": "nomc35",
+    "Koen": 1,
+    "Foedselsdato": "1960-11-07",
+    "Alder": {
+      "AlderM": 65
+    },
+    "Stilling": 1,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413102+02:00"
+  },
+  {
+    "MANummer": "8543602124",
+    "Navn": {
+      "Fornavn": "Lone",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "lofr70",
+    "Koen": 1,
+    "Foedselsdato": "1967-02-11",
+    "Alder": {
+      "AlderM": 59
+    },
+    "Stilling": 9,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413113+02:00"
+  },
+  {
+    "MANummer": "9136586003",
+    "Navn": {
+      "Fornavn": "Søren",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "søal31",
+    "Koen": 0,
+    "Foedselsdato": "1966-03-28",
+    "Alder": {
+      "AlderM": 60
+    },
+    "Stilling": 1,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.541313+02:00"
+  },
+  {
+    "MANummer": "5245841011",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Johnson"
+    },
+    "Brugernavn": "hajo17",
+    "Koen": 0,
+    "Foedselsdato": "1963-10-23",
+    "Alder": {
+      "AlderM": 62
+    },
+    "Stilling": 3,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413141+02:00"
+  },
+  {
+    "MANummer": "1105454952",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "paal89",
+    "Koen": 1,
+    "Foedselsdato": "1970-07-30",
+    "Alder": {
+      "AlderM": 55
+    },
+    "Stilling": 10,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413152+02:00"
+  },
+  {
+    "MANummer": "6005922672",
+    "Navn": {
+      "Fornavn": "Henrik",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "heab73",
+    "Koen": 0,
+    "Foedselsdato": "1984-03-20",
+    "Alder": {
+      "AlderM": 42
+    },
+    "Stilling": 6,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413163+02:00"
+  },
+  {
+    "MANummer": "1299271301",
+    "Navn": {
+      "Fornavn": "Jon",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "jotu77",
+    "Koen": 0,
+    "Foedselsdato": "1980-07-26",
+    "Alder": {
+      "AlderM": 45
+    },
+    "Stilling": 2,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.541322+02:00"
+  },
+  {
+    "MANummer": "9803651735",
+    "Navn": {
+      "Fornavn": "Lise",
+      "Efternavn": "Henriksne"
+    },
+    "Brugernavn": "lihe02",
+    "Koen": 1,
+    "Foedselsdato": "1956-03-05",
+    "Alder": {
+      "AlderM": 70
+    },
+    "Stilling": 0,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413232+02:00"
+  },
+  {
+    "MANummer": "1650345648",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "thki42",
+    "Koen": 1,
+    "Foedselsdato": "1994-01-24",
+    "Alder": {
+      "AlderM": 32
+    },
+    "Stilling": 3,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413243+02:00"
+  },
+  {
+    "MANummer": "3916067761",
+    "Navn": {
+      "Fornavn": "Christian",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "chal19",
+    "Koen": 0,
+    "Foedselsdato": "1998-02-19",
+    "Alder": {
+      "AlderM": 28
+    },
+    "Stilling": 3,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413255+02:00"
+  },
+  {
+    "MANummer": "9787460678",
+    "Navn": {
+      "Fornavn": "Philip",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "phal13",
+    "Koen": 0,
+    "Foedselsdato": "1968-11-10",
+    "Alder": {
+      "AlderM": 57
+    },
+    "Stilling": 0,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413266+02:00"
+  },
+  {
+    "MANummer": "1435669960",
+    "Navn": {
+      "Fornavn": "Lotte",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "loac70",
+    "Koen": 1,
+    "Foedselsdato": "1965-09-03",
+    "Alder": {
+      "AlderM": 60
+    },
+    "Stilling": 1,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413277+02:00"
+  },
+  {
+    "MANummer": "1843247922",
+    "Navn": {
+      "Fornavn": "Muhammed",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "mune30",
+    "Koen": 0,
+    "Foedselsdato": "1994-06-22",
+    "Alder": {
+      "AlderM": 31
+    },
+    "Stilling": 8,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413288+02:00"
+  },
+  {
+    "MANummer": "5604421342",
     "Navn": {
       "Fornavn": "Emil",
       "Efternavn": "Humle"
     },
-    "Brugernavn": "emhu18",
+    "Brugernavn": "emhu54",
     "Koen": 0,
-    "Foedselsdato": "1998-10-26",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
+    "Foedselsdato": "1994-07-24",
+    "Alder": {
+      "AlderM": 31
     },
+    "Stilling": 8,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576839+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.54133+02:00"
   },
   {
-    "MANummer": "9609567897",
+    "MANummer": "1869986710",
     "Navn": {
-      "Fornavn": "Lilje",
+      "Fornavn": "Muhammed",
       "Efternavn": "Chi"
     },
-    "Brugernavn": "lich66",
-    "Koen": 1,
-    "Foedselsdato": "1974-12-09",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
+    "Brugernavn": "much58",
+    "Koen": 0,
+    "Foedselsdato": "1999-08-02",
+    "Alder": {
+      "AlderM": 26
     },
+    "Stilling": 5,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576844+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413311+02:00"
   },
   {
-    "MANummer": "8446569107",
+    "MANummer": "2228836834",
     "Navn": {
-      "Fornavn": "Toke",
+      "Fornavn": "Hans",
       "Efternavn": "Kirkegaard"
     },
-    "Brugernavn": "toki25",
+    "Brugernavn": "haki82",
     "Koen": 0,
-    "Foedselsdato": "1956-05-06",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Foedselsdato": "1996-06-04",
+    "Alder": {
+      "AlderM": 29
     },
+    "Stilling": 9,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576958+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413324+02:00"
   },
   {
-    "MANummer": "8475552309",
+    "MANummer": "9238949604",
     "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "lipe58",
-    "Koen": 1,
-    "Foedselsdato": "1992-06-22",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576963+02:00"
-  },
-  {
-    "MANummer": "5826474154",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "hene77",
-    "Koen": 0,
-    "Foedselsdato": "1964-04-05",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576969+02:00"
-  },
-  {
-    "MANummer": "8017880756",
-    "Navn": {
-      "Fornavn": "Lone",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "lone91",
-    "Koen": 1,
-    "Foedselsdato": "1980-09-25",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576974+02:00"
-  },
-  {
-    "MANummer": "4258101694",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "hebl30",
-    "Koen": 1,
-    "Foedselsdato": "1987-10-07",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576979+02:00"
-  },
-  {
-    "MANummer": "3369333644",
-    "Navn": {
-      "Fornavn": "Ronald",
+      "Fornavn": "Tobias",
       "Efternavn": "Hansen"
     },
-    "Brugernavn": "roha48",
+    "Brugernavn": "toha40",
     "Koen": 0,
-    "Foedselsdato": "1953-10-17",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
+    "Foedselsdato": "1986-03-30",
+    "Alder": {
+      "AlderM": 40
     },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576984+02:00"
-  },
-  {
-    "MANummer": "3426830093",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "saal05",
-    "Koen": 1,
-    "Foedselsdato": "2005-10-17",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576988+02:00"
-  },
-  {
-    "MANummer": "6586486958",
-    "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "robl72",
-    "Koen": 0,
-    "Foedselsdato": "1970-02-05",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
-    },
+    "Stilling": 2,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9576993+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413335+02:00"
   },
   {
-    "MANummer": "5996078670",
+    "MANummer": "9350404033",
     "Navn": {
-      "Fornavn": "Amalie",
-      "Efternavn": "Jensen"
+      "Fornavn": "Erika",
+      "Efternavn": "Neingescheis"
     },
-    "Brugernavn": "amje59",
+    "Brugernavn": "erne13",
     "Koen": 1,
-    "Foedselsdato": "1960-12-30",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
+    "Foedselsdato": "1958-02-14",
+    "Alder": {
+      "AlderM": 68
     },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577059+02:00"
+    "Stilling": 3,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413346+02:00"
   },
   {
-    "MANummer": "6288221700",
+    "MANummer": "1978506779",
     "Navn": {
-      "Fornavn": "Lone",
+      "Fornavn": "Muhammed",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "mufr21",
+    "Koen": 0,
+    "Foedselsdato": "1959-09-12",
+    "Alder": {
+      "AlderM": 66
+    },
+    "Stilling": 3,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413358+02:00"
+  },
+  {
+    "MANummer": "0308112225",
+    "Navn": {
+      "Fornavn": "Søren",
+      "Efternavn": "Johnson"
+    },
+    "Brugernavn": "søjo71",
+    "Koen": 0,
+    "Foedselsdato": "2005-10-19",
+    "Alder": {
+      "AlderM": 20
+    },
+    "Stilling": 3,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413417+02:00"
+  },
+  {
+    "MANummer": "3086158282",
+    "Navn": {
+      "Fornavn": "Carl",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "caha83",
+    "Koen": 0,
+    "Foedselsdato": "1977-08-29",
+    "Alder": {
+      "AlderM": 48
+    },
+    "Stilling": 9,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413429+02:00"
+  },
+  {
+    "MANummer": "1046750504",
+    "Navn": {
+      "Fornavn": "Julie",
       "Efternavn": "Humle"
     },
-    "Brugernavn": "lohu86",
+    "Brugernavn": "juhu40",
     "Koen": 1,
-    "Foedselsdato": "1992-06-10",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
+    "Foedselsdato": "1972-11-14",
+    "Alder": {
+      "AlderM": 53
     },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577064+02:00"
-  },
-  {
-    "MANummer": "4529162734",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "kaac95",
-    "Koen": 0,
-    "Foedselsdato": "1954-08-14",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
+    "Stilling": 1,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577069+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.541344+02:00"
   },
   {
-    "MANummer": "3390136619",
+    "MANummer": "1325185082",
     "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Actung"
+      "Fornavn": "Yang",
+      "Efternavn": "Bager"
     },
-    "Brugernavn": "anac71",
-    "Koen": 1,
-    "Foedselsdato": "1998-10-26",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
+    "Brugernavn": "yaba32",
+    "Koen": 0,
+    "Foedselsdato": "1968-04-06",
+    "Alder": {
+      "AlderM": 58
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577074+02:00"
+    "Stilling": 1,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413451+02:00"
   },
   {
-    "MANummer": "3695314881",
+    "MANummer": "9692815058",
+    "Navn": {
+      "Fornavn": "Henrik",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "heal35",
+    "Koen": 0,
+    "Foedselsdato": "1995-01-09",
+    "Alder": {
+      "AlderM": 31
+    },
+    "Stilling": 7,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413462+02:00"
+  },
+  {
+    "MANummer": "3492414569",
+    "Navn": {
+      "Fornavn": "Niels",
+      "Efternavn": "McDonald"
+    },
+    "Brugernavn": "nimc77",
+    "Koen": 0,
+    "Foedselsdato": "2002-09-29",
+    "Alder": {
+      "AlderM": 23
+    },
+    "Stilling": 10,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413473+02:00"
+  },
+  {
+    "MANummer": "0757519374",
     "Navn": {
       "Fornavn": "Muhammed",
       "Efternavn": "Yung"
     },
-    "Brugernavn": "muyu68",
+    "Brugernavn": "muyu49",
     "Koen": 0,
-    "Foedselsdato": "1966-03-06",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
+    "Foedselsdato": "1974-09-11",
+    "Alder": {
+      "AlderM": 51
     },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577078+02:00"
-  },
-  {
-    "MANummer": "4275324523",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "juje77",
-    "Koen": 1,
-    "Foedselsdato": "1964-08-29",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577083+02:00"
-  },
-  {
-    "MANummer": "7118973840",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "jubl01",
-    "Koen": 1,
-    "Foedselsdato": "1960-04-23",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577089+02:00"
-  },
-  {
-    "MANummer": "2803439176",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "sibl32",
-    "Koen": 1,
-    "Foedselsdato": "1970-10-04",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
+    "Stilling": 10,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577093+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413484+02:00"
   },
   {
-    "MANummer": "5232436679",
+    "MANummer": "8327470634",
     "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "lepa70",
-    "Koen": 0,
-    "Foedselsdato": "2002-04-20",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577098+02:00"
-  },
-  {
-    "MANummer": "1497870297",
-    "Navn": {
-      "Fornavn": "Frederikke",
+      "Fornavn": "Søren",
       "Efternavn": "Actung"
     },
-    "Brugernavn": "frac60",
-    "Koen": 1,
-    "Foedselsdato": "2002-02-25",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577103+02:00"
-  },
-  {
-    "MANummer": "5750216145",
-    "Navn": {
-      "Fornavn": "Johan",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "jotu57",
+    "Brugernavn": "søac07",
     "Koen": 0,
-    "Foedselsdato": "1946-08-10",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
+    "Foedselsdato": "1999-09-01",
+    "Alder": {
+      "AlderM": 26
     },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577108+02:00"
-  },
-  {
-    "MANummer": "0091821912",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "fryu54",
-    "Koen": 1,
-    "Foedselsdato": "1994-04-15",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577113+02:00"
-  },
-  {
-    "MANummer": "3557173164",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "sayu80",
-    "Koen": 1,
-    "Foedselsdato": "1952-07-13",
-    "Stilling": {
-      "Titel": "Udvikler",
-      "Basisloen": 52000
-    },
+    "Stilling": 6,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577118+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413496+02:00"
   },
   {
-    "MANummer": "3113343650",
+    "MANummer": "7417695962",
     "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "hepa87",
-    "Koen": 0,
-    "Foedselsdato": "1966-03-27",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577154+02:00"
-  },
-  {
-    "MANummer": "0219894568",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "fimc14",
-    "Koen": 1,
-    "Foedselsdato": "1962-04-14",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577159+02:00"
-  },
-  {
-    "MANummer": "8238825939",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "haha73",
-    "Koen": 0,
-    "Foedselsdato": "1955-12-31",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577164+02:00"
-  },
-  {
-    "MANummer": "4887441142",
-    "Navn": {
-      "Fornavn": "Maria",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "mawe84",
-    "Koen": 1,
-    "Foedselsdato": "1983-09-11",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577169+02:00"
-  },
-  {
-    "MANummer": "0462965142",
-    "Navn": {
-      "Fornavn": "Lilje",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "limc28",
-    "Koen": 1,
-    "Foedselsdato": "2000-12-17",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577175+02:00"
-  },
-  {
-    "MANummer": "7448307191",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Jensen"
-    },
-    "Brugernavn": "paje58",
-    "Koen": 1,
-    "Foedselsdato": "1953-10-14",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957718+02:00"
-  },
-  {
-    "MANummer": "8854538245",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "june15",
-    "Koen": 1,
-    "Foedselsdato": "1958-07-22",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577185+02:00"
-  },
-  {
-    "MANummer": "0971710528",
-    "Navn": {
-      "Fornavn": "Lotte",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "lojo10",
-    "Koen": 1,
-    "Foedselsdato": "1975-06-20",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957719+02:00"
-  },
-  {
-    "MANummer": "5464231181",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "fich17",
-    "Koen": 1,
-    "Foedselsdato": "1982-01-01",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577194+02:00"
-  },
-  {
-    "MANummer": "9772389367",
-    "Navn": {
-      "Fornavn": "Thyra",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "thhe68",
-    "Koen": 1,
-    "Foedselsdato": "1983-05-01",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577199+02:00"
-  },
-  {
-    "MANummer": "4819620611",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "fiyu77",
-    "Koen": 1,
-    "Foedselsdato": "1958-07-20",
-    "Stilling": {
-      "Titel": "Webdesigner",
-      "Basisloen": 50000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577204+02:00"
-  },
-  {
-    "MANummer": "0597050146",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "hepa34",
-    "Koen": 0,
-    "Foedselsdato": "1991-01-13",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577209+02:00"
-  },
-  {
-    "MANummer": "3388161364",
-    "Navn": {
-      "Fornavn": "Lotte",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "lopa73",
-    "Koen": 1,
-    "Foedselsdato": "1971-10-15",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577214+02:00"
-  },
-  {
-    "MANummer": "5376090020",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "hajo92",
-    "Koen": 0,
-    "Foedselsdato": "1982-02-14",
-    "Stilling": {
-      "Titel": "Grafisk designer",
-      "Basisloen": 55000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577219+02:00"
-  },
-  {
-    "MANummer": "6239401346",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "chpe52",
-    "Koen": 0,
-    "Foedselsdato": "1992-03-13",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577254+02:00"
-  },
-  {
-    "MANummer": "1819021284",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "phtu71",
-    "Koen": 0,
-    "Foedselsdato": "1975-11-14",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957726+02:00"
-  },
-  {
-    "MANummer": "2737617540",
-    "Navn": {
-      "Fornavn": "Henrik",
+      "Fornavn": "Jane",
       "Efternavn": "Bager"
     },
-    "Brugernavn": "heba89",
-    "Koen": 0,
-    "Foedselsdato": "1957-04-08",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577265+02:00"
-  },
-  {
-    "MANummer": "6409103999",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "erch94",
-    "Koen": 0,
-    "Foedselsdato": "1967-12-06",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957727+02:00"
-  },
-  {
-    "MANummer": "6129994709",
-    "Navn": {
-      "Fornavn": "Bruce",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "brfr58",
-    "Koen": 0,
-    "Foedselsdato": "1958-09-05",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577275+02:00"
-  },
-  {
-    "MANummer": "5628215659",
-    "Navn": {
-      "Fornavn": "Toke",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "towe67",
-    "Koen": 0,
-    "Foedselsdato": "1989-07-30",
-    "Stilling": {
-      "Titel": "Mellemleder",
-      "Basisloen": 65000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957728+02:00"
-  },
-  {
-    "MANummer": "8867226834",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "yaha78",
-    "Koen": 0,
-    "Foedselsdato": "1987-07-20",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577285+02:00"
-  },
-  {
-    "MANummer": "5074862860",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "alha38",
+    "Brugernavn": "jaba90",
     "Koen": 1,
-    "Foedselsdato": "1971-01-26",
-    "Stilling": {
-      "Titel": "Servicemedarbejder",
-      "Basisloen": 28000
+    "Foedselsdato": "1957-11-25",
+    "Alder": {
+      "AlderM": 68
     },
+    "Stilling": 10,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413507+02:00"
+  },
+  {
+    "MANummer": "0880663935",
+    "Navn": {
+      "Fornavn": "Henrik",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "heha64",
+    "Koen": 0,
+    "Foedselsdato": "2003-01-13",
+    "Alder": {
+      "AlderM": 23
+    },
+    "Stilling": 10,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957729+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413518+02:00"
   },
   {
-    "MANummer": "7463984919",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "emhe39",
-    "Koen": 0,
-    "Foedselsdato": "2002-04-27",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577295+02:00"
-  },
-  {
-    "MANummer": "7105623359",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "eryu81",
-    "Koen": 1,
-    "Foedselsdato": "1960-08-18",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:28:42.95773+02:00"
-  },
-  {
-    "MANummer": "4382046127",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "emne76",
-    "Koen": 0,
-    "Foedselsdato": "1958-07-07",
-    "Stilling": {
-      "Titel": "Testperson",
-      "Basisloen": 31500
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577305+02:00"
-  },
-  {
-    "MANummer": "0952372010",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "katu18",
-    "Koen": 0,
-    "Foedselsdato": "1990-06-22",
-    "Stilling": {
-      "Titel": "Pedagog",
-      "Basisloen": 33000
-    },
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.957731+02:00"
-  },
-  {
-    "MANummer": "5626445281",
+    "MANummer": "4787848911",
     "Navn": {
       "Fornavn": "Andersine",
+      "Efternavn": "McDonald"
+    },
+    "Brugernavn": "anmc90",
+    "Koen": 1,
+    "Foedselsdato": "1966-06-25",
+    "Alder": {
+      "AlderM": 59
+    },
+    "Stilling": 2,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413529+02:00"
+  },
+  {
+    "MANummer": "2805055414",
+    "Navn": {
+      "Fornavn": "Fillipa",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "fiac52",
+    "Koen": 1,
+    "Foedselsdato": "1978-10-02",
+    "Alder": {
+      "AlderM": 47
+    },
+    "Stilling": 9,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413541+02:00"
+  },
+  {
+    "MANummer": "5352391030",
+    "Navn": {
+      "Fornavn": "Lise",
       "Efternavn": "Bager"
     },
-    "Brugernavn": "anba03",
+    "Brugernavn": "liba42",
     "Koen": 1,
-    "Foedselsdato": "1948-07-12",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
+    "Foedselsdato": "1963-03-05",
+    "Alder": {
+      "AlderM": 63
     },
+    "Stilling": 9,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577315+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413552+02:00"
   },
   {
-    "MANummer": "6737049916",
+    "MANummer": "6270018165",
+    "Navn": {
+      "Fornavn": "Elisabeth",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "eltu11",
+    "Koen": 1,
+    "Foedselsdato": "1955-11-02",
+    "Alder": {
+      "AlderM": 70
+    },
+    "Stilling": 5,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413563+02:00"
+  },
+  {
+    "MANummer": "9761933845",
+    "Navn": {
+      "Fornavn": "Alberte",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "alyu63",
+    "Koen": 1,
+    "Foedselsdato": "1978-02-19",
+    "Alder": {
+      "AlderM": 48
+    },
+    "Stilling": 9,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413619+02:00"
+  },
+  {
+    "MANummer": "0518849226",
+    "Navn": {
+      "Fornavn": "Amalie",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "amba70",
+    "Koen": 1,
+    "Foedselsdato": "1969-03-08",
+    "Alder": {
+      "AlderM": 57
+    },
+    "Stilling": 1,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.541363+02:00"
+  },
+  {
+    "MANummer": "4511294325",
+    "Navn": {
+      "Fornavn": "Carl",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "cane41",
+    "Koen": 0,
+    "Foedselsdato": "1968-11-19",
+    "Alder": {
+      "AlderM": 57
+    },
+    "Stilling": 8,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413642+02:00"
+  },
+  {
+    "MANummer": "4119988562",
+    "Navn": {
+      "Fornavn": "Lilje",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "liyu91",
+    "Koen": 1,
+    "Foedselsdato": "1960-12-10",
+    "Alder": {
+      "AlderM": 65
+    },
+    "Stilling": 7,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413653+02:00"
+  },
+  {
+    "MANummer": "6154791674",
+    "Navn": {
+      "Fornavn": "Fillipa",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "fibl82",
+    "Koen": 1,
+    "Foedselsdato": "1977-07-13",
+    "Alder": {
+      "AlderM": 48
+    },
+    "Stilling": 4,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413664+02:00"
+  },
+  {
+    "MANummer": "3893798511",
+    "Navn": {
+      "Fornavn": "Henrik",
+      "Efternavn": "Johnson"
+    },
+    "Brugernavn": "hejo21",
+    "Koen": 0,
+    "Foedselsdato": "1955-03-12",
+    "Alder": {
+      "AlderM": 71
+    },
+    "Stilling": 2,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413675+02:00"
+  },
+  {
+    "MANummer": "0729164261",
+    "Navn": {
+      "Fornavn": "Simone",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "siwe68",
+    "Koen": 1,
+    "Foedselsdato": "1983-09-09",
+    "Alder": {
+      "AlderM": 42
+    },
+    "Stilling": 2,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413687+02:00"
+  },
+  {
+    "MANummer": "1164619393",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Henriksne"
+    },
+    "Brugernavn": "mahe59",
+    "Koen": 1,
+    "Foedselsdato": "1984-12-27",
+    "Alder": {
+      "AlderM": 41
+    },
+    "Stilling": 9,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413698+02:00"
+  },
+  {
+    "MANummer": "1613559142",
     "Navn": {
       "Fornavn": "Erika",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "erki86",
+    "Koen": 1,
+    "Foedselsdato": "1982-05-01",
+    "Alder": {
+      "AlderM": 43
+    },
+    "Stilling": 4,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413709+02:00"
+  },
+  {
+    "MANummer": "4580154785",
+    "Navn": {
+      "Fornavn": "Nora",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "noyu58",
+    "Koen": 1,
+    "Foedselsdato": "1968-10-15",
+    "Alder": {
+      "AlderM": 57
+    },
+    "Stilling": 9,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.541372+02:00"
+  },
+  {
+    "MANummer": "8121292556",
+    "Navn": {
+      "Fornavn": "Lise",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "liwe79",
+    "Koen": 1,
+    "Foedselsdato": "1976-12-30",
+    "Alder": {
+      "AlderM": 49
+    },
+    "Stilling": 4,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413731+02:00"
+  },
+  {
+    "MANummer": "3159955180",
+    "Navn": {
+      "Fornavn": "Erika",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "erab39",
+    "Koen": 1,
+    "Foedselsdato": "1991-07-14",
+    "Alder": {
+      "AlderM": 34
+    },
+    "Stilling": 1,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413742+02:00"
+  },
+  {
+    "MANummer": "0449486622",
+    "Navn": {
+      "Fornavn": "Simone",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "siab70",
+    "Koen": 1,
+    "Foedselsdato": "1958-09-27",
+    "Alder": {
+      "AlderM": 67
+    },
+    "Stilling": 8,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413754+02:00"
+  },
+  {
+    "MANummer": "4811148884",
+    "Navn": {
+      "Fornavn": "Ronald",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "rofr33",
+    "Koen": 0,
+    "Foedselsdato": "1961-12-08",
+    "Alder": {
+      "AlderM": 64
+    },
+    "Stilling": 6,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413765+02:00"
+  },
+  {
+    "MANummer": "3874475870",
+    "Navn": {
+      "Fornavn": "Henriette",
       "Efternavn": "Hansen"
     },
-    "Brugernavn": "erha43",
+    "Brugernavn": "heha62",
     "Koen": 1,
-    "Foedselsdato": "1945-11-28",
-    "Stilling": {
-      "Titel": "Ingengør",
-      "Basisloen": 64000
+    "Foedselsdato": "1963-10-19",
+    "Alder": {
+      "AlderM": 62
     },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:28:42.9577351+02:00"
-  },
-  {
-    "MANummer": "2116302037",
-    "Navn": {
-      "Fornavn": "Frederik",
-      "Efternavn": "Becker"
-    },
-    "Brugernavn": "frbe35",
-    "Koen": 0,
-    "Foedselsdato": "1996-12-08",
-    "Stilling": {
-      "Titel": "Hundepasser",
-      "Basisloen": 13000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:32:16.9539644+02:00"
-  },
-  {
-    "MANummer": "8132980001",
-    "Navn": {
-      "Fornavn": "Frederik",
-      "Efternavn": "Becker"
-    },
-    "Brugernavn": "frbe19",
-    "Koen": 0,
-    "Foedselsdato": "1996-12-08",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
-    },
+    "Stilling": 0,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:41:56.2293856+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413804+02:00"
   },
   {
-    "MANummer": "8445602856",
+    "MANummer": "7116968115",
     "Navn": {
-      "Fornavn": "Frederik",
-      "Efternavn": "Becker"
+      "Fornavn": "Nora",
+      "Efternavn": "McDonald"
     },
-    "Brugernavn": "frbe97",
-    "Koen": 0,
-    "Foedselsdato": "1920-01-01",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
+    "Brugernavn": "nomc07",
+    "Koen": 1,
+    "Foedselsdato": "1992-12-14",
+    "Alder": {
+      "AlderM": 33
     },
+    "Stilling": 1,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-23T08:42:43.0859026+02:00"
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413815+02:00"
   },
   {
-    "MANummer": "9321011203",
+    "MANummer": "9962425129",
     "Navn": {
-      "Fornavn": "Frederik",
-      "Efternavn": "Becker"
+      "Fornavn": "Muhammed",
+      "Efternavn": "Actung"
     },
-    "Brugernavn": "frbe69",
+    "Brugernavn": "muac84",
     "Koen": 0,
-    "Foedselsdato": "1965-12-08",
-    "Stilling": {
-      "Titel": "Kantinemedarbejder",
-      "Basisloen": 23000
+    "Foedselsdato": "1994-12-08",
+    "Alder": {
+      "AlderM": 31
     },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T08:50:52.3338572+02:00"
-  },
-  {
-    "MANummer": "1007315372",
-    "Navn": {
-      "Fornavn": "Frederik",
-      "Efternavn": "Becker"
-    },
-    "Brugernavn": "frbe47",
-    "Koen": 0,
-    "Foedselsdato": "1920-01-01",
-    "Stilling": {
-      "Titel": "Stenhugger",
-      "Basisloen": 31000
-    },
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-23T09:27:16.8771432+02:00"
+    "Stilling": 6,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:21:56.5413826+02:00"
   }
 ]

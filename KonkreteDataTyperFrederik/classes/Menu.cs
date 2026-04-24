@@ -102,7 +102,6 @@ class Menu
 
         Console.SetCursorPosition(0, Console.WindowHeight - 1);
     }
-
     public void drawCenteredListe(string[] linesToWrite, string title, int page, int linjerPerSide, int resultater)
     {
         Console.Clear();
@@ -239,7 +238,7 @@ class Menu
         {
             if (i == stage)
             {
-                menuOptions[i] = ">> " + menuOptions[i] + " <<";
+                menuOptions[i] = "| " + menuOptions[i] + " |";
             }
         }
         Console.Clear();

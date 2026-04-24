@@ -1,5 +1,6 @@
-using System.ComponentModel.DataAnnotations;
-using System.Dynamic;
+
+
+using Microsoft.VisualBasic;
 
 namespace MedarbejderOversigtN;
 
@@ -20,6 +21,7 @@ public class MedarbejderProgram
             "Listevisning",
             "Søgefunktion",
             "Tabel over gemmensnits løn- og pensionsinfo",
+            "Ændre basisløn og lønmultipliers",
             "Opret ny medarbejder",
             "Masse opret random medarbejdere",
             "Afslut"
@@ -106,16 +108,21 @@ public class MedarbejderProgram
                             listevisning("Søgeord", soegeord, keyInfo);
                             break;
                         case 2: //Tabel over pensioninfo
-                            string[,] tabel = BygLoenOgPensionsTabel();
-                            menu1.draw2Dtabel(tabel, linesToWrite[stage]);
+                            Console.Clear();
+                            menu1.DrawBorders("Tabel over gemmensnits løn- og pensionsinfo");
+                            string[,] tabel2d = BygLoenOgPensionsTabel2D();
+                            menu1.draw2Dtabel(tabel2d, "Tabel over gemmensnits løn- og pensionsinfo");
                             Console.ReadKey();
                             break;
-                        case 3: //Opret medarbejder
+                        case 3://Ændre basisløn og lønmultipliers
+                            VisAendreLoenMenu(keyInfo);
+                            break;
+                        case 4: //Opret medarbejder
 
-                            int[] placeholderDatoIntArray = { 1, 1, 1920 };
+                            int[] placeholderDatoIntArray = { 1, 1, 1955 };
                             DateOnly placeholderDatoDateOnly = DateOnly.Parse(placeholderDatoIntArray[1] + "/" + placeholderDatoIntArray[0] + "/" + placeholderDatoIntArray[2]);
                             string maNummer = GenererMANummer();
-                            MedarbejderOplysninger.Medarbejder medarbejder = RedigeringMedarbejder(keyInfo, "", "", "", new MedarbejderOplysninger.Stilling("Stenhugger", 31000), MedarbejderOplysninger.Koen.M, maNummer, placeholderDatoIntArray, true, MedarbejderOplysninger.Afdeling.SoftwareUdvikling);
+                            MedarbejderOplysninger.Medarbejder medarbejder = RedigeringMedarbejder(keyInfo, "", "", "", MedarbejderOplysninger.Stilling.Stenhugger, MedarbejderOplysninger.Koen.M, maNummer, placeholderDatoIntArray, true, MedarbejderOplysninger.Afdeling.SoftwareUdvikling);
                             if (medarbejder != null)
                             {
                                 List<MedarbejderOplysninger.Medarbejder> medarbejdere = IndlaesGemteMedarbejdere();
@@ -123,17 +130,17 @@ public class MedarbejderProgram
                                 GemMedarbejdere(medarbejdere);
                             }
                             break;
-                        case 4:
+                        case 5:
                             oplysninger.Add("Hvor mange vil du oprette?");
                             oplysninger.Add("Afslut med enter");
                             Console.Clear();
                             menu1.DrawBorders("Masseoprettelse");
-                            DrawStep(oplysninger, "test", 5);
+                            DrawStep(oplysninger, "", 5);
                             string antal = Console.ReadLine();
                             randomizeMedarbejdere(Int32.Parse(antal));
 
                             break;
-                        case 5://Afslut
+                        case 6://Afslut
                             running = false;
                             break;
                     }
@@ -143,10 +150,328 @@ public class MedarbejderProgram
         }
 
     }
-    public float AarTilPension(DateOnly foedselsdato)
+    public void VisAendreLoenMenu(ConsoleKeyInfo keyInfo)
     {
+        bool aendrer = true;
+        bool vaelgeraendring = true;
+        bool basisloenAendring = false;
+        bool multiplierAendring = false;
+        int valgindex = 0;
+        int koenEllerAfdelingIndex = 0;
+        string valg = "";
 
-        MedarbejderOplysninger.Alder alder = BeregnAlder(foedselsdato);
+        while (aendrer)
+        {
+            while (vaelgeraendring)
+            {
+                string[] aendringsValg =
+                {
+                "Basisløn",
+                "Multipliers",
+                "Se tabel over gemmensnits løn- og pensionsinfo",
+                "Afslut",
+            };
+                aendringsValg[valgindex] = "| " + aendringsValg[valgindex] + " |";
+                menu1.drawCenteredProgram(aendringsValg, "Vælg hvad du vil ændre");
+                keyInfo = Console.ReadKey();
+                switch (keyInfo.Key)
+                {
+                    case ConsoleKey.UpArrow:
+                        if (valgindex > 0)
+                        {
+                            valgindex--;
+                        }
+                        break;
+                    case ConsoleKey.DownArrow:
+                        if (valgindex < aendringsValg.Length - 1)
+                        {
+                            valgindex++;
+                        }
+                        break;
+                    case ConsoleKey.Enter:
+                        switch (valgindex)
+                        {
+                            case 0:
+                                basisloenAendring = true;
+                                vaelgeraendring = false;
+                                valgindex = 0;
+                                break;
+                            case 1:
+                                koenEllerAfdelingIndex = 0;
+                                bool vaelgerKoenEllerAfdeling = true;
+                                while (vaelgerKoenEllerAfdeling)
+                                {
+                                    string[] koenEllerAfdeling =
+                                    {
+                                    "Køn",
+                                    "Afdelinger"
+                                };
+                                    koenEllerAfdeling[koenEllerAfdelingIndex] = "| " + koenEllerAfdeling[koenEllerAfdelingIndex] + " |";
+                                    menu1.drawCenteredProgram(koenEllerAfdeling, "Tabel over gemmensnits løn- og pensionsinfo");
+                                    keyInfo = Console.ReadKey();
+                                    switch (keyInfo.Key)
+                                    {
+                                        case ConsoleKey.UpArrow:
+                                            if (koenEllerAfdelingIndex > 0)
+                                            {
+                                                koenEllerAfdelingIndex--;
+                                            }
+                                            break;
+                                        case ConsoleKey.DownArrow:
+                                            if (koenEllerAfdelingIndex < koenEllerAfdeling.Length - 1)
+                                            {
+                                                koenEllerAfdelingIndex++;
+                                            }
+                                            break;
+                                        case ConsoleKey.Enter:
+                                            vaelgerKoenEllerAfdeling = false;
+                                            break;
+
+                                    }
+                                }
+                                multiplierAendring = true;
+                                vaelgeraendring = false;
+                                valgindex = 0;
+                                break;
+                            case 2:
+                                Console.Clear();
+                                menu1.DrawBorders("Tabel over gemmensnits løn- og pensionsinfo");
+                                string[,] tabel2d = BygLoenOgPensionsTabel2D();
+                                menu1.draw2Dtabel(tabel2d, "Tabel over gemmensnits løn- og pensionsinfo");
+                                Console.ReadKey();
+                                break;
+                            case 3:
+                                vaelgeraendring = false;
+                                aendrer = false;
+                                break;
+                        }
+                        break;
+                    case ConsoleKey.Escape:
+                        vaelgeraendring = false;
+                        aendrer = false;
+                        break;
+                }
+            }
+            List<string> stillingerList = new List<string>();
+            List<int> basisloenne = new List<int>();
+            List<string> afdelingerList = new List<string>();
+            List<double> afdelingMultipliers = new List<double>();
+            List<string> koenList = new List<string>();
+            List<double> koenMultipliers = new List<double>();
+            foreach (var stilling in stillinger)
+            {
+                stillingerList.Add(EnumNameAttributeHenter(stilling));
+                basisloenne.Add(EnumBasisloenAttributeHenter(stilling));
+            }
+            foreach (var afdeling in afdelinger)
+            {
+                afdelingerList.Add(EnumNameAttributeHenter(afdeling));
+                afdelingMultipliers.Add(EnumMultiplierAttributeHenter(afdeling));
+            }
+            foreach (var koen in koen)
+            {
+                koenList.Add(EnumNameAttributeHenter(koen));
+                koenMultipliers.Add(EnumMultiplierAttributeHenter(koen));
+            }
+            if (basisloenAendring)
+            {
+                while (basisloenAendring)
+                {
+                    string[] aendringsValg = stringPlusIntListTilStringArray(stillingerList, basisloenne);
+                    valg = basisloenne[valgindex].ToString();
+                    aendringsValg[valgindex] = "| " + aendringsValg[valgindex] + " |";
+                    menu1.drawCenteredProgram(aendringsValg, "Vælg hvad du vil ændre");
+                    keyInfo = Console.ReadKey();
+                    switch (keyInfo.Key)
+                    {
+                        case ConsoleKey.UpArrow:
+                            if (valgindex > 0)
+                            {
+                                valgindex--;
+                            }
+                            break;
+                        case ConsoleKey.DownArrow:
+                            if (valgindex < aendringsValg.Length - 1)
+                            {
+                                valgindex++;
+                            }
+                            break;
+                        case ConsoleKey.Enter:
+                            for (int i = 0; i < stillinger.Length; i++)
+                            {
+                                EnumBasisloenAttributeGemmer(stillinger[i], basisloenne[i]);
+                            }
+                            basisloenAendring = false;
+                            vaelgeraendring = true;
+                            valgindex = 0;
+                            break;
+                        case ConsoleKey.Escape:
+                            basisloenne.Clear();
+                            foreach (var stilling in stillinger)
+                            {
+                                basisloenne.Add(EnumBasisloenAttributeHenter(stilling));
+                            }
+                            basisloenAendring = false;
+                            vaelgeraendring = true;
+                            valgindex = 0;
+                            break;
+                        case ConsoleKey.Backspace:
+                            valg = valg.Remove(valg.Length - 1);
+                            if (valg == "" || valg == null || valg == "0")
+                            {
+                                valg = "0";
+                            }
+                            basisloenne[valgindex] = Int32.Parse(valg);
+                            break;
+                        default:
+                            if (keyInfo.KeyChar >= '0' && keyInfo.KeyChar <= '9')
+                            {
+                                valg += keyInfo.KeyChar;
+                                basisloenne[valgindex] = Int32.Parse(valg);
+                            }
+                            break;
+                    }
+                }
+            }
+            else if (multiplierAendring)
+            {
+                bool skalHavePunktum = false;
+                while (multiplierAendring)
+                {
+
+                    string[] aendringsValg;
+                    if (koenEllerAfdelingIndex == 0)
+                    {
+                        aendringsValg = stringPlusMultiplierListTilStringArray(koenList, koenMultipliers);
+                        valg = koenMultipliers[valgindex].ToString();
+                        aendringsValg[valgindex] = "| " + aendringsValg[valgindex] + " |";
+                        menu1.drawCenteredProgram(aendringsValg, "Vælg hvad du vil ændre");
+                    }
+                    else
+                    {
+                        aendringsValg = stringPlusMultiplierListTilStringArray(afdelingerList, afdelingMultipliers);
+                        valg = afdelingMultipliers[valgindex].ToString();
+                        aendringsValg[valgindex] = "| " + aendringsValg[valgindex] + " |";
+                        menu1.drawCenteredProgram(aendringsValg, "Vælg hvad du vil ændre");
+                    }
+                    Console.Write("\n" + valg);
+                    keyInfo = Console.ReadKey();
+                    switch (keyInfo.Key)
+                    {
+                        case ConsoleKey.UpArrow:
+                            if (valgindex > 0)
+                            {
+                                valgindex--;
+                            }
+                            break;
+                        case ConsoleKey.DownArrow:
+                            if (valgindex < aendringsValg.Length - 1)
+                            {
+                                valgindex++;
+                            }
+                            break;
+                        case ConsoleKey.Enter:
+                            for (int i = 0; i < koen.Length; i++)
+                            {
+                                EnumKoenMultiplierAttributeGemmer(koen[i], koenMultipliers[i]);
+                            }
+                            for (int i = 0; i < afdelinger.Length; i++)
+                            {
+                                EnumAfdelingMultiplierAttributeGemmer(afdelinger[i], afdelingMultipliers[i]);
+                            }
+                            multiplierAendring = false;
+                            vaelgeraendring = true;
+                            valgindex = 0;
+                            break;
+                        case ConsoleKey.Escape:
+                            koenMultipliers.Clear();
+                            afdelingMultipliers.Clear();
+                            foreach (var koen in koen)
+                            {
+                                koenMultipliers.Add(EnumMultiplierAttributeHenter(koen));
+                            }
+                            foreach (var afdeling in afdelinger)
+                            {
+                                afdelingMultipliers.Add(EnumMultiplierAttributeHenter(afdeling));
+                            }
+                            multiplierAendring = false;
+                            vaelgeraendring = true;
+                            valgindex = 0;
+                            break;
+                        case ConsoleKey.Backspace:
+                            valg = valg.Remove(valg.Length - 1);
+                            if (valg == "" || valg == null || valg == "0")
+                            {
+                                valg = "0";
+                            }
+                            if (koenEllerAfdelingIndex == 0)
+                            {
+                                koenMultipliers[valgindex] = Double.Parse(valg);
+                            }
+                            else
+                            {
+                                afdelingMultipliers[valgindex] = Double.Parse(valg);
+                            }
+
+                            break;
+                        default:
+                            if ((keyInfo.KeyChar == '.' && !valg.Contains('.')) || keyInfo.KeyChar >= '0' && keyInfo.KeyChar <= '9')
+                            {
+                                if (skalHavePunktum)
+                                {
+                                    valg = valg + '.' + keyInfo.KeyChar;
+                                    skalHavePunktum = false;
+                                }
+                                else
+                                {
+                                    if (keyInfo.KeyChar == '.')
+                                    {
+                                        skalHavePunktum = true;
+                                    }
+                                    else
+                                    {
+                                        valg += keyInfo.KeyChar;
+                                        skalHavePunktum = false;
+                                    }
+                                }
+                                if (koenEllerAfdelingIndex == 0)
+                                {
+                                    koenMultipliers[valgindex] = Convert.ToDouble(valg);
+                                }
+                                else
+                                {
+                                    afdelingMultipliers[valgindex] = Convert.ToDouble(valg);
+                                }
+                            }
+
+
+                            break;
+                    }
+                }
+            }
+        }
+    }
+    public string[] stringPlusIntListTilStringArray(List<string> strings, List<int> ints)
+    {
+        List<string> faellesListe = new List<string>();
+        for (int i = 0; i < strings.Count; i++)
+        {
+            faellesListe.Add(strings[i] + ": " + ints[i]);
+        }
+        return faellesListe.ToArray();
+    }
+    public string[] stringPlusMultiplierListTilStringArray(List<string> strings, List<double> doubles)
+    {
+        List<string> faellesListe = new List<string>();
+        for (int i = 0; i < strings.Count; i++)
+        {
+            faellesListe.Add(strings[i] + ": " + doubles[i]);
+        }
+        return faellesListe.ToArray();
+    }
+
+    public float AarTilPension(DateOnly foedselsdato, MedarbejderOplysninger.Alder alder)
+    {
         DateOnly pensionsDato = PensionsDatoUdregner(foedselsdato);
         DateOnly nu = DateOnly.FromDateTime(DateTime.Now);
         int years = pensionsDato.Year - nu.Year;
@@ -235,7 +560,7 @@ public class MedarbejderProgram
 
             case "Alder":
                 medarbejdere = medarbejdere
-                    .OrderBy(m => BeregnAlder(m.Foedselsdato).AlderM)
+                    .OrderBy(m => m.Alder.AlderM)
                     .ToList();
                 break;
             case "Pensionsaldato":
@@ -249,7 +574,7 @@ public class MedarbejderProgram
                 medarbejdere = medarbejdere
                     .Where(m =>
                     {
-                        float aarTilPension = AarTilPension(m.Foedselsdato);
+                        float aarTilPension = AarTilPension(m.Foedselsdato, m.Alder);
                         return aarTilPension >= 0 && aarTilPension <= 5;
                     })
                     .OrderBy(m => PensionsDatoUdregner(m.Foedselsdato))
@@ -283,14 +608,14 @@ public class MedarbejderProgram
                     .ToList();
                 break;
             case "Stilling":
-                medarbejdere = medarbejdere.OrderBy(m => m.Stilling.Titel).ToList();
+                medarbejdere = medarbejdere.OrderBy(m => EnumNameAttributeHenter(m.Stilling)).ToList();
                 break;
             case "Afdeling":
                 medarbejdere = medarbejdere.OrderBy(m => m.Afdeling).ToList();
                 break;
             case "Løn":
                 visLoen = true;
-                medarbejdere = medarbejdere.OrderBy(m => LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling)).ToList();
+                medarbejdere = medarbejdere.OrderBy(m => LoenUdregner(m.Stilling, m.Koen, m.Afdeling)).ToList();
                 medarbejdere.Reverse();
                 break;
             case "Søgeord":
@@ -298,7 +623,7 @@ public class MedarbejderProgram
                     .Where(m =>
                         m.Navn.Fornavn.Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
                         m.Navn.Efternavn.Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
-                        m.Stilling.Titel.Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
+                        EnumNameAttributeHenter(m.Stilling).Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
                         m.Foedselsdato.Year.ToString().Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
                         (DateOnly.FromDateTime(DateTime.Now).Year - m.Foedselsdato.Year).ToString().Contains(soegeord, StringComparison.OrdinalIgnoreCase) ||
                         m.Koen.ToString().Contains(soegeord, StringComparison.OrdinalIgnoreCase)
@@ -310,11 +635,11 @@ public class MedarbejderProgram
         for (int i = 0; i < medarbejdere.Count; i++)
         {
             var m = medarbejdere[i];
-            MedarbejderOplysninger.Alder alder = BeregnAlder(m.Foedselsdato);
-            string afdeling = EnumAttributeHjaelper(m.Afdeling);
-            string koen = EnumAttributeHjaelper(m.Koen);
+            string afdeling = EnumNameAttributeHenter(m.Afdeling);
+            string koen = EnumNameAttributeHenter(m.Koen);
+            string stilling = EnumNameAttributeHenter(m.Stilling);
             string pensionsInfo = "";
-            float aarTilPension = AarTilPension(m.Foedselsdato);
+            float aarTilPension = AarTilPension(m.Foedselsdato, m.Alder);
             string aarTilPensionString = aarTilPension.ToString("0.0") + " år til pension";
             if (aarTilPension < 0)
             {
@@ -326,15 +651,15 @@ public class MedarbejderProgram
                 int bonus = PensionsBonusUdregner(gennemsnitsloen, m.Koen);
                 pensionsInfo = "Pensionsdato: " + PensionsDatoUdregner(m.Foedselsdato).ToString("dd/MM/yyyy") + ", Pensionsbonus: " + bonus.ToString();
 
-                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + pensionsInfo + ", " + m.Stilling.Titel + ", " + afdeling;
+                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + m.Alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + pensionsInfo + ", " + stilling + ", " + afdeling;
             }
             else if (visLoen)
             {
-                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + m.Stilling.Titel + ", " + afdeling + ", Månedsløn: " + LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling);
+                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + m.Alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + stilling + ", " + afdeling + ", Månedsløn: " + LoenUdregner(m.Stilling, m.Koen, m.Afdeling);
             }
             else
             {
-                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + m.Stilling.Titel + ", " + afdeling;
+                linesToWrite[i] = m.Navn.Fornavn + " " + m.Navn.Efternavn + ", " + koen + ", " + m.Alder.AlderM.ToString() + " år(" + aarTilPensionString + "), " + stilling + ", " + afdeling;
             }
         }
 
@@ -401,7 +726,7 @@ public class MedarbejderProgram
             }
         }
     }
-    public string[,] BygLoenOgPensionsTabel()
+    public string[,] BygLoenOgPensionsTabel2D()
     {
         List<MedarbejderOplysninger.Medarbejder> medarbejdere = IndlaesGemteMedarbejdere();
         Dictionary<(MedarbejderOplysninger.Afdeling, MedarbejderOplysninger.Koen), int> gennemsnitsloenPerGruppe = BeregnGennemsnitsloenPerAfdelingOgKoen(medarbejdere);
@@ -425,11 +750,63 @@ public class MedarbejderProgram
             int gennemsnitMaend = HentGennemsnitsloenForAfdelingOgKoen(gennemsnitsloenPerGruppe, afdeling, MedarbejderOplysninger.Koen.M);
             int gennemsnitKvinder = HentGennemsnitsloenForAfdelingOgKoen(gennemsnitsloenPerGruppe, afdeling, MedarbejderOplysninger.Koen.F);
 
-            tabel[i + 1, 0] = EnumAttributeHjaelper(afdeling);
+            tabel[i + 1, 0] = EnumNameAttributeHenter(afdeling);
             tabel[i + 1, 1] = gennemsnitMaend.ToString();
             tabel[i + 1, 2] = gennemsnitKvinder.ToString();
             tabel[i + 1, 3] = PensionsBonusUdregner(gennemsnitMaend, MedarbejderOplysninger.Koen.M).ToString();
             tabel[i + 1, 4] = PensionsBonusUdregner(gennemsnitKvinder, MedarbejderOplysninger.Koen.F).ToString();
+        }
+
+        return tabel;
+    }
+    public string[,,] BygLoenOgPensionsTabel3D() //Bliver ikke brugt, er her kun for at vise at jeg kan
+    {
+        List<MedarbejderOplysninger.Medarbejder> medarbejdere = IndlaesGemteMedarbejdere();
+
+        Dictionary<(MedarbejderOplysninger.Afdeling, MedarbejderOplysninger.Koen), int> gennemsnitsloenPerGruppe =
+            BeregnGennemsnitsloenPerAfdelingOgKoen(medarbejdere);
+
+
+        string[,,] tabel = new string[3, 2, 2];
+
+        // 1. dimension = Afdeling
+        // [0, *, *] = SoftwareUdvikling
+        // [1, *, *] = Administration
+        // [2, *, *] = ServiceOgSupport
+        //
+        // 2. dimension = Køn
+        // [*, 0, *] = Mænd
+        // [*, 1, *] = Kvinder
+        //
+        // 3. dimension = Løntype
+        // [*, *, 0] = Gennemsnitsløn
+        // [*, *, 1] = Fratrædelsesbonus
+
+        for (int afdelingIndex = 0; afdelingIndex < afdelinger.Length; afdelingIndex++)
+        {
+            MedarbejderOplysninger.Afdeling afdeling = afdelinger[afdelingIndex];
+
+            int gennemsnitMaend = HentGennemsnitsloenForAfdelingOgKoen(
+                gennemsnitsloenPerGruppe,
+                afdeling,
+                MedarbejderOplysninger.Koen.M);
+
+            int gennemsnitKvinder = HentGennemsnitsloenForAfdelingOgKoen(
+                gennemsnitsloenPerGruppe,
+                afdeling,
+                MedarbejderOplysninger.Koen.F);
+
+            // Mænd
+            tabel[afdelingIndex, 0, 0] = gennemsnitMaend.ToString();
+            tabel[afdelingIndex, 0, 1] = PensionsBonusUdregner(
+                gennemsnitMaend,
+                MedarbejderOplysninger.Koen.M).ToString();
+
+            // Kvinder
+            tabel[afdelingIndex, 1, 0] = gennemsnitKvinder.ToString();
+            tabel[afdelingIndex, 1, 1] = PensionsBonusUdregner(
+                gennemsnitKvinder,
+                MedarbejderOplysninger.Koen.F).ToString();
         }
 
         return tabel;
@@ -466,12 +843,7 @@ public class MedarbejderProgram
             MedarbejderOplysninger.Koen.M,
             MedarbejderOplysninger.Koen.F
         };
-        MedarbejderOplysninger.Afdeling[] afdelinger =
-            {
-                MedarbejderOplysninger.Afdeling.SoftwareUdvikling,
-                MedarbejderOplysninger.Afdeling.Administration,
-                MedarbejderOplysninger.Afdeling.ServiceOgSupport
-            };
+
         DateOnly foedselsdato = DateOnly.FromDateTime(DateTime.Now);
         DateTime oprettelsesdato = DateTime.Now;
         List<MedarbejderOplysninger.Medarbejder> medarbejdere = IndlaesGemteMedarbejdere();
@@ -533,18 +905,12 @@ public class MedarbejderProgram
 
 
             MedarbejderOplysninger.Afdeling afdeling = afdelinger[random.Next(0, 3)];
-            int stillingOgLoen = random.Next(0, stillinger.Length);
             var medarbejder = new MedarbejderOplysninger.Medarbejder
             {
                 MANummer = maNummer,
                 Navn = new MedarbejderOplysninger.Fuldtnavn(fornavn, efternavn),
                 Brugernavn = brugernavn,
-                Stilling = new MedarbejderOplysninger.Stilling
-                {
-                    Titel = stillinger[stillingOgLoen],
-                    Basisloen = basisloenne[stillingOgLoen]
-                }
-                ,
+                Stilling = stillinger[random.Next(0, stillinger.Length)],
                 Afdeling = afdeling,
                 Koen = valgtKoen,
                 Foedselsdato = foedselsdato,
@@ -557,13 +923,14 @@ public class MedarbejderProgram
     public DateTime RandomDate()
     {
 
-        DateTime start = new DateTime(1945, 1, 1);
+        DateTime start = new DateTime(1955, 1, 1);
         DateTime slut = new DateTime(2006, 12, 31);
 
         int range = (slut - start).Days;
 
         return start.AddDays(random.Next(range));
     }
+   
     public MedarbejderOplysninger.Alder BeregnAlder(DateOnly foedselsdato)
     {
         DateOnly nu = DateOnly.FromDateTime(DateTime.Now);
@@ -577,58 +944,11 @@ public class MedarbejderProgram
         alder.AlderM = alderInt;
         return alder;
     }
-    public string[] stillinger =
-        {
-            "Stenhugger",
-            "Udvikler",
-            "Testperson",
-            "Kantinemedarbejder",
-            "Ingengør",
-            "Webdesigner",
-            "Grafisk designer",
-            "Hundepasser",
-            "Pedagog",
-            "Servicemedarbejder",
-            "Mellemleder"
-        };
-    public int[] basisloenne =
-        {
-            31000,
-            52000,
-            31500,
-            23000,
-            64000,
-            50000,
-            55000,
-            13000,
-            33000,
-            28000,
-            65000
-        };
-    public int LoenUdregner(int basisloen, MedarbejderOplysninger.Koen koen, MedarbejderOplysninger.Afdeling afdeling)
+
+    public int LoenUdregner(MedarbejderOplysninger.Stilling stilling, MedarbejderOplysninger.Koen koen, MedarbejderOplysninger.Afdeling afdeling)
     {
-        double loen = basisloen;
-        switch (koen)
-        {
-            case MedarbejderOplysninger.Koen.M:
-                loen = Math.Floor(loen * 1.2);
-                break;
-            case MedarbejderOplysninger.Koen.F:
-                loen = Math.Floor(loen * 0.8);
-                break;
-        }
-        switch (afdeling)
-        {
-            case MedarbejderOplysninger.Afdeling.SoftwareUdvikling:
-                loen = Math.Floor(loen * 1.2);
-                break;
-            case MedarbejderOplysninger.Afdeling.Administration:
-                loen = Math.Floor(loen * 1.5);
-                break;
-            case MedarbejderOplysninger.Afdeling.ServiceOgSupport:
-                loen = Math.Floor(loen * 0.8);
-                break;
-        }
+        double loen = EnumBasisloenAttributeHenter(stilling);
+        loen = Math.Floor(loen * EnumMultiplierAttributeHenter(koen) * EnumMultiplierAttributeHenter(afdeling));
         int gennemsnitsloen = (int)loen;
         return gennemsnitsloen;
     }
@@ -653,7 +973,7 @@ public class MedarbejderProgram
             .GroupBy(m => (m.Afdeling, m.Koen))
             .ToDictionary(
                 gruppe => gruppe.Key,
-                gruppe => (int)Math.Floor(gruppe.Average(m => LoenUdregner(m.Stilling.Basisloen, m.Koen, m.Afdeling)))
+                gruppe => (int)Math.Floor(gruppe.Average(m => LoenUdregner(m.Stilling, m.Koen, m.Afdeling)))
             );
     }
 
@@ -688,11 +1008,11 @@ public class MedarbejderProgram
         }
 
         int valgtTidsType = 0;
-        int valgtStillingIndex = Array.IndexOf(stillinger, stilling.Titel);
+        int valgtStillingIndex = Array.IndexOf(stillinger, stilling);
         if (valgtStillingIndex < 0)
         {
             valgtStillingIndex = 0;
-            stilling = new MedarbejderOplysninger.Stilling(stillinger[valgtStillingIndex], basisloenne[valgtStillingIndex]);
+            stilling = stillinger[valgtStillingIndex];
         }
         Console.Clear();
         Menu menu1 = new Menu();
@@ -703,11 +1023,15 @@ public class MedarbejderProgram
             Console.Clear();
             DateOnly foedselsdatoDateOnly = DateOnly.Parse(foedselsdato[1] + "/" + foedselsdato[0] + "/" + foedselsdato[2]);
             DateOnly nu = DateOnly.FromDateTime(DateTime.Now);
-            float aarTilPension = AarTilPension(foedselsdatoDateOnly);
+            
             string pensionsDato = PensionsDatoUdregner(foedselsdatoDateOnly).ToString("dd/MM/yyyy");
             MedarbejderOplysninger.Alder alder = BeregnAlder(foedselsdatoDateOnly);
-            string valgtAfdeling = EnumAttributeHjaelper(afdeling);
-            string valgtKoen = EnumAttributeHjaelper(koen);
+            float aarTilPension = AarTilPension(foedselsdatoDateOnly, alder);
+            string valgtAfdeling = EnumNameAttributeHenter(afdeling);
+            string valgtKoen = EnumNameAttributeHenter(koen);
+            string valgtStilling = EnumNameAttributeHenter(stilling);
+            int basisloen = EnumBasisloenAttributeHenter(stilling);
+            int reelLoen = LoenUdregner(stilling, koen, afdeling);
             string[] linesToWrite =
             {
               "Tryk enter for at bekræfte oplysning. Tryk escape for at gå tilbage", //0
@@ -718,7 +1042,7 @@ public class MedarbejderProgram
               "Brugernavn: " + brugernavn, //5
               "Fulde navn: " + fornavn + " " + efternavn, //6
               "Alder: " + alder.AlderM.ToString() + " år", // 7 
-              "Basisløn: " + basisloenne[valgtStillingIndex] + ", Reél månedsløn: " + LoenUdregner(basisloenne[valgtStillingIndex],koen, afdeling), //8
+              "Basisløn: " + basisloen + ", Reél månedsløn: " + reelLoen, //8
               "Pensionsdato: " + pensionsDato + " (" + aarTilPension + " år til pension) ", //9
               "",  //10
               "-Indtast manglende oplysniger-", // 11
@@ -726,7 +1050,7 @@ public class MedarbejderProgram
               "Efternavn: " + efternavn,  //13
               "Køn: " + valgtKoen, //14
               "Fødsesldato: " + foedselsdato[0] + "/" + foedselsdato[1] + "/" + foedselsdato[2], //15
-              "Stilling: " + stilling.Titel, //16
+              "Stilling: " + valgtStilling, //16
               "Afdeling: " + valgtAfdeling, //17
               "", //18
               "Gem og afslut", //19
@@ -766,15 +1090,15 @@ public class MedarbejderProgram
                     linesToWrite[1] = "Brug venstre og højre piltast til at vælge stilling.";
                     if (valgtStillingIndex == 0)
                     {
-                        linesToWrite[stillingStep] = "Stilling:   " + stilling.Titel + " > ";
+                        linesToWrite[stillingStep] = "Stilling:   " + valgtStilling + " > ";
                     }
                     else if (valgtStillingIndex == stillinger.Length - 1)
                     {
-                        linesToWrite[stillingStep] = "Stilling: < " + stilling.Titel + "   ";
+                        linesToWrite[stillingStep] = "Stilling: < " + valgtStilling + "   ";
                     }
                     else
                     {
-                        linesToWrite[stillingStep] = "Stilling: < " + stilling.Titel + " > ";
+                        linesToWrite[stillingStep] = "Stilling: < " + valgtStilling + " > ";
                     }
                     break;
                 case foedselsdatoStep://Fødselsdato
@@ -912,7 +1236,7 @@ public class MedarbejderProgram
                         if (valgtStillingIndex > 0)
                         {
                             valgtStillingIndex--;
-                            stilling = new MedarbejderOplysninger.Stilling(stillinger[valgtStillingIndex], basisloenne[valgtStillingIndex]);
+                            stilling = stillinger[valgtStillingIndex];
                         }
                     }
                     else if (keyInfo.Key == ConsoleKey.RightArrow)
@@ -920,7 +1244,7 @@ public class MedarbejderProgram
                         if (valgtStillingIndex < stillinger.Length - 1)
                         {
                             valgtStillingIndex++;
-                            stilling = new MedarbejderOplysninger.Stilling(stillinger[valgtStillingIndex], basisloenne[valgtStillingIndex]);
+                            stilling = stillinger[valgtStillingIndex];
                         }
                     }
                     else if (keyInfo.Key == ConsoleKey.Escape)
@@ -996,6 +1320,9 @@ public class MedarbejderProgram
         return null;
 
     }
+    public MedarbejderOplysninger.Stilling[] stillinger = Enum.GetValues<MedarbejderOplysninger.Stilling>();
+    public MedarbejderOplysninger.Afdeling[] afdelinger = Enum.GetValues<MedarbejderOplysninger.Afdeling>();
+    public MedarbejderOplysninger.Koen[] koen = Enum.GetValues<MedarbejderOplysninger.Koen>();
 
     public void DrawStep(List<string> oplysninger, string stepName, int yposStart)
     {
@@ -1057,20 +1384,94 @@ public class MedarbejderProgram
         return nummerString;
     }
 
-    public string EnumAttributeHjaelper(Enum value)
+    public string EnumNameAttributeHenter(Enum value)
     {
         FieldInfo? field = value.GetType().GetField(value.ToString());
 
         if (field == null)
             return value.ToString();
 
-        DisplayAttribute? attribute = field.GetCustomAttribute<DisplayAttribute>();
+        NavnOgLoenMultiplierAttribute? multiplierAttribute =
+            field.GetCustomAttribute<NavnOgLoenMultiplierAttribute>();
 
-        return attribute?.Name ?? value.ToString();
+        if (multiplierAttribute != null)
+            return multiplierAttribute.Name;
+
+        StillingOgBasisloenAttribute? stillingAttribute =
+            field.GetCustomAttribute<StillingOgBasisloenAttribute>();
+
+        if (stillingAttribute != null)
+            return stillingAttribute.Name;
+
+        return value.ToString();
+    }
+
+    public double EnumMultiplierAttributeHenter(Enum value)
+    {
+        if (value is MedarbejderOplysninger.Koen koenValue)
+        {
+            if (koenMultiplierOverrides.TryGetValue(koenValue, out double gemtMultiplier))
+            {
+                return gemtMultiplier;
+            }
+        }
+
+        if (value is MedarbejderOplysninger.Afdeling afdelingValue)
+        {
+            if (afdelingMultiplierOverrides.TryGetValue(afdelingValue, out double gemtMultiplier))
+            {
+                return gemtMultiplier;
+            }
+        }
+
+        FieldInfo? field = value.GetType().GetField(value.ToString());
+
+        if (field == null)
+            return 0;
+
+        NavnOgLoenMultiplierAttribute? attribute =
+            field.GetCustomAttribute<NavnOgLoenMultiplierAttribute>();
+
+        return attribute?.LoenMultiplier ?? 0;
+    }
+    private Dictionary<MedarbejderOplysninger.Koen, double> koenMultiplierOverrides
+    = new();
+    private Dictionary<MedarbejderOplysninger.Afdeling, double> afdelingMultiplierOverrides
+    = new();
+    public void EnumKoenMultiplierAttributeGemmer(MedarbejderOplysninger.Koen value, double nyMultiplier)
+    {
+        koenMultiplierOverrides[value] = nyMultiplier;
+    }
+    public void EnumAfdelingMultiplierAttributeGemmer(MedarbejderOplysninger.Afdeling value, double nyMultiplier)
+    {
+        afdelingMultiplierOverrides[value] = nyMultiplier;
+    }
+    private Dictionary<MedarbejderOplysninger.Stilling, int> basisloenOverrides
+    = new();
+    public int EnumBasisloenAttributeHenter(MedarbejderOplysninger.Stilling value)
+    {
+        if (basisloenOverrides.TryGetValue(value, out int gemtMultiplier))
+            return gemtMultiplier;
+
+        FieldInfo? field = value.GetType().GetField(value.ToString());
+
+        if (field == null)
+            return 0;
+
+        StillingOgBasisloenAttribute? attribute =
+            field.GetCustomAttribute<StillingOgBasisloenAttribute>();
+
+        return attribute?.Basisloen ?? 0;
+    }
+    public void EnumBasisloenAttributeGemmer(MedarbejderOplysninger.Stilling stilling, int nyBasisloen)
+    {
+        basisloenOverrides[stilling] = nyBasisloen;
     }
 }
+
 public class MedarbejderOplysninger
 {
+    public MedarbejderProgram mProgram = new MedarbejderProgram();
     public record Medarbejder
     {
         public string MANummer { get; init; } = ""; //Medarbejder nummer
@@ -1078,6 +1479,23 @@ public class MedarbejderOplysninger
         public string Brugernavn { get; init; } = "";//Brugernavn
         public Koen Koen { get; set; } //Køn
         public DateOnly Foedselsdato { get; set; } //Fødselsdato
+        public Alder Alder
+        {
+            get
+            {
+                DateOnly nu = DateOnly.FromDateTime(DateTime.Now);
+                MedarbejderOplysninger.Alder alder = new MedarbejderOplysninger.Alder();
+                int alderInt = nu.Year - Foedselsdato.Year;
+
+                if (nu < Foedselsdato.AddYears(alderInt))
+                {
+                    alderInt--;
+                }
+                alder.AlderM = alderInt;
+                return alder;
+            }
+            set;
+        }
         public Stilling Stilling { get; set; } //Stilling
         public Afdeling Afdeling { get; set; } //Afdeling
         public DateTime Oprettelsesdato { get; init; } //Oprettelsedato af medarbejder profilen
@@ -1090,18 +1508,18 @@ public class MedarbejderOplysninger
     }
     public enum Koen
     {
-        [Display(Name = "Mand")]
+        [NavnOgLoenMultiplier("Mand", 1.2)]
         M,
-        [Display(Name = "Kvinde")]
+        [NavnOgLoenMultiplier("Kvinde", 0.8)]
         F
     }
     public enum Afdeling
     {
-        [Display(Name = "Software udvikling")]
+        [NavnOgLoenMultiplier("Software udvikling", 1.2)]
         SoftwareUdvikling,
-        [Display(Name = "Administration")]
+        [NavnOgLoenMultiplier("Administration", 1.5)]
         Administration,
-        [Display(Name = "Service og support")]
+        [NavnOgLoenMultiplier("Service og support", 0.8)]
         ServiceOgSupport
     };
     public struct PensionsDato(DateOnly dato)
@@ -1112,9 +1530,51 @@ public class MedarbejderOplysninger
     {
         public int AlderM { get; set; } = alder;
     }
-    public struct Stilling(string titel, int basisloen)
+    public enum Stilling
     {
-        public string Titel { get; set; } = titel;
-        public int Basisloen { get; set; } = basisloen;
+        [StillingOgBasisloen("Stenhugger", 31000)]
+        Stenhugger,
+        [StillingOgBasisloen("Udvikler", 52000)]
+        Udvikler,
+        [StillingOgBasisloen("Testperson", 31500)]
+        Testperson,
+        [StillingOgBasisloen("Kantinemedarbejder", 23000)]
+        Kantinemedarbejder,
+        [StillingOgBasisloen("Ingengør", 64000)]
+        Ingengør,
+        [StillingOgBasisloen("Webdesigner", 50000)]
+        Webdesigner,
+        [StillingOgBasisloen("GrafiskDesigner", 55000)]
+        GrafiskDesigner,
+        [StillingOgBasisloen("Hundepasser", 13000)]
+        Hundepasser,
+        [StillingOgBasisloen("Pedagog", 33000)]
+        Pedagog,
+        [StillingOgBasisloen("Servicemedarbejder", 28000)]
+        Servicemedarbejder,
+        [StillingOgBasisloen("Mellemleder", 65000)]
+        Mellemleder
     }
 }
+public class StillingOgBasisloenAttribute : Attribute
+{
+    public string Name { get; set; }
+    public int Basisloen { get; set; }
+
+    public StillingOgBasisloenAttribute(string name, int basisloen)
+    {
+        Name = name;
+        Basisloen = basisloen;
+    }
+}
+public class NavnOgLoenMultiplierAttribute : Attribute
+{
+    public string Name { get; set; }
+    public double LoenMultiplier { get; set; }
+    public NavnOgLoenMultiplierAttribute(string name, double loenMultiplier)
+    {
+        Name = name;
+        LoenMultiplier = loenMultiplier;
+    }
+}
+
