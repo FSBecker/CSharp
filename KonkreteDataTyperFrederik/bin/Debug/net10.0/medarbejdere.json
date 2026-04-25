@@ -1,1602 +1,1602 @@
 [
   {
-    "MANummer": "2120127177",
+    "MANummer": "4992886418",
     "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Johnson"
+      "Fornavn": "Toke",
+      "Efternavn": "Petersen"
     },
-    "Brugernavn": "erjo43",
-    "Koen": 1,
-    "Foedselsdato": "2003-07-05",
-    "Alder": {
-      "AlderM": 22
-    },
-    "Stilling": 5,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5411619+02:00"
-  },
-  {
-    "MANummer": "2941046089",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "mubl99",
+    "Brugernavn": "tope12",
     "Koen": 0,
-    "Foedselsdato": "1973-06-19",
-    "Alder": {
-      "AlderM": 52
-    },
-    "Stilling": 8,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5411965+02:00"
-  },
-  {
-    "MANummer": "7734448919",
-    "Navn": {
-      "Fornavn": "Lotte",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "loal05",
-    "Koen": 1,
-    "Foedselsdato": "1966-01-28",
-    "Alder": {
-      "AlderM": 60
-    },
-    "Stilling": 3,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412178+02:00"
-  },
-  {
-    "MANummer": "1524535355",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "toba38",
-    "Koen": 0,
-    "Foedselsdato": "1960-10-06",
-    "Alder": {
-      "AlderM": 65
-    },
-    "Stilling": 2,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412191+02:00"
-  },
-  {
-    "MANummer": "7309159522",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "yaha94",
-    "Koen": 0,
-    "Foedselsdato": "2001-10-09",
-    "Alder": {
-      "AlderM": 24
-    },
-    "Stilling": 10,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412203+02:00"
-  },
-  {
-    "MANummer": "1154759815",
-    "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "roal87",
-    "Koen": 0,
-    "Foedselsdato": "1973-11-12",
-    "Alder": {
-      "AlderM": 52
-    },
-    "Stilling": 1,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412222+02:00"
-  },
-  {
-    "MANummer": "1251249767",
-    "Navn": {
-      "Fornavn": "Kalle",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "kaac28",
-    "Koen": 0,
-    "Foedselsdato": "2004-02-05",
-    "Alder": {
-      "AlderM": 22
-    },
-    "Stilling": 5,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412233+02:00"
-  },
-  {
-    "MANummer": "9665304601",
-    "Navn": {
-      "Fornavn": "Erik",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "erpa07",
-    "Koen": 0,
-    "Foedselsdato": "1996-04-18",
-    "Alder": {
-      "AlderM": 30
-    },
-    "Stilling": 2,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412244+02:00"
-  },
-  {
-    "MANummer": "8068302134",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "line37",
-    "Koen": 1,
-    "Foedselsdato": "1988-08-28",
-    "Alder": {
-      "AlderM": 37
-    },
-    "Stilling": 9,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412257+02:00"
-  },
-  {
-    "MANummer": "6140306996",
-    "Navn": {
-      "Fornavn": "Johan",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "jobl12",
-    "Koen": 0,
-    "Foedselsdato": "1967-06-16",
+    "Foedselsdato": "1967-10-24",
     "Alder": {
       "AlderM": 58
     },
-    "Stilling": 2,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412271+02:00"
-  },
-  {
-    "MANummer": "1801508644",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "chha90",
-    "Koen": 0,
-    "Foedselsdato": "2006-01-13",
-    "Alder": {
-      "AlderM": 20
-    },
-    "Stilling": 4,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412282+02:00"
-  },
-  {
-    "MANummer": "2481415608",
-    "Navn": {
-      "Fornavn": "Frederikke",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "frtu84",
-    "Koen": 1,
-    "Foedselsdato": "2002-01-31",
-    "Alder": {
-      "AlderM": 24
-    },
-    "Stilling": 5,
+    "Stilling": 1,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412295+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.02111+02:00"
   },
   {
-    "MANummer": "7335749113",
+    "MANummer": "2632321643",
     "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "chne16",
-    "Koen": 0,
-    "Foedselsdato": "1984-06-20",
-    "Alder": {
-      "AlderM": 41
-    },
-    "Stilling": 4,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412307+02:00"
-  },
-  {
-    "MANummer": "0491650865",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "alwe25",
-    "Koen": 1,
-    "Foedselsdato": "2004-08-30",
-    "Alder": {
-      "AlderM": 21
-    },
-    "Stilling": 9,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412318+02:00"
-  },
-  {
-    "MANummer": "7078989731",
-    "Navn": {
-      "Fornavn": "Henriette",
+      "Fornavn": "Tobias",
       "Efternavn": "Actung"
     },
-    "Brugernavn": "heac77",
-    "Koen": 1,
-    "Foedselsdato": "1978-02-16",
+    "Brugernavn": "toac38",
+    "Koen": 0,
+    "Foedselsdato": "1983-11-19",
     "Alder": {
-      "AlderM": 48
+      "AlderM": 42
     },
-    "Stilling": 7,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412359+02:00"
+    "Stilling": 0,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0212528+02:00"
   },
   {
-    "MANummer": "0220270243",
+    "MANummer": "3402687459",
     "Navn": {
-      "Fornavn": "Toke",
-      "Efternavn": "Humle"
+      "Fornavn": "Maria",
+      "Efternavn": "Abdul"
     },
-    "Brugernavn": "tohu89",
-    "Koen": 0,
-    "Foedselsdato": "1985-09-03",
+    "Brugernavn": "maab25",
+    "Koen": 1,
+    "Foedselsdato": "1973-10-05",
     "Alder": {
-      "AlderM": 40
+      "AlderM": 52
     },
     "Stilling": 10,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412371+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.021284+02:00"
   },
   {
-    "MANummer": "4634316558",
+    "MANummer": "1124546281",
     "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Westphal"
+      "Fornavn": "Ronald",
+      "Efternavn": "Hansen"
     },
-    "Brugernavn": "fiwe98",
-    "Koen": 1,
-    "Foedselsdato": "1969-12-06",
+    "Brugernavn": "roha03",
+    "Koen": 0,
+    "Foedselsdato": "1998-06-09",
     "Alder": {
-      "AlderM": 56
+      "AlderM": 27
     },
     "Stilling": 8,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412452+02:00"
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0212862+02:00"
   },
   {
-    "MANummer": "2984941124",
+    "MANummer": "2982789441",
     "Navn": {
-      "Fornavn": "Thyra",
-      "Efternavn": "Henriksne"
+      "Fornavn": "Emil",
+      "Efternavn": "Jensen"
     },
-    "Brugernavn": "thhe61",
-    "Koen": 1,
-    "Foedselsdato": "2005-01-24",
+    "Brugernavn": "emje42",
+    "Koen": 0,
+    "Foedselsdato": "1967-12-21",
     "Alder": {
-      "AlderM": 21
+      "AlderM": 58
     },
     "Stilling": 4,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412465+02:00"
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0212883+02:00"
   },
   {
-    "MANummer": "3130105591",
+    "MANummer": "3609689452",
     "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Frederiksen"
+      "Fornavn": "Lee",
+      "Efternavn": "Petersen"
     },
-    "Brugernavn": "rofr86",
+    "Brugernavn": "lepe08",
     "Koen": 0,
-    "Foedselsdato": "1963-10-25",
+    "Foedselsdato": "1979-12-08",
     "Alder": {
-      "AlderM": 62
-    },
-    "Stilling": 9,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412476+02:00"
-  },
-  {
-    "MANummer": "9546231189",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "jupa68",
-    "Koen": 1,
-    "Foedselsdato": "1962-05-14",
-    "Alder": {
-      "AlderM": 63
-    },
-    "Stilling": 4,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412487+02:00"
-  },
-  {
-    "MANummer": "3730179963",
-    "Navn": {
-      "Fornavn": "Lotte",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "lohe82",
-    "Koen": 1,
-    "Foedselsdato": "1972-08-16",
-    "Alder": {
-      "AlderM": 53
-    },
-    "Stilling": 5,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412499+02:00"
-  },
-  {
-    "MANummer": "8278435995",
-    "Navn": {
-      "Fornavn": "Frederik",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "frki53",
-    "Koen": 0,
-    "Foedselsdato": "1980-12-11",
-    "Alder": {
-      "AlderM": 45
+      "AlderM": 46
     },
     "Stilling": 10,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412511+02:00"
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021294+02:00"
   },
   {
-    "MANummer": "5646750765",
+    "MANummer": "2159626209",
     "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Frederiksen"
+      "Fornavn": "Elisabeth",
+      "Efternavn": "Bager"
     },
-    "Brugernavn": "rofr40",
-    "Koen": 0,
-    "Foedselsdato": "1991-03-03",
+    "Brugernavn": "elba35",
+    "Koen": 1,
+    "Foedselsdato": "1990-10-15",
     "Alder": {
       "AlderM": 35
     },
-    "Stilling": 8,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412523+02:00"
-  },
-  {
-    "MANummer": "6605551207",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "fiwe04",
-    "Koen": 1,
-    "Foedselsdato": "1966-01-28",
-    "Alder": {
-      "AlderM": 60
-    },
-    "Stilling": 1,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412534+02:00"
-  },
-  {
-    "MANummer": "0476060337",
-    "Navn": {
-      "Fornavn": "Bruce",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "brwe80",
-    "Koen": 0,
-    "Foedselsdato": "1955-02-06",
-    "Alder": {
-      "AlderM": 71
-    },
-    "Stilling": 8,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412547+02:00"
-  },
-  {
-    "MANummer": "0069950853",
-    "Navn": {
-      "Fornavn": "Frederik",
-      "Efternavn": "Paulsen"
-    },
-    "Brugernavn": "frpa43",
-    "Koen": 0,
-    "Foedselsdato": "1981-06-14",
-    "Alder": {
-      "AlderM": 44
-    },
     "Stilling": 9,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412559+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.021296+02:00"
   },
   {
-    "MANummer": "6911720836",
+    "MANummer": "4931128307",
     "Navn": {
-      "Fornavn": "Jane",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "jawe82",
-    "Koen": 1,
-    "Foedselsdato": "2000-02-07",
-    "Alder": {
-      "AlderM": 26
-    },
-    "Stilling": 6,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412571+02:00"
-  },
-  {
-    "MANummer": "0191397046",
-    "Navn": {
-      "Fornavn": "Sanne",
+      "Fornavn": "Alberte",
       "Efternavn": "Kirkegaard"
     },
-    "Brugernavn": "saki36",
+    "Brugernavn": "alki84",
     "Koen": 1,
-    "Foedselsdato": "1982-01-28",
+    "Foedselsdato": "1984-01-08",
     "Alder": {
-      "AlderM": 44
+      "AlderM": 42
+    },
+    "Stilling": 8,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0212983+02:00"
+  },
+  {
+    "MANummer": "3253402064",
+    "Navn": {
+      "Fornavn": "Philip",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "phch53",
+    "Koen": 0,
+    "Foedselsdato": "1978-06-03",
+    "Alder": {
+      "AlderM": 47
     },
     "Stilling": 5,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412582+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213003+02:00"
   },
   {
-    "MANummer": "1182204100",
+    "MANummer": "9062855361",
     "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Jensen"
+      "Fornavn": "Fillipa",
+      "Efternavn": "Chi"
     },
-    "Brugernavn": "leje52",
-    "Koen": 0,
-    "Foedselsdato": "1982-11-01",
+    "Brugernavn": "fich24",
+    "Koen": 1,
+    "Foedselsdato": "1978-03-30",
     "Alder": {
-      "AlderM": 43
+      "AlderM": 48
     },
     "Stilling": 0,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412595+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213026+02:00"
   },
   {
-    "MANummer": "7888538262",
+    "MANummer": "8513857513",
     "Navn": {
-      "Fornavn": "Jane",
-      "Efternavn": "Westphal"
+      "Fornavn": "Sanne",
+      "Efternavn": "Ali"
     },
-    "Brugernavn": "jawe90",
+    "Brugernavn": "saal01",
     "Koen": 1,
-    "Foedselsdato": "1962-12-18",
+    "Foedselsdato": "1974-09-21",
     "Alder": {
-      "AlderM": 63
-    },
-    "Stilling": 2,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412655+02:00"
-  },
-  {
-    "MANummer": "9882742579",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "haac98",
-    "Koen": 0,
-    "Foedselsdato": "1967-07-04",
-    "Alder": {
-      "AlderM": 58
-    },
-    "Stilling": 2,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412667+02:00"
-  },
-  {
-    "MANummer": "0270640351",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "søwe55",
-    "Koen": 0,
-    "Foedselsdato": "1958-01-11",
-    "Alder": {
-      "AlderM": 68
-    },
-    "Stilling": 6,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412834+02:00"
-  },
-  {
-    "MANummer": "4338941202",
-    "Navn": {
-      "Fornavn": "Niels",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "nipe79",
-    "Koen": 0,
-    "Foedselsdato": "1963-12-14",
-    "Alder": {
-      "AlderM": 62
+      "AlderM": 51
     },
     "Stilling": 8,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412846+02:00"
-  },
-  {
-    "MANummer": "2507777454",
-    "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "hefr73",
-    "Koen": 1,
-    "Foedselsdato": "1986-05-14",
-    "Alder": {
-      "AlderM": 39
-    },
-    "Stilling": 1,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.541286+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213046+02:00"
   },
   {
-    "MANummer": "3226386555",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "elki61",
-    "Koen": 1,
-    "Foedselsdato": "1981-05-13",
-    "Alder": {
-      "AlderM": 44
-    },
-    "Stilling": 3,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412872+02:00"
-  },
-  {
-    "MANummer": "4420365949",
+    "MANummer": "9754074665",
     "Navn": {
       "Fornavn": "Andersine",
-      "Efternavn": "Chi"
+      "Efternavn": "Jensen"
     },
-    "Brugernavn": "anch42",
+    "Brugernavn": "anje56",
     "Koen": 1,
-    "Foedselsdato": "1969-11-13",
+    "Foedselsdato": "1997-06-25",
+    "Alder": {
+      "AlderM": 28
+    },
+    "Stilling": 5,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213064+02:00"
+  },
+  {
+    "MANummer": "9742412989",
+    "Navn": {
+      "Fornavn": "Alberte",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "alyu68",
+    "Koen": 1,
+    "Foedselsdato": "1970-03-10",
     "Alder": {
       "AlderM": 56
     },
     "Stilling": 4,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412884+02:00"
-  },
-  {
-    "MANummer": "0858230551",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "anki22",
-    "Koen": 1,
-    "Foedselsdato": "1984-06-24",
-    "Alder": {
-      "AlderM": 41
-    },
-    "Stilling": 6,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412896+02:00"
-  },
-  {
-    "MANummer": "9413361034",
-    "Navn": {
-      "Fornavn": "Lilje",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "liab47",
-    "Koen": 1,
-    "Foedselsdato": "1990-02-27",
-    "Alder": {
-      "AlderM": 36
-    },
-    "Stilling": 4,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412907+02:00"
-  },
-  {
-    "MANummer": "8830068739",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "phba22",
-    "Koen": 0,
-    "Foedselsdato": "1979-12-09",
-    "Alder": {
-      "AlderM": 46
-    },
-    "Stilling": 0,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412918+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213083+02:00"
   },
   {
-    "MANummer": "1587200888",
+    "MANummer": "4039994726",
     "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "lefr87",
-    "Koen": 0,
-    "Foedselsdato": "1969-01-24",
-    "Alder": {
-      "AlderM": 57
-    },
-    "Stilling": 0,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.541293+02:00"
-  },
-  {
-    "MANummer": "6851514058",
-    "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Petersen"
-    },
-    "Brugernavn": "lepe86",
-    "Koen": 0,
-    "Foedselsdato": "1980-02-21",
-    "Alder": {
-      "AlderM": 46
-    },
-    "Stilling": 10,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412941+02:00"
-  },
-  {
-    "MANummer": "4180094804",
-    "Navn": {
-      "Fornavn": "Lilje",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "lifr57",
-    "Koen": 1,
-    "Foedselsdato": "1976-09-22",
-    "Alder": {
-      "AlderM": 49
-    },
-    "Stilling": 6,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5412952+02:00"
-  },
-  {
-    "MANummer": "4164236749",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "ermc54",
-    "Koen": 1,
-    "Foedselsdato": "1955-12-11",
-    "Alder": {
-      "AlderM": 70
-    },
-    "Stilling": 4,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413011+02:00"
-  },
-  {
-    "MANummer": "4328102100",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "sibl81",
-    "Koen": 1,
-    "Foedselsdato": "1986-07-04",
-    "Alder": {
-      "AlderM": 39
-    },
-    "Stilling": 10,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413023+02:00"
-  },
-  {
-    "MANummer": "6176192657",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "elba28",
-    "Koen": 1,
-    "Foedselsdato": "1963-04-30",
-    "Alder": {
-      "AlderM": 62
-    },
-    "Stilling": 7,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413034+02:00"
-  },
-  {
-    "MANummer": "3162648722",
-    "Navn": {
-      "Fornavn": "Pauline",
+      "Fornavn": "Julie",
       "Efternavn": "Yung"
     },
-    "Brugernavn": "payu57",
+    "Brugernavn": "juyu36",
     "Koen": 1,
-    "Foedselsdato": "1986-09-02",
+    "Foedselsdato": "1971-12-24",
     "Alder": {
-      "AlderM": 39
+      "AlderM": 54
     },
-    "Stilling": 5,
+    "Stilling": 4,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413046+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213101+02:00"
   },
   {
-    "MANummer": "7961362759",
+    "MANummer": "8079321871",
     "Navn": {
-      "Fornavn": "Lee",
-      "Efternavn": "Kirkegaard"
+      "Fornavn": "Muhammed",
+      "Efternavn": "Westphal"
     },
-    "Brugernavn": "leki02",
+    "Brugernavn": "muwe83",
     "Koen": 0,
-    "Foedselsdato": "1996-10-04",
+    "Foedselsdato": "1987-04-26",
     "Alder": {
-      "AlderM": 29
-    },
-    "Stilling": 8,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413057+02:00"
-  },
-  {
-    "MANummer": "6730375729",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "hatu43",
-    "Koen": 0,
-    "Foedselsdato": "1978-08-27",
-    "Alder": {
-      "AlderM": 47
-    },
-    "Stilling": 2,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413068+02:00"
-  },
-  {
-    "MANummer": "7143724549",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "sibl79",
-    "Koen": 1,
-    "Foedselsdato": "1964-01-26",
-    "Alder": {
-      "AlderM": 62
-    },
-    "Stilling": 3,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.541308+02:00"
-  },
-  {
-    "MANummer": "5052091771",
-    "Navn": {
-      "Fornavn": "Sanne",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "sahu06",
-    "Koen": 1,
-    "Foedselsdato": "2005-01-13",
-    "Alder": {
-      "AlderM": 21
-    },
-    "Stilling": 10,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413091+02:00"
-  },
-  {
-    "MANummer": "5855199811",
-    "Navn": {
-      "Fornavn": "Nora",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "nomc35",
-    "Koen": 1,
-    "Foedselsdato": "1960-11-07",
-    "Alder": {
-      "AlderM": 65
+      "AlderM": 38
     },
     "Stilling": 1,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413102+02:00"
-  },
-  {
-    "MANummer": "8543602124",
-    "Navn": {
-      "Fornavn": "Lone",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "lofr70",
-    "Koen": 1,
-    "Foedselsdato": "1967-02-11",
-    "Alder": {
-      "AlderM": 59
-    },
-    "Stilling": 9,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413113+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213174+02:00"
   },
   {
-    "MANummer": "9136586003",
+    "MANummer": "4465286272",
     "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Ali"
+      "Fornavn": "Frederik",
+      "Efternavn": "Chi"
     },
-    "Brugernavn": "søal31",
+    "Brugernavn": "frch28",
     "Koen": 0,
-    "Foedselsdato": "1966-03-28",
-    "Alder": {
-      "AlderM": 60
-    },
-    "Stilling": 1,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.541313+02:00"
-  },
-  {
-    "MANummer": "5245841011",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "hajo17",
-    "Koen": 0,
-    "Foedselsdato": "1963-10-23",
-    "Alder": {
-      "AlderM": 62
-    },
-    "Stilling": 3,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413141+02:00"
-  },
-  {
-    "MANummer": "1105454952",
-    "Navn": {
-      "Fornavn": "Pauline",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "paal89",
-    "Koen": 1,
-    "Foedselsdato": "1970-07-30",
+    "Foedselsdato": "1971-02-12",
     "Alder": {
       "AlderM": 55
     },
     "Stilling": 10,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413152+02:00"
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213195+02:00"
   },
   {
-    "MANummer": "6005922672",
+    "MANummer": "9620721592",
     "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Abdul"
+      "Fornavn": "Tobias",
+      "Efternavn": "Kirkegaard"
     },
-    "Brugernavn": "heab73",
+    "Brugernavn": "toki85",
     "Koen": 0,
-    "Foedselsdato": "1984-03-20",
-    "Alder": {
-      "AlderM": 42
-    },
-    "Stilling": 6,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413163+02:00"
-  },
-  {
-    "MANummer": "1299271301",
-    "Navn": {
-      "Fornavn": "Jon",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "jotu77",
-    "Koen": 0,
-    "Foedselsdato": "1980-07-26",
+    "Foedselsdato": "1981-03-26",
     "Alder": {
       "AlderM": 45
     },
     "Stilling": 2,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.541322+02:00"
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213331+02:00"
   },
   {
-    "MANummer": "9803651735",
+    "MANummer": "4714547298",
     "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Henriksne"
+      "Fornavn": "Henriette",
+      "Efternavn": "Petersen"
     },
-    "Brugernavn": "lihe02",
+    "Brugernavn": "hepe69",
     "Koen": 1,
-    "Foedselsdato": "1956-03-05",
+    "Foedselsdato": "1961-12-26",
     "Alder": {
-      "AlderM": 70
+      "AlderM": 64
     },
-    "Stilling": 0,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413232+02:00"
+    "Stilling": 10,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213354+02:00"
   },
   {
-    "MANummer": "1650345648",
+    "MANummer": "2427921870",
     "Navn": {
-      "Fornavn": "Thyra",
+      "Fornavn": "Bruce",
       "Efternavn": "Kirkegaard"
     },
-    "Brugernavn": "thki42",
-    "Koen": 1,
-    "Foedselsdato": "1994-01-24",
-    "Alder": {
-      "AlderM": 32
-    },
-    "Stilling": 3,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413243+02:00"
-  },
-  {
-    "MANummer": "3916067761",
-    "Navn": {
-      "Fornavn": "Christian",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "chal19",
+    "Brugernavn": "brki07",
     "Koen": 0,
-    "Foedselsdato": "1998-02-19",
-    "Alder": {
-      "AlderM": 28
-    },
-    "Stilling": 3,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413255+02:00"
-  },
-  {
-    "MANummer": "9787460678",
-    "Navn": {
-      "Fornavn": "Philip",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "phal13",
-    "Koen": 0,
-    "Foedselsdato": "1968-11-10",
-    "Alder": {
-      "AlderM": 57
-    },
-    "Stilling": 0,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413266+02:00"
-  },
-  {
-    "MANummer": "1435669960",
-    "Navn": {
-      "Fornavn": "Lotte",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "loac70",
-    "Koen": 1,
-    "Foedselsdato": "1965-09-03",
-    "Alder": {
-      "AlderM": 60
-    },
-    "Stilling": 1,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413277+02:00"
-  },
-  {
-    "MANummer": "1843247922",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "mune30",
-    "Koen": 0,
-    "Foedselsdato": "1994-06-22",
-    "Alder": {
-      "AlderM": 31
-    },
-    "Stilling": 8,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413288+02:00"
-  },
-  {
-    "MANummer": "5604421342",
-    "Navn": {
-      "Fornavn": "Emil",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "emhu54",
-    "Koen": 0,
-    "Foedselsdato": "1994-07-24",
-    "Alder": {
-      "AlderM": 31
-    },
-    "Stilling": 8,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.54133+02:00"
-  },
-  {
-    "MANummer": "1869986710",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Chi"
-    },
-    "Brugernavn": "much58",
-    "Koen": 0,
-    "Foedselsdato": "1999-08-02",
-    "Alder": {
-      "AlderM": 26
-    },
-    "Stilling": 5,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413311+02:00"
-  },
-  {
-    "MANummer": "2228836834",
-    "Navn": {
-      "Fornavn": "Hans",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "haki82",
-    "Koen": 0,
-    "Foedselsdato": "1996-06-04",
-    "Alder": {
-      "AlderM": 29
-    },
-    "Stilling": 9,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413324+02:00"
-  },
-  {
-    "MANummer": "9238949604",
-    "Navn": {
-      "Fornavn": "Tobias",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "toha40",
-    "Koen": 0,
-    "Foedselsdato": "1986-03-30",
-    "Alder": {
-      "AlderM": 40
-    },
-    "Stilling": 2,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413335+02:00"
-  },
-  {
-    "MANummer": "9350404033",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "erne13",
-    "Koen": 1,
-    "Foedselsdato": "1958-02-14",
-    "Alder": {
-      "AlderM": 68
-    },
-    "Stilling": 3,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413346+02:00"
-  },
-  {
-    "MANummer": "1978506779",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Frederiksen"
-    },
-    "Brugernavn": "mufr21",
-    "Koen": 0,
-    "Foedselsdato": "1959-09-12",
-    "Alder": {
-      "AlderM": 66
-    },
-    "Stilling": 3,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413358+02:00"
-  },
-  {
-    "MANummer": "0308112225",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "søjo71",
-    "Koen": 0,
-    "Foedselsdato": "2005-10-19",
-    "Alder": {
-      "AlderM": 20
-    },
-    "Stilling": 3,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413417+02:00"
-  },
-  {
-    "MANummer": "3086158282",
-    "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "caha83",
-    "Koen": 0,
-    "Foedselsdato": "1977-08-29",
-    "Alder": {
-      "AlderM": 48
-    },
-    "Stilling": 9,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413429+02:00"
-  },
-  {
-    "MANummer": "1046750504",
-    "Navn": {
-      "Fornavn": "Julie",
-      "Efternavn": "Humle"
-    },
-    "Brugernavn": "juhu40",
-    "Koen": 1,
-    "Foedselsdato": "1972-11-14",
-    "Alder": {
-      "AlderM": 53
-    },
-    "Stilling": 1,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.541344+02:00"
-  },
-  {
-    "MANummer": "1325185082",
-    "Navn": {
-      "Fornavn": "Yang",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "yaba32",
-    "Koen": 0,
-    "Foedselsdato": "1968-04-06",
-    "Alder": {
-      "AlderM": 58
-    },
-    "Stilling": 1,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413451+02:00"
-  },
-  {
-    "MANummer": "9692815058",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Ali"
-    },
-    "Brugernavn": "heal35",
-    "Koen": 0,
-    "Foedselsdato": "1995-01-09",
-    "Alder": {
-      "AlderM": 31
-    },
-    "Stilling": 7,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413462+02:00"
-  },
-  {
-    "MANummer": "3492414569",
-    "Navn": {
-      "Fornavn": "Niels",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "nimc77",
-    "Koen": 0,
-    "Foedselsdato": "2002-09-29",
+    "Foedselsdato": "2002-07-07",
     "Alder": {
       "AlderM": 23
-    },
-    "Stilling": 10,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413473+02:00"
-  },
-  {
-    "MANummer": "0757519374",
-    "Navn": {
-      "Fornavn": "Muhammed",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "muyu49",
-    "Koen": 0,
-    "Foedselsdato": "1974-09-11",
-    "Alder": {
-      "AlderM": 51
-    },
-    "Stilling": 10,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413484+02:00"
-  },
-  {
-    "MANummer": "8327470634",
-    "Navn": {
-      "Fornavn": "Søren",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "søac07",
-    "Koen": 0,
-    "Foedselsdato": "1999-09-01",
-    "Alder": {
-      "AlderM": 26
     },
     "Stilling": 6,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413496+02:00"
-  },
-  {
-    "MANummer": "7417695962",
-    "Navn": {
-      "Fornavn": "Jane",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "jaba90",
-    "Koen": 1,
-    "Foedselsdato": "1957-11-25",
-    "Alder": {
-      "AlderM": 68
-    },
-    "Stilling": 10,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413507+02:00"
-  },
-  {
-    "MANummer": "0880663935",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Hansen"
-    },
-    "Brugernavn": "heha64",
-    "Koen": 0,
-    "Foedselsdato": "2003-01-13",
-    "Alder": {
-      "AlderM": 23
-    },
-    "Stilling": 10,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413518+02:00"
-  },
-  {
-    "MANummer": "4787848911",
-    "Navn": {
-      "Fornavn": "Andersine",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "anmc90",
-    "Koen": 1,
-    "Foedselsdato": "1966-06-25",
-    "Alder": {
-      "AlderM": 59
-    },
-    "Stilling": 2,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413529+02:00"
-  },
-  {
-    "MANummer": "2805055414",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Actung"
-    },
-    "Brugernavn": "fiac52",
-    "Koen": 1,
-    "Foedselsdato": "1978-10-02",
-    "Alder": {
-      "AlderM": 47
-    },
-    "Stilling": 9,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413541+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213373+02:00"
   },
   {
-    "MANummer": "5352391030",
-    "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "liba42",
-    "Koen": 1,
-    "Foedselsdato": "1963-03-05",
-    "Alder": {
-      "AlderM": 63
-    },
-    "Stilling": 9,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413552+02:00"
-  },
-  {
-    "MANummer": "6270018165",
-    "Navn": {
-      "Fornavn": "Elisabeth",
-      "Efternavn": "Tuk Tuk"
-    },
-    "Brugernavn": "eltu11",
-    "Koen": 1,
-    "Foedselsdato": "1955-11-02",
-    "Alder": {
-      "AlderM": 70
-    },
-    "Stilling": 5,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413563+02:00"
-  },
-  {
-    "MANummer": "9761933845",
-    "Navn": {
-      "Fornavn": "Alberte",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "alyu63",
-    "Koen": 1,
-    "Foedselsdato": "1978-02-19",
-    "Alder": {
-      "AlderM": 48
-    },
-    "Stilling": 9,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413619+02:00"
-  },
-  {
-    "MANummer": "0518849226",
-    "Navn": {
-      "Fornavn": "Amalie",
-      "Efternavn": "Bager"
-    },
-    "Brugernavn": "amba70",
-    "Koen": 1,
-    "Foedselsdato": "1969-03-08",
-    "Alder": {
-      "AlderM": 57
-    },
-    "Stilling": 1,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.541363+02:00"
-  },
-  {
-    "MANummer": "4511294325",
-    "Navn": {
-      "Fornavn": "Carl",
-      "Efternavn": "Neingescheis"
-    },
-    "Brugernavn": "cane41",
-    "Koen": 0,
-    "Foedselsdato": "1968-11-19",
-    "Alder": {
-      "AlderM": 57
-    },
-    "Stilling": 8,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413642+02:00"
-  },
-  {
-    "MANummer": "4119988562",
-    "Navn": {
-      "Fornavn": "Lilje",
-      "Efternavn": "Yung"
-    },
-    "Brugernavn": "liyu91",
-    "Koen": 1,
-    "Foedselsdato": "1960-12-10",
-    "Alder": {
-      "AlderM": 65
-    },
-    "Stilling": 7,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413653+02:00"
-  },
-  {
-    "MANummer": "6154791674",
-    "Navn": {
-      "Fornavn": "Fillipa",
-      "Efternavn": "Black"
-    },
-    "Brugernavn": "fibl82",
-    "Koen": 1,
-    "Foedselsdato": "1977-07-13",
-    "Alder": {
-      "AlderM": 48
-    },
-    "Stilling": 4,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413664+02:00"
-  },
-  {
-    "MANummer": "3893798511",
-    "Navn": {
-      "Fornavn": "Henrik",
-      "Efternavn": "Johnson"
-    },
-    "Brugernavn": "hejo21",
-    "Koen": 0,
-    "Foedselsdato": "1955-03-12",
-    "Alder": {
-      "AlderM": 71
-    },
-    "Stilling": 2,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413675+02:00"
-  },
-  {
-    "MANummer": "0729164261",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Westphal"
-    },
-    "Brugernavn": "siwe68",
-    "Koen": 1,
-    "Foedselsdato": "1983-09-09",
-    "Alder": {
-      "AlderM": 42
-    },
-    "Stilling": 2,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413687+02:00"
-  },
-  {
-    "MANummer": "1164619393",
-    "Navn": {
-      "Fornavn": "Maria",
-      "Efternavn": "Henriksne"
-    },
-    "Brugernavn": "mahe59",
-    "Koen": 1,
-    "Foedselsdato": "1984-12-27",
-    "Alder": {
-      "AlderM": 41
-    },
-    "Stilling": 9,
-    "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413698+02:00"
-  },
-  {
-    "MANummer": "1613559142",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Kirkegaard"
-    },
-    "Brugernavn": "erki86",
-    "Koen": 1,
-    "Foedselsdato": "1982-05-01",
-    "Alder": {
-      "AlderM": 43
-    },
-    "Stilling": 4,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413709+02:00"
-  },
-  {
-    "MANummer": "4580154785",
+    "MANummer": "7381344775",
     "Navn": {
       "Fornavn": "Nora",
-      "Efternavn": "Yung"
+      "Efternavn": "Black"
     },
-    "Brugernavn": "noyu58",
+    "Brugernavn": "nobl57",
     "Koen": 1,
-    "Foedselsdato": "1968-10-15",
+    "Foedselsdato": "1976-01-12",
     "Alder": {
-      "AlderM": 57
+      "AlderM": 50
     },
-    "Stilling": 9,
+    "Stilling": 5,
     "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.541372+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213393+02:00"
   },
   {
-    "MANummer": "8121292556",
+    "MANummer": "6042777704",
     "Navn": {
-      "Fornavn": "Lise",
-      "Efternavn": "Westphal"
+      "Fornavn": "Elisabeth",
+      "Efternavn": "Ali"
     },
-    "Brugernavn": "liwe79",
+    "Brugernavn": "elal22",
     "Koen": 1,
-    "Foedselsdato": "1976-12-30",
-    "Alder": {
-      "AlderM": 49
-    },
-    "Stilling": 4,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413731+02:00"
-  },
-  {
-    "MANummer": "3159955180",
-    "Navn": {
-      "Fornavn": "Erika",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "erab39",
-    "Koen": 1,
-    "Foedselsdato": "1991-07-14",
-    "Alder": {
-      "AlderM": 34
-    },
-    "Stilling": 1,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413742+02:00"
-  },
-  {
-    "MANummer": "0449486622",
-    "Navn": {
-      "Fornavn": "Simone",
-      "Efternavn": "Abdul"
-    },
-    "Brugernavn": "siab70",
-    "Koen": 1,
-    "Foedselsdato": "1958-09-27",
+    "Foedselsdato": "1959-04-21",
     "Alder": {
       "AlderM": 67
     },
     "Stilling": 8,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413754+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213412+02:00"
   },
   {
-    "MANummer": "4811148884",
+    "MANummer": "3264903781",
     "Navn": {
-      "Fornavn": "Ronald",
-      "Efternavn": "Frederiksen"
+      "Fornavn": "Henrik",
+      "Efternavn": "Humle"
     },
-    "Brugernavn": "rofr33",
+    "Brugernavn": "hehu27",
     "Koen": 0,
-    "Foedselsdato": "1961-12-08",
+    "Foedselsdato": "1965-05-19",
+    "Alder": {
+      "AlderM": 60
+    },
+    "Stilling": 4,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213431+02:00"
+  },
+  {
+    "MANummer": "7821683136",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "haki22",
+    "Koen": 0,
+    "Foedselsdato": "1975-03-06",
+    "Alder": {
+      "AlderM": 51
+    },
+    "Stilling": 0,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213449+02:00"
+  },
+  {
+    "MANummer": "3253023441",
+    "Navn": {
+      "Fornavn": "Henriette",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "hepe70",
+    "Koen": 1,
+    "Foedselsdato": "2003-01-19",
+    "Alder": {
+      "AlderM": 23
+    },
+    "Stilling": 0,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213469+02:00"
+  },
+  {
+    "MANummer": "4277966905",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "thwe28",
+    "Koen": 1,
+    "Foedselsdato": "1991-08-02",
+    "Alder": {
+      "AlderM": 34
+    },
+    "Stilling": 7,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213494+02:00"
+  },
+  {
+    "MANummer": "8862975971",
+    "Navn": {
+      "Fornavn": "Andersine",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "anch62",
+    "Koen": 1,
+    "Foedselsdato": "1956-10-01",
+    "Alder": {
+      "AlderM": 69
+    },
+    "Stilling": 3,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213514+02:00"
+  },
+  {
+    "MANummer": "2336402674",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "patu72",
+    "Koen": 1,
+    "Foedselsdato": "1992-06-20",
+    "Alder": {
+      "AlderM": 33
+    },
+    "Stilling": 9,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213534+02:00"
+  },
+  {
+    "MANummer": "5734895205",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "lech83",
+    "Koen": 0,
+    "Foedselsdato": "2004-05-02",
+    "Alder": {
+      "AlderM": 21
+    },
+    "Stilling": 8,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213553+02:00"
+  },
+  {
+    "MANummer": "2163063627",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "pahu84",
+    "Koen": 1,
+    "Foedselsdato": "1964-08-30",
+    "Alder": {
+      "AlderM": 61
+    },
+    "Stilling": 3,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213582+02:00"
+  },
+  {
+    "MANummer": "7381091646",
+    "Navn": {
+      "Fornavn": "Yang",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "yaac02",
+    "Koen": 0,
+    "Foedselsdato": "1976-10-08",
+    "Alder": {
+      "AlderM": 49
+    },
+    "Stilling": 2,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213692+02:00"
+  },
+  {
+    "MANummer": "4411239095",
+    "Navn": {
+      "Fornavn": "Frederikke",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "frpe22",
+    "Koen": 1,
+    "Foedselsdato": "1984-02-27",
+    "Alder": {
+      "AlderM": 42
+    },
+    "Stilling": 1,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213712+02:00"
+  },
+  {
+    "MANummer": "0671137037",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "haab18",
+    "Koen": 0,
+    "Foedselsdato": "1996-11-01",
+    "Alder": {
+      "AlderM": 29
+    },
+    "Stilling": 1,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213732+02:00"
+  },
+  {
+    "MANummer": "8417506299",
+    "Navn": {
+      "Fornavn": "Niels",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "niac23",
+    "Koen": 0,
+    "Foedselsdato": "1961-10-10",
     "Alder": {
       "AlderM": 64
     },
     "Stilling": 6,
-    "Afdeling": 1,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413765+02:00"
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213751+02:00"
   },
   {
-    "MANummer": "3874475870",
+    "MANummer": "8111926690",
     "Navn": {
-      "Fornavn": "Henriette",
-      "Efternavn": "Hansen"
+      "Fornavn": "Nora",
+      "Efternavn": "Johnson"
     },
-    "Brugernavn": "heha62",
+    "Brugernavn": "nojo22",
     "Koen": 1,
-    "Foedselsdato": "1963-10-19",
+    "Foedselsdato": "1985-09-12",
+    "Alder": {
+      "AlderM": 40
+    },
+    "Stilling": 5,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213775+02:00"
+  },
+  {
+    "MANummer": "2975193231",
+    "Navn": {
+      "Fornavn": "Yang",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "yaki52",
+    "Koen": 0,
+    "Foedselsdato": "1963-11-02",
     "Alder": {
       "AlderM": 62
     },
-    "Stilling": 0,
-    "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413804+02:00"
-  },
-  {
-    "MANummer": "7116968115",
-    "Navn": {
-      "Fornavn": "Nora",
-      "Efternavn": "McDonald"
-    },
-    "Brugernavn": "nomc07",
-    "Koen": 1,
-    "Foedselsdato": "1992-12-14",
-    "Alder": {
-      "AlderM": 33
-    },
     "Stilling": 1,
     "Afdeling": 2,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413815+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213794+02:00"
   },
   {
-    "MANummer": "9962425129",
+    "MANummer": "7889154924",
+    "Navn": {
+      "Fornavn": "Simone",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "situ91",
+    "Koen": 1,
+    "Foedselsdato": "1978-06-22",
+    "Alder": {
+      "AlderM": 47
+    },
+    "Stilling": 2,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213813+02:00"
+  },
+  {
+    "MANummer": "6925198680",
     "Navn": {
       "Fornavn": "Muhammed",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "muha55",
+    "Koen": 0,
+    "Foedselsdato": "1967-04-16",
+    "Alder": {
+      "AlderM": 59
+    },
+    "Stilling": 3,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213832+02:00"
+  },
+  {
+    "MANummer": "9898581499",
+    "Navn": {
+      "Fornavn": "Elisabeth",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "elba26",
+    "Koen": 1,
+    "Foedselsdato": "1962-05-25",
+    "Alder": {
+      "AlderM": 63
+    },
+    "Stilling": 6,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213851+02:00"
+  },
+  {
+    "MANummer": "9030186095",
+    "Navn": {
+      "Fornavn": "Nora",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "nowe50",
+    "Koen": 1,
+    "Foedselsdato": "1987-09-24",
+    "Alder": {
+      "AlderM": 38
+    },
+    "Stilling": 10,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021387+02:00"
+  },
+  {
+    "MANummer": "7920492732",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "pabl36",
+    "Koen": 1,
+    "Foedselsdato": "1973-09-23",
+    "Alder": {
+      "AlderM": 52
+    },
+    "Stilling": 3,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021389+02:00"
+  },
+  {
+    "MANummer": "5609920340",
+    "Navn": {
+      "Fornavn": "Fillipa",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "fitu78",
+    "Koen": 1,
+    "Foedselsdato": "1972-03-02",
+    "Alder": {
+      "AlderM": 54
+    },
+    "Stilling": 9,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213908+02:00"
+  },
+  {
+    "MANummer": "5245222111",
+    "Navn": {
+      "Fornavn": "Johan",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "jotu84",
+    "Koen": 0,
+    "Foedselsdato": "1956-12-12",
+    "Alder": {
+      "AlderM": 69
+    },
+    "Stilling": 8,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0213927+02:00"
+  },
+  {
+    "MANummer": "2274548540",
+    "Navn": {
+      "Fornavn": "Tobias",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "toje86",
+    "Koen": 0,
+    "Foedselsdato": "1961-06-14",
+    "Alder": {
+      "AlderM": 64
+    },
+    "Stilling": 4,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214023+02:00"
+  },
+  {
+    "MANummer": "2250039013",
+    "Navn": {
+      "Fornavn": "Alberte",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "alha21",
+    "Koen": 1,
+    "Foedselsdato": "1962-06-26",
+    "Alder": {
+      "AlderM": 63
+    },
+    "Stilling": 2,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214044+02:00"
+  },
+  {
+    "MANummer": "7494230331",
+    "Navn": {
+      "Fornavn": "Elisabeth",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "elab06",
+    "Koen": 1,
+    "Foedselsdato": "1967-01-15",
+    "Alder": {
+      "AlderM": 59
+    },
+    "Stilling": 9,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214063+02:00"
+  },
+  {
+    "MANummer": "3927411071",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "lehu53",
+    "Koen": 0,
+    "Foedselsdato": "1965-06-11",
+    "Alder": {
+      "AlderM": 60
+    },
+    "Stilling": 3,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214083+02:00"
+  },
+  {
+    "MANummer": "8408088888",
+    "Navn": {
+      "Fornavn": "Amalie",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "amyu07",
+    "Koen": 1,
+    "Foedselsdato": "1963-02-11",
+    "Alder": {
+      "AlderM": 63
+    },
+    "Stilling": 9,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214102+02:00"
+  },
+  {
+    "MANummer": "8561579431",
+    "Navn": {
+      "Fornavn": "Sanne",
       "Efternavn": "Actung"
     },
-    "Brugernavn": "muac84",
-    "Koen": 0,
-    "Foedselsdato": "1994-12-08",
+    "Brugernavn": "saac33",
+    "Koen": 1,
+    "Foedselsdato": "2000-03-08",
     "Alder": {
-      "AlderM": 31
+      "AlderM": 26
+    },
+    "Stilling": 2,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021412+02:00"
+  },
+  {
+    "MANummer": "5659434226",
+    "Navn": {
+      "Fornavn": "Erik",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "erpa08",
+    "Koen": 0,
+    "Foedselsdato": "1963-02-11",
+    "Alder": {
+      "AlderM": 63
+    },
+    "Stilling": 9,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214139+02:00"
+  },
+  {
+    "MANummer": "9705977352",
+    "Navn": {
+      "Fornavn": "Toke",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "toyu80",
+    "Koen": 0,
+    "Foedselsdato": "1969-09-08",
+    "Alder": {
+      "AlderM": 56
     },
     "Stilling": 6,
     "Afdeling": 0,
-    "Oprettelsesdato": "2026-04-24T11:21:56.5413826+02:00"
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214159+02:00"
+  },
+  {
+    "MANummer": "0063004728",
+    "Navn": {
+      "Fornavn": "Andersine",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "anpa38",
+    "Koen": 1,
+    "Foedselsdato": "1974-11-21",
+    "Alder": {
+      "AlderM": 51
+    },
+    "Stilling": 7,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214179+02:00"
+  },
+  {
+    "MANummer": "7413589500",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Humle"
+    },
+    "Brugernavn": "hahu75",
+    "Koen": 0,
+    "Foedselsdato": "1989-10-09",
+    "Alder": {
+      "AlderM": 36
+    },
+    "Stilling": 9,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214198+02:00"
+  },
+  {
+    "MANummer": "2036600974",
+    "Navn": {
+      "Fornavn": "Frederikke",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "frne80",
+    "Koen": 1,
+    "Foedselsdato": "1983-09-04",
+    "Alder": {
+      "AlderM": 42
+    },
+    "Stilling": 1,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021422+02:00"
+  },
+  {
+    "MANummer": "6860263467",
+    "Navn": {
+      "Fornavn": "Niels",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "niba74",
+    "Koen": 0,
+    "Foedselsdato": "1980-12-28",
+    "Alder": {
+      "AlderM": 45
+    },
+    "Stilling": 5,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214238+02:00"
+  },
+  {
+    "MANummer": "6369107299",
+    "Navn": {
+      "Fornavn": "Lone",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "lowe55",
+    "Koen": 1,
+    "Foedselsdato": "2004-06-11",
+    "Alder": {
+      "AlderM": 21
+    },
+    "Stilling": 0,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214258+02:00"
+  },
+  {
+    "MANummer": "4003101815",
+    "Navn": {
+      "Fornavn": "Bruce",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "brje52",
+    "Koen": 0,
+    "Foedselsdato": "1996-09-04",
+    "Alder": {
+      "AlderM": 29
+    },
+    "Stilling": 0,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214276+02:00"
+  },
+  {
+    "MANummer": "3327128853",
+    "Navn": {
+      "Fornavn": "Yang",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "yaje32",
+    "Koen": 0,
+    "Foedselsdato": "1983-05-13",
+    "Alder": {
+      "AlderM": 42
+    },
+    "Stilling": 3,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021445+02:00"
+  },
+  {
+    "MANummer": "5209714266",
+    "Navn": {
+      "Fornavn": "Bruce",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "brbl20",
+    "Koen": 0,
+    "Foedselsdato": "1961-05-17",
+    "Alder": {
+      "AlderM": 64
+    },
+    "Stilling": 4,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021447+02:00"
+  },
+  {
+    "MANummer": "0447128850",
+    "Navn": {
+      "Fornavn": "Jon",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "joab24",
+    "Koen": 0,
+    "Foedselsdato": "1967-07-08",
+    "Alder": {
+      "AlderM": 58
+    },
+    "Stilling": 1,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021449+02:00"
+  },
+  {
+    "MANummer": "6973567571",
+    "Navn": {
+      "Fornavn": "Tobias",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "toyu32",
+    "Koen": 0,
+    "Foedselsdato": "1982-12-22",
+    "Alder": {
+      "AlderM": 43
+    },
+    "Stilling": 8,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214509+02:00"
+  },
+  {
+    "MANummer": "0987754116",
+    "Navn": {
+      "Fornavn": "Pauline",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "papa39",
+    "Koen": 1,
+    "Foedselsdato": "1975-05-13",
+    "Alder": {
+      "AlderM": 50
+    },
+    "Stilling": 8,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214529+02:00"
+  },
+  {
+    "MANummer": "1823655889",
+    "Navn": {
+      "Fornavn": "Sanne",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "sach50",
+    "Koen": 1,
+    "Foedselsdato": "1955-03-23",
+    "Alder": {
+      "AlderM": 71
+    },
+    "Stilling": 10,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214548+02:00"
+  },
+  {
+    "MANummer": "1727436727",
+    "Navn": {
+      "Fornavn": "Philip",
+      "Efternavn": "Johnson"
+    },
+    "Brugernavn": "phjo12",
+    "Koen": 0,
+    "Foedselsdato": "2002-07-06",
+    "Alder": {
+      "AlderM": 23
+    },
+    "Stilling": 8,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214566+02:00"
+  },
+  {
+    "MANummer": "6344422427",
+    "Navn": {
+      "Fornavn": "Sanne",
+      "Efternavn": "Hansen"
+    },
+    "Brugernavn": "saha61",
+    "Koen": 1,
+    "Foedselsdato": "1977-09-14",
+    "Alder": {
+      "AlderM": 48
+    },
+    "Stilling": 5,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214585+02:00"
+  },
+  {
+    "MANummer": "6491347822",
+    "Navn": {
+      "Fornavn": "Jane",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "jaab03",
+    "Koen": 1,
+    "Foedselsdato": "1974-05-27",
+    "Alder": {
+      "AlderM": 51
+    },
+    "Stilling": 10,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214605+02:00"
+  },
+  {
+    "MANummer": "2155408900",
+    "Navn": {
+      "Fornavn": "Sanne",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "saab92",
+    "Koen": 1,
+    "Foedselsdato": "1994-10-14",
+    "Alder": {
+      "AlderM": 31
+    },
+    "Stilling": 8,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214629+02:00"
+  },
+  {
+    "MANummer": "4142778457",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "thab30",
+    "Koen": 1,
+    "Foedselsdato": "1976-12-10",
+    "Alder": {
+      "AlderM": 49
+    },
+    "Stilling": 6,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214647+02:00"
+  },
+  {
+    "MANummer": "0532101114",
+    "Navn": {
+      "Fornavn": "Ronald",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "ropa60",
+    "Koen": 0,
+    "Foedselsdato": "1987-10-04",
+    "Alder": {
+      "AlderM": 38
+    },
+    "Stilling": 4,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214666+02:00"
+  },
+  {
+    "MANummer": "1035275165",
+    "Navn": {
+      "Fornavn": "Lone",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "loac71",
+    "Koen": 1,
+    "Foedselsdato": "1989-10-17",
+    "Alder": {
+      "AlderM": 36
+    },
+    "Stilling": 3,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214685+02:00"
+  },
+  {
+    "MANummer": "7798491006",
+    "Navn": {
+      "Fornavn": "Jane",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "jaba61",
+    "Koen": 1,
+    "Foedselsdato": "1978-06-30",
+    "Alder": {
+      "AlderM": 47
+    },
+    "Stilling": 1,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214795+02:00"
+  },
+  {
+    "MANummer": "3667076131",
+    "Navn": {
+      "Fornavn": "Lotte",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "loba88",
+    "Koen": 1,
+    "Foedselsdato": "1991-05-19",
+    "Alder": {
+      "AlderM": 34
+    },
+    "Stilling": 9,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214815+02:00"
+  },
+  {
+    "MANummer": "8080640578",
+    "Navn": {
+      "Fornavn": "Fillipa",
+      "Efternavn": "Ali"
+    },
+    "Brugernavn": "fial68",
+    "Koen": 1,
+    "Foedselsdato": "1961-01-09",
+    "Alder": {
+      "AlderM": 65
+    },
+    "Stilling": 5,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214834+02:00"
+  },
+  {
+    "MANummer": "8458471885",
+    "Navn": {
+      "Fornavn": "Julie",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "juac08",
+    "Koen": 1,
+    "Foedselsdato": "1958-03-04",
+    "Alder": {
+      "AlderM": 68
+    },
+    "Stilling": 2,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214853+02:00"
+  },
+  {
+    "MANummer": "1810160489",
+    "Navn": {
+      "Fornavn": "Kalle",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "kaac61",
+    "Koen": 0,
+    "Foedselsdato": "1966-09-08",
+    "Alder": {
+      "AlderM": 59
+    },
+    "Stilling": 1,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214872+02:00"
+  },
+  {
+    "MANummer": "4235468391",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "maab50",
+    "Koen": 1,
+    "Foedselsdato": "1976-09-29",
+    "Alder": {
+      "AlderM": 49
+    },
+    "Stilling": 3,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214892+02:00"
+  },
+  {
+    "MANummer": "7565878789",
+    "Navn": {
+      "Fornavn": "Henriette",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "heje57",
+    "Koen": 1,
+    "Foedselsdato": "1996-04-16",
+    "Alder": {
+      "AlderM": 30
+    },
+    "Stilling": 7,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214911+02:00"
+  },
+  {
+    "MANummer": "4028994462",
+    "Navn": {
+      "Fornavn": "Jane",
+      "Efternavn": "Yung"
+    },
+    "Brugernavn": "jayu41",
+    "Koen": 1,
+    "Foedselsdato": "1987-08-29",
+    "Alder": {
+      "AlderM": 38
+    },
+    "Stilling": 4,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021493+02:00"
+  },
+  {
+    "MANummer": "2295004766",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "maac07",
+    "Koen": 1,
+    "Foedselsdato": "2006-03-21",
+    "Alder": {
+      "AlderM": 20
+    },
+    "Stilling": 1,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214948+02:00"
+  },
+  {
+    "MANummer": "8897700134",
+    "Navn": {
+      "Fornavn": "Elisabeth",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "elwe63",
+    "Koen": 1,
+    "Foedselsdato": "1962-05-17",
+    "Alder": {
+      "AlderM": 63
+    },
+    "Stilling": 7,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214967+02:00"
+  },
+  {
+    "MANummer": "3182538227",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "hatu29",
+    "Koen": 0,
+    "Foedselsdato": "1958-11-16",
+    "Alder": {
+      "AlderM": 67
+    },
+    "Stilling": 8,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0214987+02:00"
+  },
+  {
+    "MANummer": "8383004608",
+    "Navn": {
+      "Fornavn": "Niels",
+      "Efternavn": "Petersen"
+    },
+    "Brugernavn": "nipe25",
+    "Koen": 0,
+    "Foedselsdato": "1965-04-18",
+    "Alder": {
+      "AlderM": 61
+    },
+    "Stilling": 10,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215006+02:00"
+  },
+  {
+    "MANummer": "8687890289",
+    "Navn": {
+      "Fornavn": "Emil",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "emch98",
+    "Koen": 0,
+    "Foedselsdato": "1967-08-08",
+    "Alder": {
+      "AlderM": 58
+    },
+    "Stilling": 3,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215023+02:00"
+  },
+  {
+    "MANummer": "7928803612",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Chi"
+    },
+    "Brugernavn": "lech94",
+    "Koen": 0,
+    "Foedselsdato": "2005-07-15",
+    "Alder": {
+      "AlderM": 20
+    },
+    "Stilling": 10,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215041+02:00"
+  },
+  {
+    "MANummer": "6664448398",
+    "Navn": {
+      "Fornavn": "Thyra",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "thwe00",
+    "Koen": 1,
+    "Foedselsdato": "2000-12-27",
+    "Alder": {
+      "AlderM": 25
+    },
+    "Stilling": 8,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215138+02:00"
+  },
+  {
+    "MANummer": "1315127003",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "mawe82",
+    "Koen": 1,
+    "Foedselsdato": "1965-11-29",
+    "Alder": {
+      "AlderM": 60
+    },
+    "Stilling": 1,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215158+02:00"
+  },
+  {
+    "MANummer": "2922558999",
+    "Navn": {
+      "Fornavn": "Henrik",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "hewe09",
+    "Koen": 0,
+    "Foedselsdato": "1984-04-29",
+    "Alder": {
+      "AlderM": 41
+    },
+    "Stilling": 7,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215176+02:00"
+  },
+  {
+    "MANummer": "7368770191",
+    "Navn": {
+      "Fornavn": "Lise",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "liab49",
+    "Koen": 1,
+    "Foedselsdato": "2006-12-11",
+    "Alder": {
+      "AlderM": 19
+    },
+    "Stilling": 4,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215195+02:00"
+  },
+  {
+    "MANummer": "6627665059",
+    "Navn": {
+      "Fornavn": "Fillipa",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "fine64",
+    "Koen": 1,
+    "Foedselsdato": "1990-07-12",
+    "Alder": {
+      "AlderM": 35
+    },
+    "Stilling": 8,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215213+02:00"
+  },
+  {
+    "MANummer": "4102459088",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Kirkegaard"
+    },
+    "Brugernavn": "haki68",
+    "Koen": 0,
+    "Foedselsdato": "1957-10-08",
+    "Alder": {
+      "AlderM": 68
+    },
+    "Stilling": 3,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.021523+02:00"
+  },
+  {
+    "MANummer": "7134362495",
+    "Navn": {
+      "Fornavn": "Niels",
+      "Efternavn": "Westphal"
+    },
+    "Brugernavn": "niwe64",
+    "Koen": 0,
+    "Foedselsdato": "2002-01-24",
+    "Alder": {
+      "AlderM": 24
+    },
+    "Stilling": 8,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215249+02:00"
+  },
+  {
+    "MANummer": "5149685228",
+    "Navn": {
+      "Fornavn": "Niels",
+      "Efternavn": "Henriksne"
+    },
+    "Brugernavn": "nihe79",
+    "Koen": 0,
+    "Foedselsdato": "1956-12-05",
+    "Alder": {
+      "AlderM": 69
+    },
+    "Stilling": 4,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215267+02:00"
+  },
+  {
+    "MANummer": "9811491493",
+    "Navn": {
+      "Fornavn": "Maria",
+      "Efternavn": "Tuk Tuk"
+    },
+    "Brugernavn": "matu56",
+    "Koen": 1,
+    "Foedselsdato": "1983-04-08",
+    "Alder": {
+      "AlderM": 43
+    },
+    "Stilling": 6,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215286+02:00"
+  },
+  {
+    "MANummer": "7526295696",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Bager"
+    },
+    "Brugernavn": "leba83",
+    "Koen": 0,
+    "Foedselsdato": "1999-08-27",
+    "Alder": {
+      "AlderM": 26
+    },
+    "Stilling": 6,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215304+02:00"
+  },
+  {
+    "MANummer": "4907944530",
+    "Navn": {
+      "Fornavn": "Carl",
+      "Efternavn": "Jensen"
+    },
+    "Brugernavn": "caje71",
+    "Koen": 0,
+    "Foedselsdato": "2003-10-27",
+    "Alder": {
+      "AlderM": 22
+    },
+    "Stilling": 6,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215324+02:00"
+  },
+  {
+    "MANummer": "7916149552",
+    "Navn": {
+      "Fornavn": "Toke",
+      "Efternavn": "Black"
+    },
+    "Brugernavn": "tobl11",
+    "Koen": 0,
+    "Foedselsdato": "1965-06-09",
+    "Alder": {
+      "AlderM": 60
+    },
+    "Stilling": 0,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215344+02:00"
+  },
+  {
+    "MANummer": "8165373927",
+    "Navn": {
+      "Fornavn": "Jane",
+      "Efternavn": "Paulsen"
+    },
+    "Brugernavn": "japa12",
+    "Koen": 1,
+    "Foedselsdato": "1975-03-09",
+    "Alder": {
+      "AlderM": 51
+    },
+    "Stilling": 8,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215363+02:00"
+  },
+  {
+    "MANummer": "2349752813",
+    "Navn": {
+      "Fornavn": "Lee",
+      "Efternavn": "Frederiksen"
+    },
+    "Brugernavn": "lefr88",
+    "Koen": 0,
+    "Foedselsdato": "1998-08-13",
+    "Alder": {
+      "AlderM": 27
+    },
+    "Stilling": 8,
+    "Afdeling": 0,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215381+02:00"
+  },
+  {
+    "MANummer": "0731782868",
+    "Navn": {
+      "Fornavn": "Lilje",
+      "Efternavn": "Actung"
+    },
+    "Brugernavn": "liac40",
+    "Koen": 1,
+    "Foedselsdato": "1984-06-23",
+    "Alder": {
+      "AlderM": 41
+    },
+    "Stilling": 10,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215449+02:00"
+  },
+  {
+    "MANummer": "3655210095",
+    "Navn": {
+      "Fornavn": "Sanne",
+      "Efternavn": "Neingescheis"
+    },
+    "Brugernavn": "sane04",
+    "Koen": 1,
+    "Foedselsdato": "1992-11-12",
+    "Alder": {
+      "AlderM": 33
+    },
+    "Stilling": 9,
+    "Afdeling": 2,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215469+02:00"
+  },
+  {
+    "MANummer": "7181703428",
+    "Navn": {
+      "Fornavn": "Hans",
+      "Efternavn": "Abdul"
+    },
+    "Brugernavn": "haab00",
+    "Koen": 0,
+    "Foedselsdato": "2004-12-08",
+    "Alder": {
+      "AlderM": 21
+    },
+    "Stilling": 5,
+    "Afdeling": 1,
+    "Oprettelsesdato": "2026-04-24T11:28:41.0215488+02:00"
   }
 ]

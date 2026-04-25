@@ -354,7 +354,6 @@ public class MedarbejderProgram
                         aendringsValg[valgindex] = "| " + aendringsValg[valgindex] + " |";
                         menu1.drawCenteredProgram(aendringsValg, "Vælg hvad du vil ændre");
                     }
-                    Console.Write("\n" + valg);
                     keyInfo = Console.ReadKey();
                     switch (keyInfo.Key)
                     {
