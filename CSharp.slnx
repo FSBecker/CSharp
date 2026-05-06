@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="CSharp2/CSharp2.csproj" />
   <Project Path="KonkreteDataTyperFrederik/KonkreteDataTyperFrederik.csproj" />
+  <Project Path="VMapp/VMapp.csproj" />
 </Solution>

@@ -8,6 +8,7 @@ class Menu
         bool usingProgram = true;
         int selectedOption = 0;
         ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
+        VMfunktioner vm = new VMfunktioner();
         while (usingProgram)
         {
 
@@ -33,6 +34,15 @@ class Menu
                     MedarbejderProgram medarbejderOplysninger = new MedarbejderProgram();
                     medarbejderOplysninger.MedarbejderMenu(keyInfo);
                     break;
+
+                case 4:
+                    
+                    vm.DisplayInfo();
+
+                break;
+                case 5:
+                    vm.SenderReciever();
+                break;
                 case 8: //Afslut
                     usingProgram = false;
                     break;
@@ -198,8 +208,8 @@ class Menu
             "Tjek typer af input (Uge 1)",
             "Pensionsalderudregning (Uge 1)",
             "Medarbejder oversigt (Uge 2)",
-            "Under konstruktion",
-            "Under konstruktion",
+            "VM øvelse (Uge 3)",
+            "VM sender reciever (Uge 3)",
             "Under konstruktion",
             "Under konstruktion",
             "Afslut program"
