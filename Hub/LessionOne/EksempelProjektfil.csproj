@@ -1,0 +1,27 @@
+<!--
+  EksempelProjektfil.csproj
+  Formål: Grundlag for gennemgangen i Modul 1, Lektion 2 ("Hvad er .NET egentlig?").
+  Dette er IKKE en fil, der skal ligge i et rigtigt projekt under dette navn — det er
+  et referenceeksempel, eleverne kan sammenligne med den .csproj-fil, "dotnet new console"
+  selv genererer i deres egne projekter.
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Exe = der bygges en kørbar fil. Alternativet er fx "Library". -->
+    <OutputType>Exe</OutputType>
+
+    <!-- Hvilken .NET-version koden bygges imod. Bestemmer hvilke sprogfunktioner
+         og BCL-metoder (fx nyere string-metoder) der er tilgængelige. -->
+    <TargetFramework>net8.0</TargetFramework>
+
+    <!-- Tilføjer automatisk de mest almindelige "using"-linjer (System m.fl.),
+         så de ikke skal skrives manuelt øverst i hver fil. -->
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Slår nullable reference types til: compileren advarer, hvis en variabel,
+         der IKKE er markeret med "?", risikerer at blive null. -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

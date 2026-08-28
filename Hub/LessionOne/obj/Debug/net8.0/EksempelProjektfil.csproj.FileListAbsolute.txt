@@ -1,0 +1,15 @@
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/EksempelProjektfil.GeneratedMSBuildEditorConfig.editorconfig
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/EksempelProjektfil.AssemblyInfoInputs.cache
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/EksempelProjektfil.AssemblyInfo.cs
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/EksempelProjektfil.csproj.CoreCompileInputs.cache
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/EksempelProjektfil.sourcelink.json
+/home/frederik/Coding/CSharp/Hub/LessionOne/bin/Debug/net8.0/EksempelProjektfil
+/home/frederik/Coding/CSharp/Hub/LessionOne/bin/Debug/net8.0/EksempelProjektfil.deps.json
+/home/frederik/Coding/CSharp/Hub/LessionOne/bin/Debug/net8.0/EksempelProjektfil.runtimeconfig.json
+/home/frederik/Coding/CSharp/Hub/LessionOne/bin/Debug/net8.0/EksempelProjektfil.dll
+/home/frederik/Coding/CSharp/Hub/LessionOne/bin/Debug/net8.0/EksempelProjektfil.pdb
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/EksempelProjektfil.dll
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/refint/EksempelProjektfil.dll
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/EksempelProjektfil.pdb
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/EksempelProjektfil.genruntimeconfig.cache
+/home/frederik/Coding/CSharp/Hub/LessionOne/obj/Debug/net8.0/ref/EksempelProjektfil.dll

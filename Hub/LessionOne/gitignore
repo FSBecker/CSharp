@@ -1,0 +1,45 @@
+# .gitignore til .NET-projekter (C#)
+#
+# Disse filer og mapper er genereret af build-processen eller er
+# brugerspecifikke indstillinger. De skal IKKE ligge i Git, fordi de:
+#   - kan genskabes ved at bygge projektet igen
+#   - fylder unødvendigt meget
+#   - ofte er forskellige fra maskine til maskine
+#
+# Kopiér denne fil til roden af dit projekt, FØR du laver dit første commit.
+
+## Build-output
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio-filer
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Testresultater
+[Tt]est[Rr]esult*/
+*.trx
+
+## Diverse midlertidige filer
+*.tmp
+*.log
+*.cache
+
+## Styresystem-specifikke filer
+.DS_Store
+Thumbs.db
